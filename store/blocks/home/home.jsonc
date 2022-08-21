@@ -30,6 +30,19 @@
       }
     }
   },
+  "link#home__link--info":{
+    "children":[
+      "rich-text#link__info--text"
+    ],
+    "props":{
+      "href": "/"
+    }
+  },
+  "rich-text#link__info--text":{
+    "props":{
+      "text": "Mi boton con un children y estructura"
+    }
+  },
   //rich text component
   "rich-text#home__texto": {
     "title": "Texto de Home",
