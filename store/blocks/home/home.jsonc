@@ -3,9 +3,13 @@
     "blocks": [
       "flex-layout.row#home__section--one",
       "image#home__image",
-      "rich-text#home__texto"
+      "rich-text#home__texto",
+      "link#home__link--ancla",
+      "link#home__link--boton",
+      "link#home__link--info"
     ]
   },
+  //rich text component
   "rich-text#home__texto": {
     "title": "Texto de Home",
     "props": {
@@ -19,6 +23,7 @@
       
     }
   },
+  //image component
   "image#home__image":{
     "title": "Imagen de Home", //Titulo de bloque
     "props":{
@@ -31,6 +36,10 @@
         "newTab": true,
         "attributeNoFollow": true
       }
+    },
+    //link component
+    "link#home__link--ancla":{
+      
     }
   }
 }
