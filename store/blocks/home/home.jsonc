@@ -2,7 +2,8 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#home__section--one",
-      "rich-text#home__texto"
+      "rich-text#home__texto",
+      "image#home__image"
     ]
   },
   "rich-text#home__texto": {
@@ -16,6 +17,12 @@
       "textAlignment": "CENTER",                   //Alineación del texto.
       "textPosition": "CENTER"                     //Posición de todo el cajón relacionado a su elemento padre.
       
+    }
+  },
+  "image#home__image":{
+    "title": "Imagen de Home",
+    "props":{
+      "src": "assets/img/katronix-aniversario.jpg"
     }
   }
 }
