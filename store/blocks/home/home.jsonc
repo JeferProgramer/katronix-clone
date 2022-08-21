@@ -4,12 +4,20 @@
       "flex-layout.row#home__section--one",
       "image#home__image",
       "rich-text#home__texto",
-      "link#home__link--ancla"
-      // "link#home__link--boton",
+      "link#home__link--ancla",
+      "link#home__link--boton",
       // "link#home__link--info"
     ]
   },
+  //componentes links
   "link#home__link--ancla":{
+    "props":{
+      "href":"/",
+      "label":"Click aqui",
+      "scrollTo": "#header"
+    }
+  },
+  "link#home__link--boton":{
     "props":{
       
     }
