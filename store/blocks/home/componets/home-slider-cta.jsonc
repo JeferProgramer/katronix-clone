@@ -9,7 +9,7 @@
     },
     "rich-text#home__section--one":{
         "props":{
-            "text":"Hello word",
+            "text":"Hello word 2",
             "blockClass":"section__one--title"
         }
     }
