@@ -4,10 +4,15 @@
       "flex-layout.row#home__section--one",
       "image#home__image",
       "rich-text#home__texto",
-      "link#home__link--ancla",
-      "link#home__link--boton",
-      "link#home__link--info"
+      "link#home__link--ancla"
+      // "link#home__link--boton",
+      // "link#home__link--info"
     ]
+  },
+  "link#home__link--ancla":{
+    "props":{
+      
+    }
   },
   //rich text component
   "rich-text#home__texto": {
@@ -36,10 +41,6 @@
         "newTab": true,
         "attributeNoFollow": true
       }
-    },
-    //link component
-    "link#home__link--ancla":{
-      
     }
   }
 }
