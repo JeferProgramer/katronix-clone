@@ -7,7 +7,7 @@
       // "link#home__link--ancla",
       // "link#home__link--boton",
       // "link#home__link--info",
-      // "slider-layout#home__slider--children",
+      "slider-layout#home__slider--children",
       // "list-context.image-list#home__slider--list",
       // "responsive-layout.phone#home__info--phone",
       // "responsive-layout.mobile#home__info--mobile",
