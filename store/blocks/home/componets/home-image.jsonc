@@ -1,0 +1,17 @@
+{
+  //image component
+  "image#home__image":{
+    "title": "Imagen de Home", //Titulo de bloque
+    "props":{
+      "src": "assets/img/katronix-aniversario.jpg", //El path de la imagen
+      // "maxWidth": 600, //Ancho maximo de la imagen
+      "title": "Katronix Aniversario", //El titulo que le indiquemos aca es el que va aparacer cuando le demos hover al objeto
+      "blockClass": "home__image", //Clase personalizada css para desarrollar
+      "link":{ 
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}
