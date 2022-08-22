@@ -7,85 +7,13 @@
       "link#home__link--ancla",
       "link#home__link--boton",
       "link#home__link--info",
-      // "slider-layout#home__slider--children",
-      // "list-context.image-list#home__slider--list"
+      "slider-layout#home__slider--children",
+      "list-context.image-list#home__slider--list",
       "responsive-layout.phone#home__info--phone",
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.tablet#home__info--tablet",
       "responsive-layout.desktop#home__info--dekstop"
     ]
-  },
-  //component slider child
-  "slider-layout#home__slider--children":{
-    "props":{
-      "itemsPerPage":{
-        "desktop":1,
-        "tablet":1,
-        "phone":1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "home__slider",
-      //instrucciones para cuando el slider se esta ejecutando
-      "autoplay":{
-        "timeout": 3000,
-        "stopOnHover": true
-      }
-    },
-    //es lo que va amostrar el slider
-    "children":[
-      "image#home__slider--one",
-      "image#home__slider--two",
-      "image#home__slider--three"
-    ]
-  },
-  "image#home__slider--one":{
-    "props":{
-      "src":"assets/img/descueston-electrodomesticos.jpg"
-    }
-  },
-  "image#home__slider--two":{
-    "props":{
-      "src":"assets/img/motog-60.jpg"
-    }
-  },
-   "image#home__slider--three":{
-    "props":{
-      "src":"assets/img/portatil-gamer-msi.jpg"
-    }
-  },
-  //list content image
-   "list-context.image-list#home__slider--list": {
-    "children": ["slider-layout#home__slider--list"],
-    "props": {
-      "preload": true,
-      "images": [
-        {
-          "image": "assets/img/portatil-gamer-msi.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "assets/img/motog-60.jpg",
-          "description": "something something"
-        },
-        {
-          "image": "assets/img/descueston-electrodomesticos.jpg",
-          "description": "something something"
-        }
-      ]
-    }
-  },
-  "slider-layout#home__slider--list": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "home__slider"
-    }
   },
   //responsive layout 
   "responsive-layout.phone#home__info--phone":{
