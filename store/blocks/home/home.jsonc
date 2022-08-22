@@ -3,10 +3,10 @@
     "blocks": [
       "flex-layout.row#home__section--one",
       "image#home__image",
-      // "rich-text#home__texto",
-      // "link#home__link--ancla",
-      // "link#home__link--boton",
-      // "link#home__link--info",
+      "rich-text#home__texto",
+      "link#home__link--ancla",
+      "link#home__link--boton",
+      "link#home__link--info",
       // "slider-layout#home__slider--children",
       // "list-context.image-list#home__slider--list"
       "responsive-layout.phone#home__info--phone",
@@ -14,54 +14,6 @@
       "responsive-layout.tablet#home__info--tablet",
       "responsive-layout.desktop#home__info--dekstop"
     ]
-  },
-  //componentes links
-  "link#home__link--ancla":{
-    "props":{
-      "href":"/",
-      "label":"Click aqui",
-      "scrollTo": "#header"
-    }
-  },
-  "link#home__link--boton":{
-    "props":{
-      "href": "/",
-      "label":"Click aqui",
-      "displayMode": "button",
-      //es para poder personalizarlo mejor el boton
-      "buttonProps":{
-        "color": "red",
-        "variant": "primary",
-        "size": "small"
-      }
-    }
-  },
-  "link#home__link--info":{
-    "children":[
-      "rich-text#link__info--text"
-    ],
-    "props":{
-      "href": "/"
-    }
-  },
-  "rich-text#link__info--text":{
-    "props":{
-      "text": "Mi boton con un children y estructura"
-    }
-  },
-  //rich text component
-  "rich-text#home__texto": {
-    "title": "Texto de Home",
-    "props": {
-
-      "blockClass": "home__texto",                 //Clase modificada por el desarrollador para personalizar estilos.
-
-      "text": "# Bienvenidos a VTEX University \n El lugar donde aprenderemos todo lo necesario para hacer cosas geniales en esta increíble plataforma. \n ## Te invitamos a la nueva era con VTEX IO. \n At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis.  voluptatibus  maiores alias consequatur aut perferendis doloribus asperiores repellat. \n\n [Haz click aquí](/)",
-
-      "textAlignment": "CENTER",                   //Alineación del texto.
-      "textPosition": "CENTER"                     //Posición de todo el cajón relacionado a su elemento padre.
-      
-    }
   },
   //component slider child
   "slider-layout#home__slider--children":{
