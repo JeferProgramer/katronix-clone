@@ -3,7 +3,7 @@
     margin: 0 auto 50px;
 }
 .caretIcon--home__slider{
-    color: blue;
+    color: rgb(242, 47, 16);
     filter: drop-shadow(2px 2px 2px rgb(128,128,128,0.39));
 }
 .paginationDotsContainer--home__slider{
