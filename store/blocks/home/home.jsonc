@@ -1,19 +1,26 @@
 {
   "store.home": { 
     "blocks": [
+      "flex-layout.row#home__section--quienes-somos",
+      "flex-layout.row#home__section--beneficios",
+      // "flex-layout.row#home__section--promo-del-mes",
       // "flex-layout.row#home__section--one",
       // "image#home__image",
-      // "rich-text#home__texto",
-      // "link#home__link--ancla",
-      // "link#home__link--boton",
-      // "link#home__link--info",
+      "rich-text#home__texto",
+      "link#home__link--ancla",
+      "link#home__link--boton",
+      "link#home__link--info",
       "slider-layout#home__slider--children",
-      // "list-context.image-list#home__slider--list",
-      // "responsive-layout.phone#home__info--phone",
-      // "responsive-layout.mobile#home__info--mobile",
-      // "responsive-layout.tablet#home__info--tablet",
-      // "responsive-layout.desktop#home__info--dekstop"
-      "modal-trigger#home__modal--event"
-    ]
+      "list-context.image-list#home__slider--list",
+      "responsive-layout.phone#home__info--phone",
+      "responsive-layout.mobile#home__info--mobile",
+      "responsive-layout.tablet#home__info--tablet",
+      "responsive-layout.desktop#home__info--dekstop",
+      "modal-trigger#home__modal--event",
+      "flex-layout.row#home__orders--icon"
+    ],
+    "props":{
+      "blockClass": ["home__section", "home__section--three"]
+    }
   }
 }
