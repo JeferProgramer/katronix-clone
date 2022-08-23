@@ -1,0 +1,10 @@
+{
+    "flex-layout.row#home__orders--icon":{
+        "children":["icon#home__orders--icon"]
+    },
+    "icon#home__orders--icon":{
+        "props":{
+            "id": "vuitg-orders"
+        }
+    }
+}
