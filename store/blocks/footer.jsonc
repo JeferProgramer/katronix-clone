@@ -1,26 +1,163 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+	"footer":{
+		"title": "Footer",
+		"blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+	},
+	"footer-layout.desktop":{
+		"children":[
+			"flex-layout.row#footer__container"
+		]
+	},
+	"flex-layout.row#footer__container":{
+		"children":[
+			"flex-layout.row#footer__container--col-one",
+			"flex-layout.row#footer__container--col-two",
+			"flex-layout.row#footer__container--col-three"
+		]
+	},	
+	"flex-layout.row#footer__container--col-one":{
+		"children":["menu#policies"]
+	},
+	"flex-layout.row#footer__container--col-two":{
+		"children":["menu#about-us"]
+	},
+	"flex-layout.row#footer__container--col-three":{
+		"children":[
+			"social-networks",
+			"accepted-payment-methods"
+		]
+	},
+	"accepted-payment-methods":{
+		"props": {
+      "paymentMethods": ["mastercard", "visa", "diners club", "pse"]
     }
-  }
+	},
+	"social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://www.facebook.com/ktronix", "name": "Facebook" },
+        { "url": "https://twitter.com/ktronixcolombia", "name": "Twitter" }
+      ]
+    }
+  },
+	"footer-layout.mobile":{
+		"children":[
+			"disclosure-layout-group#foooter__menu--group"
+		]
+	},
+	"disclosure-layout-group#foooter__menu--group":{
+		"children":[
+			"disclosure-layout#policies",
+			"disclosure-layout#about-us"
+			// "disclosure-layout#departments"
+		]
+	},
+	"disclosure-layout#policies":{
+		"children":[
+			"disclosure-trigger#policies",
+			"disclosure-content#policies"
+		]
+	},
+	"disclosure-trigger#policies":{
+		"children":[
+			"rich-text#policies"
+		]
+	},
+	"rich-text#policies":{
+		"props":{
+			"text": "Politicas de la tienda"
+		}
+	},
+	"disclosure-content#policies":{
+		"children":[
+			"menu#policies"
+		]
+	},
+	"menu#policies":{
+		"children":[
+			"menu-item#tearm-and-conds",
+			"menu-item#privacy-policies"
+		],
+		"props":{
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#tearm-and-conds":{
+		"props":{
+			"id": "menu-terms-and-conds",
+			"type": "custom",
+			"itemProps":{
+				"type": "internal",
+				"href":"/",
+				"tagTitle": "Terminos y Condiciones",
+				"text": "Terminos y Condiciones" 
+			}
+		}
+	},
+	"menu-item#privacy-policies":{
+		"props":{
+			"id": "menu-privacy-policies",
+			"type": "custom",
+			"itemProps":{
+				"type": "internal",
+				"href":"/",
+				"tagTitle": "Politicas de Privacidad",
+				"text": "Politicas de Privacidad" 
+			}
+		}
+	},
+	"disclosure-layout#about-us":{
+		"children":[
+			"disclosure-trigger#about-us",
+			"disclosure-content#about-us"
+		]
+	},
+	"disclosure-trigger#about-us":{
+		"children":[
+			"rich-text#about-us"
+		]
+	},
+	"rich-text#about-us":{
+		"props":{
+			"text": "Politicas de la tienda"
+		}
+	},
+	"disclosure-content#about-us":{
+		"children":[
+			"menu#about-us"
+		]
+	},
+	"menu#about-us":{
+		"children":[
+			"menu-item#about-us",
+			"menu-item#our-shops"
+		],
+		"props":{
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#about-us":{
+		"props":{
+			"id": "menu-about-us",
+			"type": "custom",
+			"itemProps":{
+				"type": "internal",
+				"href":"/",
+				"tagTitle": "Acerca de nosotros",
+				"text": "Acerca de nosotros" 
+			}
+		}
+	},
+	"menu-item#our-shops":{
+		"props":{
+			"id": "menu-our-shops",
+			"type": "custom",
+			"itemProps":{
+				"type": "internal",
+				"href":"/",
+				"tagTitle": "Nuestars Tiendas",
+				"text": "Nuestras Tiendas" 
+			}
+		}
+	}
 }
