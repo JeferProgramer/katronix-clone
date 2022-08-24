@@ -1,0 +1,33 @@
+{
+  "data": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Construcción",
+        "href": "/construccion",
+        "children": [
+          {
+            "id": 2,
+            "name": "Cemento",
+            "href": "/construccion/cemento"
+          },
+          {
+            "id": 3,
+            "name": "Hierro",
+            "href": "/construccion/hierro"
+          },
+          {
+            "id": 4,
+            "name": "Varillas",
+            "href": "/construccion/varillas"
+          },
+          {
+            "id": 5,
+            "name": "Ladrillos",
+            "href": "/construccion/ladrillos"
+          }
+        ]
+      }
+    ]
+  }
+}
