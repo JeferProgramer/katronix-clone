@@ -2,6 +2,7 @@
   "header-row#header__top":{
     "title": "Header superior",
     "children":[
+      "rich-text#header__texto",
       "logo#header__top--logo",
       "header-spacer",
       "login",
@@ -12,16 +13,18 @@
       "blockClass": "header__top"
     }
   },
-  "rich-text#test":{
+  "rich-text#header__texto":{
     "props":{
-      "text": "Header Mio"
+      "blockClass": "home__texto", 
+      "text": "Televentas: (601) 3649734"
     }
   },
   "logo#header__top--logo":{
     "title": "Logo",
     "props":{
       "url": "assets/img/logo-katronix.svg",
-      "width": 120,
+      "width": 221,
+      "blockClass": "logo__header",
       "href": "/" 
     }
   },
