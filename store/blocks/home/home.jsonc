@@ -16,7 +16,7 @@
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.tablet#home__info--tablet",
       "responsive-layout.desktop#home__info--dekstop",
-      "modal-trigger#home__modal--event",
+      // "modal-trigger#home__modal--event",
       "flex-layout.row#home__orders--icon"
     ],
     "props":{
