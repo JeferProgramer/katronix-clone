@@ -10,10 +10,11 @@
 	},
 	"flex-layout.row#footer__container":{
 		"children":[
-			"flex-layout.row#footer__container--col-one",
-			"flex-layout.row#footer__container--col-two",
-			"flex-layout.row#footer__container--col-three"
-		]
+			"flex-layout.row#footer__section--contactenos"
+		],
+		"props":{
+			"blockClass": "footer__container"
+		}
 	},	
 	"flex-layout.row#footer__container--col-one":{
 		"children":["menu#policies"]
