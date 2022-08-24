@@ -4,7 +4,8 @@
     },
     "icon#home__orders--icon":{
         "props":{
-            "id": "vuitg-orders"
+            "id": "vuitg-orders",
+            "size": 100
         }
     }
 }
