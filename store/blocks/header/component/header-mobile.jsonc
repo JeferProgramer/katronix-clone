@@ -3,7 +3,7 @@
     "title": "Header superior",
     "children":[
         "logo#header__top--logo",
-        // "header-spacer",
+        "header-spacer",
         "login",
         "modal-trigger#header__top--login",
         "minicart.v2"
@@ -54,14 +54,6 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true
-    }
-  },
-  "minicart.v2":{
-    "props":{
-        "MinicartIcon": "icon-cart",
-        "varation": "popup",
-        "itemCountMode":"total",
-        "quantityDisplay":"always"
     }
   }
 }
