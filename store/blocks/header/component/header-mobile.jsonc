@@ -55,5 +55,13 @@
     "props": {
       "openAutocompleteOnFocus": true
     }
+  },
+  "minicart.v2":{
+    "props":{
+        "MinicartIcon": "icon-cart",
+        "varation": "popup",
+        "itemCountMode":"total",
+        "quantityDisplay":"always"
+    }
   }
 }
