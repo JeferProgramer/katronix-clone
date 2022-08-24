@@ -10,17 +10,15 @@
       "link#home__link--ancla",
       "link#home__link--boton",
       "link#home__link--info",
-      "slider-layout#home__slider--children",
-      "list-context.image-list#home__slider--list",
-      "responsive-layout.phone#home__info--phone",
-      "responsive-layout.mobile#home__info--mobile",
-      "responsive-layout.tablet#home__info--tablet",
-      "responsive-layout.desktop#home__info--dekstop",
+      // "slider-layout#home__slider--children",
+      // "list-context.image-list#home__slider--list",
+      // "responsive-layout.phone#home__info--phone",
+      // "responsive-layout.mobile#home__info--mobile",
+      // "responsive-layout.tablet#home__info--tablet",
+      // "responsive-layout.desktop#home__info--dekstop",
       // "modal-trigger#home__modal--event",
-      "flex-layout.row#home__orders--icon"
-    ],
-    "props":{
-      "blockClass": ["home__section", "home__section--three"]
-    }
-  }
+      // "flex-layout.row#home__orders--icon",
+      "search-result-layout.customQuery#home__search"
+    ]
+  }  
 }
