@@ -4,11 +4,6 @@
       "search-result-layout"
     ]
   }, 
-  "store.search#department":{
-    "blocks":[
-      "search-result-layout#department"
-    ]
-  },
   "store.search#category":{
     "blocks":[
       "search-result-layout"
