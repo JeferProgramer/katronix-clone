@@ -1,4 +1,33 @@
+/*styles for the container header*/
 .headerRowBackground--header__top{
     background-color: blue;
     color: aliceblue;
+    height: 112px;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row nowrap;
+    -ms-justify-content: space-between;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 0;
+    z-index: unset;
+}
+/*styles for the logo*/
+.logoImage--logo__header{
+    height: 96px;
+        max-height: 96px;
+        max-width: 221px;
+        width: 221px;
 }
