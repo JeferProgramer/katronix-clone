@@ -12,7 +12,8 @@
             "rich-text#title-about-us", 
             "rich-text#content-terms",
             "rich-text#content-term--two", 
-            "rich-text#content-term-three"
+            "rich-text#content-term-three",
+            "disclosure-layout#simple"
         ],
         "props": {
             "blockclass": "textColumn",
