@@ -1,0 +1,109 @@
+{
+  "flex-layout.row#footer__section--contactenos-one": {
+    "children": [
+      "flex-layout.col#section__beneficios--1",
+      "flex-layout.col#section__beneficios--2",
+      "flex-layout.col#section__beneficios--3"
+    ],
+    "props": {
+      "blockClass": ["footer__section", "home__section--two"]
+    }
+  },
+
+  "flex-layout.col#section__beneficios--1": {
+    "children": [
+      "image#beneficio__1",
+      "rich-text#beneficio__1",
+      "rich-text#beneficio__1-content"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#beneficio__1": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/about-icon.png?context=bWFzdGVyfGltYWdlc3w2MjJ8aW1hZ2UvcG5nfGltYWdlcy9oMDQvaDQ5Lzk3NjE0NDE0MTUxOTgucG5nfDQ2ZWFmMWMyNTczYmUzMmI2YTczNDAxYTYyZDBhYjg5MjBjMTNlZTk4NmQwYjkxYWU2YmFjOTRiOGQ0NTc1OGI",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#beneficio__1": {
+    "props": {
+      "text": "Sobre Nosotros",
+      "blockClass": "section__contactenos-titulo",
+      "textAlignment": "CENTER", //Alineación del texto.
+      "textPosition": "CENTER" //Posición de todo el cajón relacionado a su elemento padre.
+    }
+  },
+  "rich-text#beneficio__1-content": {
+    "props": {
+      "text": " Colombiana de Comercio S.A \n NIT: 890.900.943-1",
+      "blockClass": "section__contactenos-content",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#section__beneficios--2": {
+    "children": [
+      "image#beneficio__2",
+      "rich-text#beneficio__2",
+      "rich-text#beneficio__2-content"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#beneficio__2": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/email-icon.png?context=bWFzdGVyfGltYWdlc3w4MTF8aW1hZ2UvcG5nfGltYWdlcy9oZDYvaGJiLzk3NjE0NDE0ODA3MzQucG5nfGExNWM0YWVhNGZmYzUwZmRmMzBiYWRkZjk1ZGU0OTI0MjdkYTQ0OGNjYmY4ODY4YmZiOTZmMTVmZTdjYTM0YmE",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#beneficio__2": {
+    "props": {
+      "text": "Email",
+      "blockClass": "section__contactenos-titulo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER" 
+    }
+  },
+  "rich-text#beneficio__2-content": {
+    "props": {
+      "text": "correo electronico : sugerencias@ktronix.com",
+      "blockClass": "section__contactenos-content",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#section__beneficios--3": {
+    "children": [
+      "image#beneficio__3",
+      "rich-text#beneficio__3",
+      "rich-text#beneficio__3-content"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#beneficio__3": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/contact-icon.png?context=bWFzdGVyfGltYWdlc3w3MjR8aW1hZ2UvcG5nfGltYWdlcy9oMTEvaGE2Lzk3NjE0NDE0NDc5NjYucG5nfGRkM2IzYmM4MWY3YzhkZjk3NzYwMmI3NGYzNmQ0ZGExNGM3Y2EwOWM3OWQ0Mjk1ODE1ODgxOTgzZWNlOTdmNjk",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#beneficio__3": {
+    "props": {
+      "text": "Venta Telefonica",
+      "blockClass": "section__contactenos-titulo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#beneficio__3-content": {
+    "props": {
+        "blockClass": "section__contactenos-content",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Servicio al cliente: (601) 407 3033 \n Venta Telefónica: (601) 746 8001"
+    }
+  }
+}
