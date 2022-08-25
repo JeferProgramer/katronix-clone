@@ -56,7 +56,7 @@
   "rich-text#content__2-content": {
     "props": {
       "text": "¿Cómo comprar en línea?  \n Compra seguro  \n Opciones de envío  \n Formas de pago  \n SOAT y otros seguros",
-      "blockClass": "section__varieties-content--internet",
+      "blockClass": "section__varieties-content",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
     }
@@ -80,7 +80,7 @@
   },
   "rich-text#content__3-content": {
     "props": {
-      "blockClass": "section__varieties-content--internet",
+      "blockClass": "section__varieties-content",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "Extiende tu garantía \n ¿Cómo solicitar la garantía?"
