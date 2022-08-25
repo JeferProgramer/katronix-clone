@@ -1,9 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home__section--quienes-somos"
-      // "flex-layout.row#home__section--beneficios",
-      // // "flex-layout.row#home__section--promo-del-mes",
+      "flex-layout.row#home__section--quienes-somos",
+      // "flex-layout.row#home__section--promo-del-mes",
       // // "flex-layout.row#home__section--one",
       // // "image#home__image",
       // "rich-text#home__texto",
@@ -18,7 +17,7 @@
       // // "responsive-layout.desktop#home__info--dekstop",
       // // "modal-trigger#home__modal--event",
       // // "flex-layout.row#home__orders--icon",
-      // "search-result-layout.customQuery#home__search"
+      "search-result-layout.customQuery#home__search"
     ]
   }  
 }
