@@ -1,0 +1,114 @@
+{
+  "flex-layout.row#footer__section--varieties": {
+    "children": [
+      "flex-layout.col#content--1",
+      "flex-layout.col#content--2",
+      "flex-layout.col#content--3",
+      "flex-layout.col#content--4"
+    ],
+    "props": {
+      "blockClass": ["footer__section", "home__section--two"]
+    }
+  },
+
+  "flex-layout.col#content--1": {
+    "children": [
+      "rich-text#content__1",
+      "rich-text#content__1-content"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#content__1": {
+    "props": {
+      "text": "Nosotros",
+      "blockClass": "section__varieties-titulo",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content__1-content": {
+    "props": {
+      "text": "Conócenos  \n Tiendas Ktronix  \n Servicio al cliente  \n Tarjeta Alkosto  \n Trabaja en Ktronix  \n Nuestras rifas  \n Certificados tributarios",
+      "blockClass": "section__varieties-content",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.col#content--2": {
+    "children": [
+      "rich-text#content__2",
+      "rich-text#content__2-content"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#content__2": {
+    "props": {
+      "text": "Compras en Internet",
+      "blockClass": "section__varieties-titulo",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content__2-content": {
+    "props": {
+      "text": "¿Cómo comprar en línea?  \n Compra seguro  \n Opciones de envío  \n Formas de pago  \n SOAT y otros seguros",
+      "blockClass": "section__varieties-content--internet",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.col#content--3": {
+    "children": [
+      "rich-text#content__3",
+      "rich-text#content__3-content"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#content__3": {
+    "props": {
+      "text": "Nuestros Servicios",
+      "blockClass": "section__contactenos-titulo",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content__3-content": {
+    "props": {
+      "blockClass": "section__varieties-content--internet",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Extiende tu garantía \n ¿Cómo solicitar la garantía?"
+    }
+  },
+  "flex-layout.col#content--4": {
+    "children": [
+      "rich-text#content__4",
+      "rich-text#content__4-content"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#content__4": {
+    "props": {
+      "text": "Nuestras políticas",
+      "blockClass": "section__contactenos-titulo",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content__4-content": {
+    "props": {
+      "blockClass": "section__varieties-content--policies",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Términos y Condiciones Ktronix.com \n Acuerdo de compraventa en línea \n SIC \n Cuidamos tu privacidad \n Solicitud tratamiento de datos personales \n Código de Ética \n Política uso de Cookies \nCambios y devoluciones \n Normas SST para terceros \nTDT para todos \nLínea Ética"
+    }
+  }
+}
