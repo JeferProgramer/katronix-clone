@@ -21,7 +21,7 @@
     float: none;
     font-weight: 400;
     position: relative;
-    width: 100%;
+    width: 100vw;
     color: #fff;
     margin-left: 5%;
 }
@@ -33,4 +33,26 @@
 }
 .vtex-rich-text-0-x-link{
     color: aqua;
+}
+.container--section__varieties-titulo{
+    font-size: 16px;
+    color: #fff;
+    margin: 24px auto 7px;
+    height: 10px;
+}
+.container--section__varieties-content{
+    color: #929292;
+    font-size: 12px;
+    padding-left: 2px;
+    padding-top: 20%;
+}
+.container--section__varieties-content--internet {
+    color: #929292;
+    font-size: 12px;
+    height: 139px;
+}
+.container--section__varieties-content--policies{
+    color: #929292;
+    font-size: 12px;
+    height: 139px;
 }
