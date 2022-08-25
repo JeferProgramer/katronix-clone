@@ -1,0 +1,36 @@
+/*rich text del titulo del footer contactenos*/
+.container--section__contactenos-titulo{
+    font-size: 16px;
+    color: #fff;
+    margin: 24px auto 7px;
+    height: 0;
+}
+/*rich text del contenido del footer contactenos*/
+.container--section__contactenos-content{
+    color: #929292;
+    font-size: 12px;
+    padding-left: 2px;
+    height: 100%;
+}
+.container--two__texto{
+    font-size: 16px;
+    background-color: #151515;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    margin-left: 5%;
+}
+.container--footer__terms_text{
+    font-size: 12px;
+    color: #929292;
+    padding: 20px 15px;
+    text-align: justify;
+}
+.vtex-rich-text-0-x-link{
+    color: aqua;
+}
