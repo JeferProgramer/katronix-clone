@@ -5,10 +5,11 @@
   },
   "footer-layout.desktop": {
     "children": [
-		"flex-layout.row#footer__container-one",
-		"flex-layout.row#footer__container-two",
-		"flex-layout.row#footer__container-one"
-	]
+      "flex-layout.row#footer__container-one",
+      "flex-layout.row#footer__container-two",
+      "flex-layout.row#footer__container-three",
+      "flex-layout.row#footer__container-fourth"
+    ]
   },
   "flex-layout.row#footer__container-one": {
     "children": ["flex-layout.row#footer__section--contactenos-one"],
@@ -17,9 +18,19 @@
     }
   },
   "flex-layout.row#footer__container-two": {
-    "children": [
-		"rich-text#container-two"
-	],
+    "children": ["rich-text#container-two"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container-three": {
+    "children": ["flex-layout.row#footer__section--pay"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container-fourth": {
+    "children": ["flex-layout.row#footer__section--terms"],
     "props": {
       "blockClass": "footer__container"
     }
@@ -47,7 +58,11 @@
     }
   },
   "footer-layout.mobile": {
-    "children": ["disclosure-layout-group#foooter__menu--group"]
+    "children": [
+      "flex-layout.row#footer__container-one",
+      "flex-layout.row#footer__container-two",
+	  "disclosure-layout-group#foooter__menu--group"
+    ]
   },
   "disclosure-layout-group#foooter__menu--group": {
     "children": [
