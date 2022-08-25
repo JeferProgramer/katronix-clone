@@ -8,7 +8,8 @@
       "flex-layout.row#footer__container-one",
       "flex-layout.row#footer__container-two",
       "flex-layout.row#footer__container-three",
-      "flex-layout.row#footer__container-fourth"
+      "flex-layout.row#footer__container-fourth",
+	  "flex-layout.row#footer__container-fifth"
     ]
   },
   "flex-layout.row#footer__container-one": {
@@ -35,6 +36,14 @@
       "blockClass": "footer__container"
     }
   },
+  "flex-layout.row#footer__container-fifth":{
+	"children": ["flex-layout.row#footer__section--varieties"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+
+
   "flex-layout.row#footer__container--col-one": {
     "children": ["menu#policies"]
   },
