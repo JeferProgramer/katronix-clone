@@ -4,6 +4,7 @@
     "children":[
         "logo#header__top--logo",
         "header-spacer",
+        "search-bar#header__search",
         "login",
         "modal-trigger#header__top--login",
         "minicart.v2"
