@@ -6,7 +6,7 @@
       "flex-layout.col#section__beneficios--3"
     ],
     "props": {
-      "blockClass": ["footer__section", "home__section--two"]
+      "blockClass": ["footer__section-one"]
     }
   },
 
