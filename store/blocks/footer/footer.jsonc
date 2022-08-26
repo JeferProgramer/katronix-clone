@@ -6,6 +6,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer__container-one",
+    //   "flex-layout.row#footer__container-part",
       "flex-layout.row#footer__container-two",
       "flex-layout.row#footer__container-three",
       "flex-layout.row#footer__container-fourth",
@@ -15,6 +16,12 @@
   },
   "flex-layout.row#footer__container-one": {
     "children": ["flex-layout.row#footer__section--contactenos-one"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container-part": {
+    "children": ["flex-layout.row#footer__section--part"],
     "props": {
       "blockClass": "footer__container"
     }
