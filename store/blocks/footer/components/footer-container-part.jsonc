@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#footer__section--part":{
+        "children":[
+            "rich-text#raya"
+        ],
+        "props":{
+            "blockClass":["footer_part"]
+        }
+    },
+    "rich-text#raya":{
+        "props":{
+            "text": "hola mundo"
+        }
+    },
+    "image#part":{
+        "props":{
+            "src":"https://png.pngtree.com/element_our/20190528/ourmid/pngtree-some-horizontal-lines-image_1182621.jpg"
+        }
+    }
+}
