@@ -5,10 +5,13 @@
   },
   "footer-layout.desktop": {
     "children": [
-		"flex-layout.row#footer__container-one",
-		"flex-layout.row#footer__container-two",
-		"flex-layout.row#footer__container-one"
-	]
+      "flex-layout.row#footer__container-one",
+      "flex-layout.row#footer__container-two",
+      "flex-layout.row#footer__container-three",
+      "flex-layout.row#footer__container-fourth",
+      "flex-layout.row#footer__container-fifth",
+      "flex-layout.row#footer__container-sixth"
+    ]
   },
   "flex-layout.row#footer__container-one": {
     "children": ["flex-layout.row#footer__section--contactenos-one"],
@@ -17,13 +20,36 @@
     }
   },
   "flex-layout.row#footer__container-two": {
-    "children": [
-		"rich-text#container-two"
-	],
+    "children": ["rich-text#container-two"],
     "props": {
       "blockClass": "footer__container"
     }
   },
+  "flex-layout.row#footer__container-three": {
+    "children": ["flex-layout.row#footer__section--pay"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container-fourth": {
+    "children": ["flex-layout.row#footer__section--terms"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container-fifth": {
+    "children": ["flex-layout.row#footer__section--varieties"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container-sixth": {
+    "children": ["flex-layout.row#footer__section--social"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+
   "flex-layout.row#footer__container--col-one": {
     "children": ["menu#policies"]
   },
@@ -38,16 +64,12 @@
       "paymentMethods": ["mastercard", "visa", "diners club", "pse"]
     }
   },
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        { "url": "https://www.facebook.com/ktronix", "name": "Facebook" },
-        { "url": "https://twitter.com/ktronixcolombia", "name": "Twitter" }
-      ]
-    }
-  },
   "footer-layout.mobile": {
-    "children": ["disclosure-layout-group#foooter__menu--group"]
+    "children": [
+      "flex-layout.row#footer__container-one",
+      "flex-layout.row#footer__container-two",
+      "disclosure-layout-group#foooter__menu--group"
+    ]
   },
   "disclosure-layout-group#foooter__menu--group": {
     "children": [

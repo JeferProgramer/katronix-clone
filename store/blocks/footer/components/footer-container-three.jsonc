@@ -1,0 +1,195 @@
+{
+  "flex-layout.row#footer__section--pay": {
+    "title": "Texto segundo contenedor",
+    "children": [
+      "flex-layout.col#section__pago--1",
+      "flex-layout.col#section__pago--2",
+      "flex-layout.col#section__pago--3",
+      "flex-layout.col#section__pago--4",
+      "flex-layout.col#section__pago--5",
+      "flex-layout.col#section__pago--6",
+      "flex-layout.col#section__pago--7",
+      "flex-layout.col#section__pago--8",
+      "flex-layout.col#section__pago--9",
+      "flex-layout.col#section__pago--10",
+      "flex-layout.col#section__pago--11",
+      "flex-layout.col#section__pago--12",
+      "flex-layout.col#section__pago--13",
+      "flex-layout.col#section__pago--14"
+    ],
+    "props":{
+        "blockClass":[
+            "footer__items"
+        ]
+    }
+  },
+
+  "flex-layout.col#section__pago--1": {
+    "children": ["image#pago__1"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__1": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/visa-white-icon.png?context=bWFzdGVyfGltYWdlc3w2MTYyfGltYWdlL3BuZ3xpbWFnZXMvaGU0L2hkNi85Mzg1MjMwMDA4MzUwLnBuZ3xkM2QxMTgyNTkwZmUyNjZhNTcwMzUyZjUwM2NmYTQ5MmQ5ZTdiM2MwNWZmNDUwZDEwOTBlNWE2MWZkNmRhNjJi",
+      "maxHeight": "14px"
+    }
+  },
+  "flex-layout.col#section__pago--2": {
+    "children": ["image#pago__2"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__2": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/diners-icon.png?context=bWFzdGVyfGltYWdlc3w4NzY0fGltYWdlL3BuZ3xpbWFnZXMvaDU0L2g4Ni85Mzg1MjI5OTQyODE0LnBuZ3w3Y2M1ZWUzNGUwNTg3NWRkODIxZWE1Y2ZiOThmZmU4MzZiYjNmMzViNzFlNDRhYzg3ZTg4YmNiZWU4OTFmMmY1",
+      "maxHeight": "14px"
+    }
+  },
+  "flex-layout.col#section__pago--3": {
+    "children": ["image#pago__3"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__3": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/mastercard-icon.png?context=bWFzdGVyfGltYWdlc3wyODYwfGltYWdlL3BuZ3xpbWFnZXMvaDAwL2hiMC85Mzg1MjMwMTA2NjU0LnBuZ3w3ZmU3NzY3YjFjMjM2MzFkYjdhNDJlZGE5YmM0NzI4NTdkODAyNDlhNGFmYjdiNTM1NzAyNjBmNjRmNjNlYjg5",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--4": {
+    "children": ["image#pago__4"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__4": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/amex-card-icon.png?context=bWFzdGVyfGltYWdlc3wyMjU1fGltYWdlL3BuZ3xpbWFnZXMvaDBkL2hhZS85Mzg1MjMwMDczODg2LnBuZ3w3N2UyMTZhNzQ0N2RiMjgwZTUzOTYzZDFmZWJkNTc1OTU5ZWM2ZGI0NzJjZTA0YjMwOGViNDc4MzhhOGNiMTU5",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--5": {
+    "children": ["image#pago__5"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__5": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/bancolombia-boton-icon.png?context=bWFzdGVyfGltYWdlc3wxNzc0MnxpbWFnZS9wbmd8aW1hZ2VzL2hiMC9oNmIvMTE0NDQ4NTAyMjkyNzgucG5nfDU0OTgwNzVjY2U0MjYwNjUzZDE5NzNlYjljYWQ2ZmU5MzQ4NzAwNWZhZDAxOTNiNmEwYmRmY2E2YTQxYTc2MGQ",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--6": {
+    "children": ["image#pago__6"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__6": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/mastercard-icon.png?context=bWFzdGVyfGltYWdlc3wyODYwfGltYWdlL3BuZ3xpbWFnZXMvaDAwL2hiMC85Mzg1MjMwMTA2NjU0LnBuZ3w3ZmU3NzY3YjFjMjM2MzFkYjdhNDJlZGE5YmM0NzI4NTdkODAyNDlhNGFmYjdiNTM1NzAyNjBmNjRmNjNlYjg5",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--7": {
+    "children": ["image#pago__7"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__7": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/pse-icon.png?context=bWFzdGVyfGltYWdlc3wxMTk4MnxpbWFnZS9wbmd8aW1hZ2VzL2gyYy9oNDUvOTM4NTIzMDEzOTQyMi5wbmd8MDY5NmY1OTBlMThiYThmZDA2YmQ0ZjAzMjhkYjgyMjZlNTA5MTQ4ODA5YzM1ZGViOWI1ZDFmZjEyYzM3NWI3MA",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--8": {
+    "children": ["image#pago__8"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__8": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/tca.png?context=bWFzdGVyfGltYWdlc3wxMDA3OHxpbWFnZS9wbmd8aW1hZ2VzL2hkMS9oNmYvMTEwNDAzMzEwMDU5ODIucG5nfDU0MDQ2MjUyZmU1ZDMwYzkxNjY4NTBkODJmZmRhMDgzOGI4M2MzMjE4ODZiZWY5ZWY5YjQ0MzhjNDE3NDQ1NTU",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--9": {
+    "children": ["image#pago__9"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__9": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/efecty-icon.png?context=bWFzdGVyfGltYWdlc3w5NTkwfGltYWdlL3BuZ3xpbWFnZXMvaDZmL2hjMy85Mzg1MjMwMDQxMTE4LnBuZ3w0YjhlYWNhNjQ1OWI0OTMwN2RkODY1YzZjNTNiYzg4NWIzYzVlZjZiZmI3ZjQxZDczOGU2N2E4ZDk0ZjcyYmIw",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--10": {
+    "children": ["image#pago__10"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__10": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/codensa-card-icon.png?context=bWFzdGVyfGltYWdlc3wxMDg1OXxpbWFnZS9wbmd8aW1hZ2VzL2g4My9oYjYvOTM4NTIyOTk3NTU4Mi5wbmd8ZTIzYjIwNTYzMDcxNTI2ZGVjYTE5MWU0YTZmMDEyMTYwYjVhYzFjN2IzYWVlZjFkMDZhNDM4MTZkNWU3N2ZlMQ",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--11": {
+    "children": ["image#pago__11"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__11": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/credito20min-icon.png?context=bWFzdGVyfGltYWdlc3wzMTUxM3xpbWFnZS9wbmd8aW1hZ2VzL2hlNC9oMzYvOTM4NTIzMDIwNDk1OC5wbmd8MzQ4NmEzMDMwYWI2MzBmMmI2NTUxOWFkNTFiYmM4MTEwNWRiOTQ3ZjM2NGQwMjk0M2E1NDU3ZjBlYmI3ODFmYQ",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--12": {
+    "children": ["image#pago__12"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__12": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/logo-banco-davivi-icon-2020-v2.png?context=bWFzdGVyfGltYWdlc3wxMjY1fGltYWdlL3BuZ3xpbWFnZXMvaGZkL2gyZS85NzAxNzE0MDAxOTUwLnBuZ3w1NWMzYzQ0ZDdmMGIwZWM1ZTMwMGNjZTQxMDc1ZWY4YmNjMzAyNDgyNTgyNGE5NTM0MGViZGUzNzNmYTU0NjAw",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--13": {
+    "children": ["image#pago__13"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__13": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/logo-bancolo-icon-2020-v2.png?context=bWFzdGVyfGltYWdlc3w4NDMxfGltYWdlL3BuZ3xpbWFnZXMvaDVhL2hjNi85NzI0NzE1NDAxMjQ2LnBuZ3w1YzMwM2Y1NzM5MjQ2ODczNmE0NzgyNDBhMjM5MjU2M2JhZjU4ZDMwYWNiMmMxNzFjZjU2ZjA0ODI2MWM3N2E0",
+      "maxHeight": "24px"
+    }
+  },
+  "flex-layout.col#section__pago--14": {
+    "children": ["image#pago__14"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pago__14": {
+    "props": {
+      "src": "https://www.ktronix.com/medias/logo-banco-bog-icon-2020-v3.png?context=bWFzdGVyfGltYWdlc3wxMTY4MHxpbWFnZS9wbmd8aW1hZ2VzL2g4MC9oNzEvOTcyNDcxMzUwMDcwMi5wbmd8NzQwODBjNTllZjEyZTA0OWIyMDI0NzE3ZWNmOGQ2NDk1NTFhYmY0ZTE2YmMwODQxYTI1YTZlOTA5OGJmZTYzNg",
+      "maxHeight": "24px"
+    }
+  }
+}

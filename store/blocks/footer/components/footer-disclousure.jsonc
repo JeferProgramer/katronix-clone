@@ -1,0 +1,26 @@
+{
+  "disclosure-layout#simple": {
+    "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+  },
+  "disclosure-trigger#simple": {
+    "children": ["rich-text#question"]
+  },
+  "disclosure-content#simple": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#content-terms",
+      "rich-text#content-term--two",
+      "rich-text#content-term-three"
+    ]
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "Términos y Condiciones Ofertas de Medios de pago"
+    }
+  },
+  "rich-text#answer": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234"
+    }
+  }
+}

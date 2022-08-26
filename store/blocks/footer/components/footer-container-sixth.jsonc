@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#footer__section--social":{
+      "children": [
+        "rich-text#social",
+        "social-networks"
+      ],
+      "props": {
+        "blockClass": ["footer__section--social"]
+      }
+    },   
+    "rich-text#social":{
+        "props":{
+          "blockClass":"section__social-titulo",
+          "text": "Siguenos en:"
+        }
+    },
+    "social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://www.facebook.com/ktronix", "name": "Facebook" },
+        { "url": "https://twitter.com/ktronixcolombia", "name": "Twitter" }
+      ]
+    }
+  }
+}
