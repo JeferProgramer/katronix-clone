@@ -1,17 +1,18 @@
+.flexRowContent--footer__section-one{
+    margin-top: 2%;
+}
 .flexRowContent--footer__container{
     background-color: #151515;
-    max-width: 1366px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0;
     float: none;
     font-weight: 400;
     position: relative;
-    width: 100%;
     color: #929292;
-    height: 100%;
 }
 .flexRowContent--footer__section{
-    max-width: 1366px;
+    max-width: 100%;
     margin: 34px auto;
     text-align: center;
     height: 10%;
@@ -35,7 +36,7 @@
    
 }
 .flexRowContent--footer__section--terms{
-    max-width: 1366px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0;
     float: none;
@@ -43,4 +44,13 @@
     position: relative;
     width: 100%;
     color: #929292;
+}
+.flexRowContent--footer__section--social{
+    max-width: 25%;
+    margin: 33px 75%;
+    text-align: center;
+    height: 10%;
+}
+.flexRowContent--footer__part{
+    width: 100%;
 }
