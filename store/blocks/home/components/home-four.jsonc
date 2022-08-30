@@ -1,24 +1,93 @@
 {
      "flex-layout.row#home__section--four":{
         "children":[
-          "image#icono",
-          "rich-text#promocion",
-          "image#icono",
-          "rich-text#promocion",
-          "image#icono",
-          "rich-text#promocion",
-          "image#icono",
-        "rich-text#promocion"
-        ]
+          "flex-layout.row#home__group--one",
+          "flex-layout.row#home__group--two",
+          "flex-layout.row#home__group--three",
+          "flex-layout.row#home__group--four"
+        ],
+        "props":{
+            "blockClass": "home__section--four"
+        } 
      },
-     "image#icono":{
+     "flex-layout.row#home__group--one":{
+        "children":[
+          "image#icono-one",
+          "rich-text#promocion-one"
+        ],
+        "props":{
+            "blockClass": "home__section__four-group"
+        }
+     },
+     "image#icono-one":{
         "props":{
             "src": "https://www.ktronix.com/medias/envio.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDkzOTB8aW1hZ2Uvc3ZnK3htbHxkaWEtc2luLWl2YS9oNzQvaDc1LzExNDI0MjcyMTg3NDIyLnN2Z3xiNGE1MTEyYjUzYjVlOGVmMmU4ODNiN2RjMjVmYmQ0MWRhMGIxZTAwNzFiNGMzOWNlNjlkYTk3ZTM2NDFlMTM1"
         }
      },
-     "rich-text#promocion":{
+     "rich-text#promocion-one":{
         "props":{
-            "text": "Envio gratis a 600 municipios"
+            "text": "Envio gratis a 600 municipios",
+            "blockClass": "home__section__four-rich-text"
+        }
+     },
+       "flex-layout.row#home__group--two":{
+        "children":[
+          "image#icono-two",
+          "rich-text#promocion-two"
+        ],
+        "props":{
+            "blockClass": "home__section__four-group"
+        }
+     },
+     "image#icono-two":{
+        "props":{
+            "src": "https://www.ktronix.com/medias/gana-50.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDkzNjB8aW1hZ2Uvc3ZnK3htbHxkaWEtc2luLWl2YS9oOGQvaDViLzExNDI0MjcyNDQ5NTY2LnN2Z3wyN2MzNjZlM2IwYmNhMjY1NWIwMjlhZGU3NmI0ZjY5N2MxMjg0YzliYTNlNTc4ZmI3MTJhYWYzOTNkYWYzNjZl"
+        }
+     },
+     "rich-text#promocion-two":{
+        "props":{
+            "text": "Gana la mitad de tu compra",
+            "blockClass": "home__section__four-rich-text"
+        }
+     },
+    "flex-layout.row#home__group--three":{
+        "children":[
+          "image#icono-three",
+          "rich-text#promocion-three"
+        ],
+        "props":{
+            "blockClass": "home__section__four-group"
+        }
+     },
+     "image#icono-three":{
+        "props":{
+            "src": "https://www.ktronix.com/medias/tienda.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDk5MDl8aW1hZ2Uvc3ZnK3htbHxkaWEtc2luLWl2YS9oNmIvaDg0LzExNDI0MjkzNDg2NjIyLnN2Z3xhNjJjOWUzMmM3MzExYjNmNTkxY2IxZmJkOGUyM2FhOTMyNmYyNTUzMjNiNWY1MDVhNDJiZDg2NmUyYzM1MzZl"
+        }
+     },
+     "rich-text#promocion-three":{
+        "props":{
+            "text": "Compra en linea y recoge en tienda",
+            "blockClass": "home__section__four-rich-text"
+        }
+     },
+    "flex-layout.row#home__group--four":{
+        "children":[
+          "image#icono-four",
+          "rich-text#promocion-four"
+        ],
+        "props":{
+            "blockClass": "home__section__four-group"
+        }
+     },
+     "image#icono-four":{
+        "props":{
+            "src": "https://www.ktronix.com/medias/calendario.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDEwMzk3fGltYWdlL3N2Zyt4bWx8ZGlhLXNpbi1pdmEvaGNiL2hmMS8xMTQyNDI5NDA3NjQ0Ni5zdmd8ZWE4NDc1NzIyZWE5OGI4YWIwN2FhNzU3YzUyZThlODVkMDFkYWY0YjA4YWU3ZWVkZTAwNGRlNjM2NmM1NWM4Mg"
+        }
+     },
+     "rich-text#promocion-four":{
+        "props":{
+          "text": "Tiempos de cambios y devoluciones",
+          "blockClass": "home__section__four-rich-text"
         }
      }
 }
