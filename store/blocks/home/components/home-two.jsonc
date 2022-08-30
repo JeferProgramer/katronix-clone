@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#home__section--two":{
+        "children":[
+            "rich-text#ofertas"
+        ],
+        "props":{
+            "blockClass": "home__section--two"
+        }
+    },
+    "rich-text#ofertas":{
+       "props":{
+        "text": "Ofertas destacadas",
+        "textAlignment": "CENTER",
+        "textPosition": "center",
+        "blockClass": "text-ofertas"
+       }
+    }
+}
