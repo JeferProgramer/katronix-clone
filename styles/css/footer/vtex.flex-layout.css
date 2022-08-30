@@ -54,3 +54,11 @@
 .flexRowContent--footer__part{
     width: 100%;
 }
+.flexRowContent--footer__section--terms :global(.vtex-disclosure-layout-1-x-trigger){
+    background-color: #151515;
+    margin-left: 5%;
+    color: white;
+}
+.flexRowContent--footer__section--terms :global(.vtex-rich-text-0-x-paragraph){
+    color: white;
+}
