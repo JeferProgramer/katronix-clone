@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#home__section--six": {
+    "children": [
+      "flex-layout.row#home__section--images--one--phone",
+      "flex-layout.row#home__section--images--two--phone",
+      "flex-layout.row#home__section--images--three--phone"
+    ],
+    "props": {
+      "blockClass": "home__section--six"
+    }
+  },
+  "flex-layout.row#home__section--images--one--phone": {
+    "children": ["image#image-phone-one"]
+  },
+  "image#image-phone-one": {
+    "props": {
+      "src": "assets/img/xioami-celular.jpg"
+    }
+  },
+  "flex-layout.row#home__section--images--two--phone": {
+    "children": ["image#image-phone-two"]
+  },
+  "image#image-phone-two": {
+    "props": {
+      "src": "assets/img/Galaxy-a13.jpg",
+      "blockClass": "imagen-categories"
+    }
+  },
+  "flex-layout.row#home__section--images--three--phone": {
+    "children": ["image#image-phone-three"]
+  },
+  "image#image-phone-three": {
+    "props": {
+      "src": "assets/img/motog-41.jpg",
+      "blockClass": "imagen-categories"
+    }
+  }
+}
