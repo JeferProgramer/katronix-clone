@@ -1,3 +1,14 @@
 .container--home__texto{
     background-color: rgb(239, 239, 247);
 }
+.container--text-categories{
+    margin-left: 28%;
+    text-align: center;
+    font-size: 12px;
+    color: #004691;
+}
+.container--text-ofertas{
+    margin-left: 50%;
+    color: #004691;
+    font-weight: bolder;        
+}
