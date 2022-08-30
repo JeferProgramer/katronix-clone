@@ -1,0 +1,24 @@
+{
+     "flex-layout.row#home__section--four":{
+        "children":[
+          "image#icono",
+          "rich-text#promocion",
+          "image#icono",
+          "rich-text#promocion",
+          "image#icono",
+          "rich-text#promocion",
+          "image#icono",
+        "rich-text#promocion"
+        ]
+     },
+     "image#icono":{
+        "props":{
+            "src": "https://www.ktronix.com/medias/envio.svg?context=bWFzdGVyfGRpYS1zaW4taXZhfDkzOTB8aW1hZ2Uvc3ZnK3htbHxkaWEtc2luLWl2YS9oNzQvaDc1LzExNDI0MjcyMTg3NDIyLnN2Z3xiNGE1MTEyYjUzYjVlOGVmMmU4ODNiN2RjMjVmYmQ0MWRhMGIxZTAwNzFiNGMzOWNlNjlkYTk3ZTM2NDFlMTM1"
+        }
+     },
+     "rich-text#promocion":{
+        "props":{
+            "text": "Envio gratis a 600 municipios"
+        }
+     }
+}

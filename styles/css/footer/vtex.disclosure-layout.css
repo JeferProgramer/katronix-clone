@@ -1,0 +1,8 @@
+.trigger--question :global(.vtex-rich-text-0-x-paragraph) {
+    font-weight: bold;
+}
+
+.trigger--question:focus,
+.trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
+    color: white;
+}

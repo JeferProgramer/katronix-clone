@@ -1,0 +1,49 @@
+{
+  "flex-layout.row#home__section--three": {
+    "children": [
+      "flex-layout.row#home__section--images--one",
+      "flex-layout.row#home__section--images--two",
+      "flex-layout.row#home__section--images--three",
+      "flex-layout.row#home__section--images--four"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.row#home__section--images--one": {
+    "children": ["image#image-promocion-one"]
+  },
+  "image#image-promocion-one": {
+    "props": {
+      "src": "assets/img/tv_promocion.jpg",
+      "blockClass": "imagen-categories"
+    }
+  },
+  "flex-layout.row#home__section--images--two": {
+    "children": ["image#image-promocion-two"]
+  },
+  "image#image-promocion-two": {
+    "props": {
+      "src": "assets/img/reloj-promocion.jpg",
+      "blockClass": "imagen-categories"
+    }
+  },
+  "flex-layout.row#home__section--images--three": {
+    "children": ["image#image-promocion-three"]
+  },
+  "image#image-promocion-three": {
+    "props": {
+      "src": "assets/img/aspiradora-promocion.jpg",
+      "blockClass": "imagen-categories"
+    }
+  },
+  "flex-layout.row#home__section--images--four": {
+    "children": ["image#image-promocion-four"]
+  },
+  "image#image-promocion-four": {
+    "props": {
+      "src": "assets/img/bicicleta-promocion.jpg",
+      "blockClass": "imagen-categories"
+    }
+  }
+}

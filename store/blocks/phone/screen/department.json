@@ -29,7 +29,8 @@
             "search-content#results__content--product--one"
         ],
         "props":{
-            "width": "50%"
+            "width": "50%",
+            "height": "100%"
         }
     },
     "search-content#results__content--product--one":{

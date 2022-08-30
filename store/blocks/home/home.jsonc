@@ -1,10 +1,10 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home__section--quienes-somos",
-      // "flex-layout.row#home__section--promo-del-mes",
-      // // "flex-layout.row#home__section--one",
-      // // "image#home__image",
+     "flex-layout.row#home__section--one",
+     "flex-layout.row#home__section--two",
+     "flex-layout.row#home__section--three",
+     "flex-layout.row#home__section--four",
       // "rich-text#home__texto",
       // "link#home__link--ancla",
       // "link#home__link--boton",
@@ -19,5 +19,14 @@
       // // "flex-layout.row#home__orders--icon",
       "search-result-layout.customQuery#home__search"
     ]
-  }  
+  },
+  "flex-layout.row#home__section--one":{
+    "children":[
+      "flex-layout.col#slider",
+      "flex-layout.row#section__categories"
+    ]
+  },
+  "flex-layout.col#slider":{
+    "children":["slider-layout#home__slider--children"]
+  }
 }
