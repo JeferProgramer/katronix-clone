@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__section--five": {
+    "children": ["rich-text#ofertas--five"],
+    "props": {
+      "blockClass": "home__section--two"
+    }
+  },
+  "rich-text#ofertas--five": {
+    "props": {
+      "text": "Celulares",
+      "textAlignment": "CENTER",
+      "textPosition": "center",
+      "blockClass": "text-ofertas"
+    }
+  }
+}

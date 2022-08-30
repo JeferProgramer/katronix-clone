@@ -5,6 +5,8 @@
      "flex-layout.row#home__section--two",
      "flex-layout.row#home__section--three",
      "flex-layout.row#home__section--four",
+     "flex-layout.row#home__section--five",
+     "flex-layout.row#home__section--six",
       // "rich-text#home__texto",
       // "link#home__link--ancla",
       // "link#home__link--boton",

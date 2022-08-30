@@ -7,7 +7,7 @@
       "flex-layout.col#content--4"
     ],
     "props": {
-      "blockClass": ["footer__section", "home__section--two"]
+      "blockClass": ["footer__section"]
     }
   },
 
