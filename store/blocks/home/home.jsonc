@@ -1,13 +1,19 @@
 {
   "store.home": { 
     "blocks": [
-     "flex-layout.row#home__section--one",
-     "flex-layout.row#home__section--two",
-     "flex-layout.row#home__section--three",
-     "flex-layout.row#home__section--four",
-     "flex-layout.row#home__section--five",
-     "flex-layout.row#home__section--six",
-      // "rich-text#home__texto",
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section--five",
+      "flex-layout.row#home__section--six",
+      "flex-layout.row#home__section--seven",
+      "flex-layout.row#home__section--eight",
+      "flex-layout.row#home__section--nine",
+      "flex-layout.row#home__section--ten",
+      "flex-layout.row#home__section--eleven",
+      "flex-layout.row#home__section--ten",
+      "flex-layout.row#home__section--ten"
       // "link#home__link--ancla",
       // "link#home__link--boton",
       // "link#home__link--info",
@@ -19,7 +25,6 @@
       // // "responsive-layout.desktop#home__info--dekstop",
       // // "modal-trigger#home__modal--event",
       // // "flex-layout.row#home__orders--icon",
-      "search-result-layout.customQuery#home__search"
     ]
   },
   "flex-layout.row#home__section--one":{
