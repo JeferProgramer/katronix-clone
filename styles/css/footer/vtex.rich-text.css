@@ -59,3 +59,10 @@
     color: #fff;
     width: 70%;
 }
+.container--disclousure-titulo{
+    font-size: 16px;
+    color: #fff;
+}
+.container--disclousure-titulo :global(.vtex-rich-text-0-x-paragraph){
+    color: white;
+}
