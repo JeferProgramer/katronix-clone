@@ -468,7 +468,6 @@
     },
     "children": [
       "flex-layout.row#menu-icon-two",
-      "menu-item#category__text2-1",
       "menu-item#category__text2-2",
       "menu-item#category__text2-3",
       "menu-item#category__text2-4",
@@ -481,7 +480,16 @@
     ]
   },
   "flex-layout.row#menu-icon-two":{
-    
+    "children":[
+      "image#icon-accesories",
+      "menu-item#category__text-2-1"
+    ]
+  },
+  "image#icon-accesories":{
+    "props":{
+      "src": "assets/img/usb.png",
+      "blockClass": "menu-icon-category"
+    }
   },
   "menu-item#category__text2-1": {
     "props": {
