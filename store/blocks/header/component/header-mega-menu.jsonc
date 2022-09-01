@@ -467,6 +467,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "flex-layout.row#menu-icon-two",
       "menu-item#category__text2-1",
       "menu-item#category__text2-2",
       "menu-item#category__text2-3",
@@ -478,6 +479,9 @@
       "menu-item#category__text2-9",
       "menu-item#category__text2-10"
     ]
+  },
+  "flex-layout.row#menu-icon-two":{
+    
   },
   "menu-item#category__text2-1": {
     "props": {
