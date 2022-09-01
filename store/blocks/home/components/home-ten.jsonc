@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#home__section--ten": {
+    "children": [
+      "flex-layout.col#home__section--images--one--tv",
+      "flex-layout.col#home__section--images--two--tv",
+      "flex-layout.col#home__section--images--three--tv"
+    ],
+    "props": {
+      "blockClass": "home__section--six"
+    }
+  },
+  "flex-layout.col#home__section--images--one--tv": {
+    "children": ["image#image-tv-one"]
+  },
+  "image#image-tv-one": {
+    "props": {
+      "src": "assets/img/lavajillas.jpg"
+    }
+  },
+  "flex-layout.col#home__section--images--two--tv": {
+    "children": ["image#image-tv-two"]
+  },
+  "image#image-tv-two": {
+    "props": {
+      "src": "assets/img/nevecon.jpg",
+      "blockClass": "imagen-categories"
+    }
+  },
+  "flex-layout.col#home__section--images--three--tv": {
+    "children": ["image#image-tv-three"]
+  },
+  "image#image-tv-three": {
+    "props": {
+      "src": "assets/img/todas-las-marcas.jpg",
+      "blockClass": "imagen-categories"
+    }
+  }
+}
