@@ -278,17 +278,17 @@
   },
   "flex-layout.row#menu-icon":{
     "children":[
-        "image#icon-phone",
-        "menu-item#category__text-1"
+      "image#icon-phone",
+      "menu-item#category__text-1"
     ],
     "props":{
-        "blockClass": "menu-icon-category"
+      "blockClass": "menu-icon-category"
     }
   },
   "image#icon-phone":{
     "props":{
-        "src": "assets/img/icon-phone.png",
-        "blockClass": "image-icon-menu"
+      "src": "assets/img/icon-phone.png",
+      "blockClass": "image-icon-menu"
     }
   },
   "menu-item#category__text-1": {
@@ -480,18 +480,18 @@
     ]
   },
   "flex-layout.row#menu-icon-two":{
-    "children":[
-      "image#icon-accesories",
-      "menu-item#category__text-2-1"
-    ]
+    "children": ["image#icon-accesories", "menu-item#category__text-2-1"],
+    "props": {
+      "blockClass": "menu-icon-category"
+    }
   },
   "image#icon-accesories":{
     "props":{
       "src": "assets/img/usb.png",
-      "blockClass": "menu-icon-category"
+      "blockClass": "image-icon-menu"
     }
   },
-  "menu-item#category__text2-1": {
+  "menu-item#category__text-2-1": {
     "props": {
       "id": "menu-item-about-us",
       "type": "custom",
@@ -685,7 +685,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category2__text-1",
+      "flex-layout.row#menu-icon-three",
       "menu-item#category2__text-2",
       "menu-item#category2__text-3",
       "menu-item#category2__text-4",
@@ -696,6 +696,21 @@
       "menu-item#category2__text-9",
       "menu-item#category2__text-10"
     ]
+  },
+  "flex-layout.row#menu-icon-three":{
+    "children":[
+      "image#icon-laptop",
+      "menu-item#category2__text-1"
+    ],
+    "props":{
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-laptop":{
+    "props":{
+      "src": "assets/img/portatiles.png",
+      "blockClass": "image-icon-menu"
+    }
   },
   "menu-item#category2__text-1": {
     "props": {
