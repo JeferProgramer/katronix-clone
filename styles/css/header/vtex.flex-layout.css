@@ -1,0 +1,7 @@
+.flexRowContent--menu-icon-category{
+    align-items: flex-end;
+    border-bottom: 2px solid orangered;
+}
+.flexRowContent--menu-icon-category .stretchChildrenWidth:first-child{
+    flex: 0 1 20%;
+}
