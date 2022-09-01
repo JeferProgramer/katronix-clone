@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__section--eleven": {
+    "children": ["rich-text#ofertas-eleven"],
+    "props": {
+      "blockClass": "home__section--two"
+    }
+  },
+  "rich-text#ofertas-eleven": {
+    "props": {
+      "text": "Electrodomésticos",
+      "textAlignment": "CENTER",
+      "textPosition": "center",
+      "blockClass": "text-ofertas"
+    }
+  }
+}

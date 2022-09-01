@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__section--nine": {
+    "children": ["rich-text#ofertas--nine"],
+    "props": {
+      "blockClass": "home__section--two"
+    }
+  },
+  "rich-text#ofertas--nine": {
+    "props": {
+      "text": "Televisores",
+      "textAlignment": "CENTER",
+      "textPosition": "center",
+      "blockClass": "text-ofertas"
+    }
+  }
+}
