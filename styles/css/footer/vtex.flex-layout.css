@@ -11,6 +11,10 @@
     position: relative;
     color: #929292;
 }
+.flexRowContent--footer__container :global(.vtex-rich-text-0-x-link){
+    color: white;
+    text-decoration: none;
+}
 .flexRowContent--footer__section{
     max-width: 100%;
     margin: 34px auto;

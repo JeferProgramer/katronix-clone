@@ -1,0 +1,1883 @@
+{
+  "flex-layout.row#mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "category-menu"
+    },
+    "children": [
+      "menu-item#category-1",
+      "menu-item#category-2",
+      "menu-item#category-3",
+      "menu-item#category-4",
+      "menu-item#category-5"
+    ]
+  },
+
+  "menu-item#category-1": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Construcción y Ferretería",
+        "text": "Construcción y Ferretería"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-2": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Pisos, Pinturas y Terminaciones",
+        "text": "Pisos, Pinturas y Terminaciones"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-3": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Herramientas y Maquinarias",
+        "text": "Herramientas y Maquinarias"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-4": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Baño, Cocina y Aseo",
+        "text": "Baño, Cocina y Aseo"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-5": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Electrohogar, Tecnología y Climatización",
+        "text": "Electrohogar, Tecnología y Climatización"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+
+  "vtex.menu@2.x:submenu#category-1": {
+    "props": {
+      "blockClass": "submenu-more",
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu__category-1"]
+  },
+  "flex-layout.row#menu__category-1": {
+    "props": {
+      "blockClass": "menu-more"
+    },
+    "children": [
+      "flex-layout.col#menu__category-1",
+      "flex-layout.col#menu__category-2",
+      "flex-layout.col#menu__category-1",
+      "flex-layout.col#menu__category-2"
+    ]
+  },
+  "flex-layout.col#menu__category-1": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category-1",
+      "vtex.menu@2.x:menu#menu__category-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category-1": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__text-1",
+      "menu-item#category__text-2",
+      "menu-item#category__text-3",
+      "menu-item#category__text-4",
+      "menu-item#category__text-5",
+      "menu-item#category__text-6",
+      "menu-item#category__text-7",
+      "menu-item#category__text-8",
+      "menu-item#category__text-9",
+      "menu-item#category__text-10"
+    ]
+  },
+  "menu-item#category__text-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Materiales de Construcción",
+        "text": "Materiales de Construcción >"
+      }
+    }
+  },
+  "menu-item#category__text-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Cementos, Concreto y Morteros",
+        "text": "Cementos, Concreto y Morteros"
+      }
+    }
+  },
+  "menu-item#category__text-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Arenas y Gravas",
+        "text": "Arenas y Gravas"
+      }
+    }
+  },
+  "menu-item#category__text-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ladrillos, Bloques y Adoquines",
+        "text": "Ladrillos, Bloques y Adoquines"
+      }
+    }
+  },
+  "menu-item#category__text-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Estucos, Yesos e Imprimantes",
+        "text": "Estucos, Yesos e Imprimantes"
+      }
+    }
+  },
+  "menu-item#category__text-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Impermeabilizantes y Barreras",
+        "text": "Impermeabilizantes y Barreras"
+      }
+    }
+  },
+  "menu-item#category__text-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Varillas de Hierro y Acero",
+        "text": "Varillas de Hierro y Acero"
+      }
+    }
+  },
+  "menu-item#category__text-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Mallas Electrosoldada",
+        "text": "Mallas Electrosoldada"
+      }
+    }
+  },
+  "menu-item#category__text-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "VAlambres, Concertina y Alfardas",
+        "text": "Alambres, Concertina y Alfardas"
+      }
+    }
+  },
+  "menu-item#category__text-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ver más",
+        "text": "Ver más ..."
+      }
+    }
+  },
+
+  "flex-layout.col#menu__category-2": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category-2",
+      "vtex.menu@2.x:menu#menu__category-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category-2": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__text2-1",
+      "menu-item#category__text2-2",
+      "menu-item#category__text2-3",
+      "menu-item#category__text2-4",
+      "menu-item#category__text2-5",
+      "menu-item#category__text2-6",
+      "menu-item#category__text2-7",
+      "menu-item#category__text2-8",
+      "menu-item#category__text2-9",
+      "menu-item#category__text2-10"
+    ]
+  },
+  "menu-item#category__text2-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Pisos y Paredes",
+        "text": "Pisos y Paredes >"
+      }
+    }
+  },
+  "menu-item#category__text2-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Paredes y Pisos Cerámicos",
+        "text": "Paredes y Pisos Cerámicos"
+      }
+    }
+  },
+  "menu-item#category__text2-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Paredes y Pisos Porcelanato",
+        "text": "Paredes y Pisos Porcelanato"
+      }
+    }
+  },
+  "menu-item#category__text2-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Pisos Laminados",
+        "text": "Pisos Laminados"
+      }
+    }
+  },
+  "menu-item#category__text2-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Pisos Vinílicos",
+        "text": "Pisos Vinílicos"
+      }
+    }
+  },
+  "menu-item#category__text2-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Decorados y Mosaicos",
+        "text": "Decorados y Mosaicos"
+      }
+    }
+  },
+  "menu-item#category__text2-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Pegantes y Adhesivos para Pisos",
+        "text": "Pegantes y Adhesivos para Pisos"
+      }
+    }
+  },
+  "menu-item#category__text2-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Herramientas y Accesorios ",
+        "text": "Herramientas y Accesorios "
+      }
+    }
+  },
+  "menu-item#category__text2-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Cortadoras de Cerámica Manuales",
+        "text": "Cortadoras de Cerámica Manuales"
+      }
+    }
+  },
+  "menu-item#category__text2-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ver más",
+        "text": "Ver más ..."
+      }
+    }
+  },
+
+  "vtex.menu@2.x:submenu#category-2": {
+    "props": {
+      "blockClass": "submenu-more",
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu__category2-2"]
+  },
+  "flex-layout.row#menu__category2-2": {
+    "props": {
+      "blockClass": "menu-more"
+    },
+    "children": [
+      "flex-layout.col#menu__category2-1",
+      "flex-layout.col#menu__category2-2",
+      "flex-layout.col#menu__category2-1",
+      "flex-layout.col#menu__category2-2"
+    ]
+  },
+  "flex-layout.col#menu__category2-1": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category2-1",
+      "vtex.menu@2.x:menu#menu__category2-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category2-1": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category2__text-1",
+      "menu-item#category2__text-2",
+      "menu-item#category2__text-3",
+      "menu-item#category2__text-4",
+      "menu-item#category2__text-5",
+      "menu-item#category2__text-6",
+      "menu-item#category2__text-7",
+      "menu-item#category2__text-8",
+      "menu-item#category2__text-9",
+      "menu-item#category2__text-10"
+    ]
+  },
+  "menu-item#category2__text-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Herramientas Manuales",
+        "text": "Herramientas Manuales >"
+      }
+    }
+  },
+  "menu-item#category2__text-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Alicates y Hombresolo",
+        "text": "Alicates y Hombresolo"
+      }
+    }
+  },
+  "menu-item#category2__text-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Destornilladores",
+        "text": "Destornilladores"
+      }
+    }
+  },
+  "menu-item#category2__text-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Kit de Herramientas Manuales",
+        "text": "Kit de Herramientas Manuales"
+      }
+    }
+  },
+  "menu-item#category2__text-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Martillos y Mazos",
+        "text": "Martillos y Mazos"
+      }
+    }
+  },
+  "menu-item#category2__text-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Tijeras y Cizallas",
+        "text": "Tijeras y Cizallas"
+      }
+    }
+  },
+  "menu-item#category2__text-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Llaves y Juego de Copas",
+        "text": "Llaves y Juego de Copas"
+      }
+    }
+  },
+  "menu-item#category2__text-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Prensas, Guías y Plantillas",
+        "text": "Prensas, Guías y Plantillas"
+      }
+    }
+  },
+  "menu-item#category2__text-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Cortadoras de Cerámica Manuales",
+        "text": "Cortadoras de Cerámica Manuales"
+      }
+    }
+  },
+  "menu-item#category2__text-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ver más",
+        "text": "Ver más ..."
+      }
+    }
+  },
+
+  "flex-layout.col#menu__category2-2": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category2-2",
+      "vtex.menu@2.x:menu#menu__category2-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category2-2": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category2__text2-1",
+      "menu-item#category2__text2-2",
+      "menu-item#category2__text2-3",
+      "menu-item#category2__text2-4",
+      "menu-item#category2__text2-5",
+      "menu-item#category2__text2-6",
+      "menu-item#category2__text2-7",
+      "menu-item#category2__text2-8",
+      "menu-item#category2__text2-9",
+      "menu-item#category2__text2-10"
+    ]
+  },
+  "menu-item#category2__text2-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Baños",
+        "text": "Baños >"
+      }
+    }
+  },
+  "menu-item#category2__text2-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Sanitarios e Inodoros",
+        "text": "Sanitarios e Inodoros"
+      }
+    }
+  },
+  "menu-item#category2__text2-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Combos Sanitarios",
+        "text": "Combos Sanitarios"
+      }
+    }
+  },
+  "menu-item#category2__text2-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Lavamanos",
+        "text": "Lavamanos"
+      }
+    }
+  },
+  "menu-item#category2__text2-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Grifería para Lavamanos",
+        "text": "Grifería para Lavamanos"
+      }
+    }
+  },
+  "menu-item#category2__text2-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Extractores de Aire",
+        "text": "Extractores de Aire"
+      }
+    }
+  },
+  "menu-item#category2__text2-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Grifería para Ducha",
+        "text": "Grifería para Ducha"
+      }
+    }
+  },
+  "menu-item#category2__text2-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Muebles de Baño",
+        "text": "Muebles de Baño"
+      }
+    }
+  },
+  "menu-item#category2__text2-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Calentadores de Agua a Gas",
+        "text": "Calentadores de Agua a Gas"
+      }
+    }
+  },
+  "menu-item#category2__text2-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ver más",
+        "text": "Ver más ..."
+      }
+    }
+  }
+  //   "vtex.menu@2.x:menu#category": {
+  //     "props": {
+  //       "experimentalOptimazeRendering": true,
+  //       "blockClass": "category-menu"
+  //     },
+  //     "children": [
+  //       "menu-item#category-one",
+  //       "menu-item#category-two",
+  //       "menu-item#category-three",
+  //       "menu-item#category-four",
+  //       "menu-item#category-five"
+  //     ]
+  //   },
+  //   "menu-item#category-one": {
+  //     "props": {
+  //       "id": "menu-item-custom-sale",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "categories",
+  //       "itemsProps": {
+  //         "type": "internal",
+  //         "href": "#",
+  //         "noFollow": true,
+  //         "tagTitle": "Celulares",
+  //         "text": "Celulares"
+  //       }
+  //     },
+  //     "blocks": ["vtex.menu@2.x:submenu#category-one"]
+  //   },
+  //   "menu-item#category-two": {
+  //     "props": {
+  //       "id": "menu-item-custom-sale",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "categories",
+  //       "itemsProps": {
+  //         "type": "internal",
+  //         "href": "#",
+  //         "noFollow": true,
+  //         "tagTitle": "Computadores e impresiones",
+  //         "text": "Computadores e impresiones"
+  //       }
+  //     },
+  //     "blocks": ["vtex.menu@2.x:submenu#category-two"]
+  //   },
+  //   "menu-item#category-three": {
+  //     "props": {
+  //       "id": "menu-item-custom-sale",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "categories",
+  //       "itemsProps": {
+  //         "type": "internal",
+  //         "href": "#",
+  //         "noFollow": true,
+  //         "tagTitle": "TV",
+  //         "text": "TV"
+  //       }
+  //     },
+  //     "blocks": ["vtex.menu@2.x:submenu#category-one"]
+  //   },
+  //   "menu-item#category-four": {
+  //     "props": {
+  //       "id": "menu-item-custom-sale",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "categories",
+  //       "itemsProps": {
+  //         "type": "internal",
+  //         "href": "#",
+  //         "noFollow": true,
+  //         "tagTitle": "Audio",
+  //         "text": "Audio"
+  //       }
+  //     },
+  //     "blocks": ["vtex.menu@2.x:submenu#category-two"]
+  //   },
+  //   "menu-item#category-five": {
+  //     "props": {
+  //       "id": "menu-item-custom-sale",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "categories",
+  //       "itemsProps": {
+  //         "type": "internal",
+  //         "href": "#",
+  //         "noFollow": true,
+  //         "tagTitle": "Electrodomesticos",
+  //         "text": "Electrodomesticos"
+  //       }
+  //     },
+  //     "blocks": ["vtex.menu@2.x:submenu#category-one"]
+  //   },
+  //   "vtex.menu@2.x:submenu#category-one": {
+  //     "props": {
+  //       "blockClass": "submenu",
+  //       "width": "100%"
+  //     },
+  //     "children": ["flex-layout.row#menu__category-one"]
+  //   },
+  //   "flex-layout.row#menu__category-one": {
+  //     "props": {
+  //       "blockClass": "menu"
+  //     },
+  //     "children": [
+  //       "flex-layout.col#menu__category-one",
+  //       "flex-layout.col#menu__category-two",
+  //       "flex-layout.col#menu__category-one",
+  //       "flex-layout.col#menu__category-two"
+  //     ]
+  //   },
+  //   "flex-layout.col#menu__category-one": {
+  //     "props": {
+  //       "blockClass": "menu-one"
+  //     },
+  //     "children": [
+  //       "vtex.menu@2.x:menu#menu__category-one",
+  //       "vtex.menu@2.x:menu#menu__category-one"
+  //     ]
+  //   },
+  //   "vtex.menu@2.x:menu#menu__category-one": {
+  //     "props": {
+  //       "blockClass": "menu-category-submenu",
+  //       "orientation": "vertical"
+  //     },
+  //     "children": [
+  //       "menu-item#category__content-one",
+  //       "menu-item#category__content-two",
+  //       "menu-item#category__content-three",
+  //       "menu-item#category__content-four",
+  //       "menu-item#category__content-five",
+  //       "menu-item#category__content-six",
+  //       "menu-item#category__content-seven",
+  //       "menu-item#category__content-eight",
+  //       "menu-item#category__content-nine",
+  //       "menu-item#category__content-ten",
+  //       "menu-item#category__content-eleven",
+  //       "menu-item#category__content-twelve",
+  //       "menu-item#category__content-thirteen",
+  //       "menu-item#category__content-fourteen",
+  //       "menu-item#category__content-fifteen",
+  //       "menu-item#category__content-sixteen"
+  //     ]
+  //   },
+  //   "menu-item#category__content-one": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-category",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "#",
+  //         "noFollow": true,
+  //         "tagTitle": "Marca",
+  //         "text": "Marca  >"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-two": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "iPhone",
+  //         "text": "iPhone"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-three": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Samsumg",
+  //         "text": "Samsung"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-four": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Xioami",
+  //         "text": "Xioami"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-five": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Motorola",
+  //         "text": "Motorola"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-six": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Vivo",
+  //         "text": "Vivo"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-seven": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Nokia",
+  //         "text": "Nokia"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-eight": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Oppo",
+  //         "text": "Oppo"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-nine": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Realme",
+  //         "text": "Realme"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-ten": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Zte",
+  //         "text": "Zte"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-eleven": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "TCL",
+  //         "text": "TCL"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-twelve": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Alcatel",
+  //         "text": "Alcatel"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-thirteen": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Kalley",
+  //         "text": "Kalley"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-fourteen": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Huawei",
+  //         "text": "Huawei"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-fifteen": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Honor",
+  //         "text": "Honor"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-sixteen": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Tecno",
+  //         "text": "Tecno"
+  //       }
+  //     }
+  //   },
+  //   "flex-layout.col#menu__category-two": {
+  //     "props": {
+  //       "blockClass": "menu-one"
+  //     },
+  //     "children": [
+  //       "vtex.menu@2.x:menu#menu__category-two",
+  //       "vtex.menu@2.x:menu#menu__category-two"
+  //     ]
+  //   },
+  //   "vtex.menu@2.x:menu#menu__category-two": {
+  //     "props": {
+  //       "blockClass": "menu-category-submenu",
+  //       "orientation": "vertical"
+  //     },
+  //     "children": [
+  //       "menu-item#category__content-two-one",
+  //       "menu-item#category__content-two-two",
+  //       "menu-item#category__content-two-three",
+  //       "menu-item#category__content-two-four",
+  //       "menu-item#category__content-two-five",
+  //       "menu-item#category__content-two-six",
+  //       "menu-item#category__content-two-seven",
+  //       "menu-item#category__content-two-eight"
+  //     ]
+  //   },
+  //   "menu-item#category__content-two-one": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-category",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Computadores",
+  //         "text": "Marca >"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-two-two": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "HP",
+  //         "text": "HP"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-two-three": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Lenovo",
+  //         "text": "Lenovo"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-two-four": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Acer",
+  //         "text": "Acer"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-two-five": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Apple",
+  //         "text": "Apple"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-two-six": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Asus",
+  //         "text": "Asus"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-two-seven": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Huawei",
+  //         "text": "Huawei"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category__content-two-eight": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Macbook",
+  //         "text": "Macbook"
+  //       }
+  //     }
+  //   },
+  //   "vtex.menu@2.x:submenu#category-two": {
+  //     "props": {
+  //       "blockClass": "submenu",
+  //       "width": "100%"
+  //     },
+  //     "children": ["flex-layout.row#menu__category-two-2"]
+  //   },
+  //   "flex-layout.row#menu__category-two-2": {
+  //     "props": {
+  //       "blockClass": "menu"
+  //     },
+  //     "children": [
+  //       "flex-layout.col#menu__category-two-one",
+  //       "flex-layout.col#menu__category-two-two",
+  //       "flex-layout.col#menu__category-two-one",
+  //       "flex-layout.col#menu__category-two-two"
+  //     ]
+  //   },
+  //   "flex-layout.col#menu__category-two-one": {
+  //     "props": {
+  //       "blockClass": "menu-one"
+  //     },
+  //     "children": [
+  //       "vtex.menu@2.x:menu#menu__category-two-one",
+  //       "vtex.menu@2.x:menu#menu__category-two-one"
+  //     ]
+  //   },
+  //   "vtex.menu@2.x:menu#menu__category-two-one": {
+  //     "props": {
+  //       "blockClass": "menu-category-submenu",
+  //       "orientation": "vertical"
+  //     },
+  //     "children": [
+  //       "menu-item#category-two__content-one",
+  //       "menu-item#category-two__content-two",
+  //       "menu-item#category-two__content-three",
+  //       "menu-item#category-two__content-four",
+  //       "menu-item#category-two__content-five",
+  //       "menu-item#category-two__content-six",
+  //       "menu-item#category-two__content-seven",
+  //       "menu-item#category-two__content-eight",
+  //       "menu-item#category-two__content-nine",
+  //       "menu-item#category-two__content-ten",
+  //       "menu-item#category-two__content-eleven",
+  //       "menu-item#category-two__content-twelve",
+  //       "menu-item#category-two__content-thirteen"
+  //     ]
+  //   },
+  //   "menu-item#category-two__content-one": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-category",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Computadores Portatiles",
+  //         "text": "Computadores Portatiles >"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-two": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Portatiles laptops",
+  //         "text": "Portatiles laptops"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-three": {
+  //     "props": {
+  //       "id": "menu-item-brand",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Portatiles laptops",
+  //         "text": "Portatiles laptops"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-four": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Convertibles 2 en 1",
+  //         "text": "Convertibles 2 en 1"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-five": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-category",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Marca",
+  //         "text": "Marca"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-six": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "HP",
+  //         "text": "HP"
+  //       }
+  //     }
+  //   },
+  //    "menu-item#category-two__content-seven": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Lenovo",
+  //         "text": "Lenovo"
+  //       }
+  //     }
+  //   },
+  //    "menu-item#category-two__content-eight": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Acer",
+  //         "text": "Acer"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-nine":{
+
+  //   },
+  //    "menu-item#category-two__content-ten": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Apple",
+  //         "text": "Apple"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-eleven": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Asus",
+  //         "text": "Asus"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-twelve": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Huawei",
+  //         "text": "Huawei"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-two__content-thirteen": {
+  //     "props": {
+  //       "id": "menu-item",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Macbook",
+  //         "text": "Macbook"
+  //       }
+  //     }
+  //   },
+  //   "flex-layout.col#menu__category-two-two": {
+  //     "props":{
+  //       "blockClass": "menu-one"
+  //     },
+  //     "children": [
+  //       "vtex.menu@2.x:menu#menu__category2-two",
+  //       "vtex.menu@2.x:menu#menu__category2-two"
+  //     ]
+  //   },
+  //   "vtex.menu@2.x:menu#menu__category2-two": {
+  //     "props": {
+  //       "blockClass": "menu-category-submenu",
+  //       "orientation": "vertical"
+  //     },
+  //     "children": [
+  //       "menu-item#categorytwo__content-two-1",
+  //       "menu-item#categorytwo__content-two-2",
+  //       "menu-item#categorytwo__content-two-3",
+  //       "menu-item#categorytwo__content-two-4",
+  //       "menu-item#categorytwo__content-two-5",
+  //       "menu-item#categorytwo__content-two-6",
+  //       "menu-item#categorytwo__content-two-7",
+  //       "menu-item#categorytwo__content-two-8",
+  //       "menu-item#categorytwo__content-two-9",
+  //       "menu-item#categorytwo__content-two-10"
+  //     ]
+  //   },
+  //   "menu-item#categorytwo__content-two-1": {
+  //     "props": {
+  //       "id": "menu-item-about-us",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-blue",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/about-us",
+  //         "noFollow": true,
+  //         "tagTitle": "Baños",
+  //         "text": "Baños >"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-2": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Sanitarios e Inodoros",
+  //         "text": "Sanitarios e Inodoros"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-3": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Combos Sanitarios",
+  //         "text": "Combos Sanitarios"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-4": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Lavamanos",
+  //         "text": "Lavamanos"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-5": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Grifería para Lavamanos",
+  //         "text": "Grifería para Lavamanos"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-6": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Extractores de Aire",
+  //         "text": "Extractores de Aire"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-7": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Grifería para Ducha",
+  //         "text": "Grifería para Ducha"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-8": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Muebles de Baño",
+  //         "text": "Muebles de Baño"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-9": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-black",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Calentadores de Agua a Gas",
+  //         "text": "Calentadores de Agua a Gas"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#categorytwo__content-two-10": {
+  //     "props": {
+  //       "id": "menu-item-faq",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "blockClass": "content-blue",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/faq",
+  //         "noFollow": true,
+  //         "tagTitle": "Ver más",
+  //         "text": "Ver más ..."
+  //       }
+  //     }
+  //   }
+}
