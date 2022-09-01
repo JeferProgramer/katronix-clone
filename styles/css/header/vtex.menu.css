@@ -1,0 +1,54 @@
+.menuContainer--category-menu {
+    justify-content: center;
+    background-color: #004691;
+    border-top: 3px solid orangered;
+    margin-left: 0 !important;
+}
+.menuContainer--category-menu :global(.vtex-menu-2-x-styledLinkContainer){
+    margin-left: 0%;
+}
+.styledLinkContent--content-main{
+    color: #004691;
+    font-size: 0.9rem;
+    padding-right: 4rem;
+}
+.styledLinkContent--content-blue {
+    color: orangered;
+    padding-top: 1rem;
+    padding-right: 4rem;    
+    font-size: 0.8rem;
+}
+
+.styledLinkContent--more {
+    color: white;
+    font-size: 105%;
+}
+.styledLinkContent--more:hover{
+    color: #004691;
+}
+
+.styledLink--more {
+    font-size: 0.8rem;
+}
+
+.styledLinkContent--content-black {
+    font-size: 0.8rem;
+}
+
+.menuItem--more:hover {
+    background-color: white;
+    box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.submenuWrapper--submenu-more {
+    background-color: #fff;
+    width: 100%;
+}
+
+.menuItem--content-black:hover {
+    text-decoration: underline;
+}
+
+.menuItem--content-blue:hover {
+    text-decoration: underline;
+}
