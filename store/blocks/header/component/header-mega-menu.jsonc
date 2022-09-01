@@ -15,7 +15,14 @@
       "menu-item#category-2",
       "menu-item#category-3",
       "menu-item#category-4",
-      "menu-item#category-5"
+      "menu-item#category-5",
+      "menu-item#category-6",
+      "menu-item#category-7",
+      "menu-item#category-8",
+      "menu-item#category-9",
+      "menu-item#category-10",
+      "menu-item#category-11",
+      "menu-item#category-12"
     ]
   },
 
@@ -31,7 +38,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "Celulares",
-        "text": "Celulares"
+        "text": "Celulares |"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#category-1"]
@@ -48,7 +55,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "Computadores e impresoras",
-        "text": "Computadores e impresoras"
+        "text": "Computadores e impresoras |"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#category-2"]
@@ -65,7 +72,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "TV",
-        "text": "TV"
+        "text": "TV |"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#category-1"]
@@ -82,7 +89,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "Audio",
-        "text": "Audio"
+        "text": "Audio |"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#category-2"]
@@ -98,11 +105,130 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "Electrodomesticos",
-        "text": "Electrodomesticos"
+        "tagTitle": "Electrodoméstico",
+        "text": "Electrodoméstico |"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-6": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Videojuegos",
+        "text": "Videojuegos |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-7": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cámaras",
+        "text": "Cámaras |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-8": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Casa inteligente",
+        "text": "Casa inteligente | "
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-9": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-10": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Netflix  y Pines",
+        "text": "Netflix y Pines | "
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-11": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Deportes y Smartwatch",
+        "text": "Deportes y Smartwatch |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-12": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Otros",
+        "text": "Otros |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
   },
 
   "vtex.menu@2.x:submenu#category-1": {
@@ -138,7 +264,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category__text-1",
+      "flex-layout.row#menu-icon",
       "menu-item#category__text-2",
       "menu-item#category__text-3",
       "menu-item#category__text-4",
@@ -150,19 +276,34 @@
       "menu-item#category__text-10"
     ]
   },
+  "flex-layout.row#menu-icon":{
+    "children":[
+      "image#icon-phone",
+      "menu-item#category__text-1"
+    ],
+    "props":{
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-phone":{
+    "props":{
+      "src": "assets/img/icon-phone.png",
+      "blockClass": "image-icon-menu"
+    }
+  },
   "menu-item#category__text-1": {
     "props": {
       "id": "menu-item-about-us",
       "type": "custom",
-      "iconId": null,
+      "iconId": "vuitg-orders",
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "content-main",
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "Celulares",
-        "text": "Celulares >"
+        "text": "Celulares  >"
       }
     }
   },
@@ -172,7 +313,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-black",
+      "blockClass": "content-blue",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -300,7 +441,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -326,7 +467,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category__text2-1",
+      "flex-layout.row#menu-icon-two",
       "menu-item#category__text2-2",
       "menu-item#category__text2-3",
       "menu-item#category__text2-4",
@@ -338,13 +479,25 @@
       "menu-item#category__text2-10"
     ]
   },
-  "menu-item#category__text2-1": {
+  "flex-layout.row#menu-icon-two":{
+    "children": ["image#icon-accesories", "menu-item#category__text-2-1"],
+    "props": {
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-accesories":{
+    "props":{
+      "src": "assets/img/usb.png",
+      "blockClass": "image-icon-menu"
+    }
+  },
+  "menu-item#category__text-2-1": {
     "props": {
       "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "content-main",
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
@@ -360,7 +513,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-black",
+      "blockClass": "content-blue",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -488,7 +641,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -532,7 +685,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category2__text-1",
+      "flex-layout.row#menu-icon-three",
       "menu-item#category2__text-2",
       "menu-item#category2__text-3",
       "menu-item#category2__text-4",
@@ -544,13 +697,28 @@
       "menu-item#category2__text-10"
     ]
   },
+  "flex-layout.row#menu-icon-three":{
+    "children":[
+      "image#icon-laptop",
+      "menu-item#category2__text-1"
+    ],
+    "props":{
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-laptop":{
+    "props":{
+      "src": "assets/img/portatiles.png",
+      "blockClass": "image-icon-menu"
+    }
+  },
   "menu-item#category2__text-1": {
     "props": {
       "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "content-main",
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
@@ -566,7 +734,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-black",
+      "blockClass": "content-blue",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -694,13 +862,13 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
         "noFollow": true,
         "tagTitle": "Asus",
-        "text": "Asus ..."
+        "text": "Asus"
       }
     }
   },
@@ -738,7 +906,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "content-main",
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
@@ -754,7 +922,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-black",
+      "blockClass": "content-blue",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -882,7 +1050,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "content-blue",
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
