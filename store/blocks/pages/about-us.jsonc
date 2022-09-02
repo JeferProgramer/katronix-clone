@@ -1,0 +1,63 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us__section--one",
+      "flex-layout.row#about-us__section--two"
+    ]
+  },
+  "flex-layout.row#about-us__section--one": {
+    "children": ["flex-layout.col#about-us__section--one"]
+  },
+  "flex-layout.row#about-us__section--two": {
+    "children": [
+      "flex-layout.col#about-us__section--two--one",
+      "flex-layout.col#about-us__section--two--two"
+    ],
+    "props":{
+        "blockClass": "container-about-us-one"
+    }
+  },
+  "flex-layout.col#about-us__section--one": {
+    "children": [
+      "rich-text#section__one--title",
+      "rich-text#section__one--content"
+    ]
+  },
+  "flex-layout.col#about-us__section--two--one": {
+    "children": [ "image#icon-katronix"],
+    "props":{
+        "blockClass": "container-image"
+    }
+  },
+  "flex-layout.col#about-us__section--two--two": {
+    "children": ["rich-text#section__two--content"]
+  },
+  "rich-text#section__one--title": {
+    "props": {
+      "text": "Quiénes somos",
+      "blockClass": "about-us-title"
+    }
+  },
+  "rich-text#section__one--content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Déjate sorprender por Ktronix, un espectáculo de conectividad y emoción. Disfruta del verdadero placer de la tecnología.",
+      "blockClass": "about-us-text"
+    }
+  },
+  "flex-layout.row#about-section-two-container": {
+    "children": []
+  },
+  "rich-text#section__two--content": {
+    "props": {
+      "text": "En 1998 ALKOSTO líder en tecnología decide lanzar un nuevo formato, Ktronix, como la única tienda multimarcas especializada en electrónica y tecnología.",
+      "blockClass":"text-content"
+    }
+  },
+  "image#icon-katronix":{
+    "props":{
+        "src": "assets/img/katronix.svg"
+    }
+  }
+}
