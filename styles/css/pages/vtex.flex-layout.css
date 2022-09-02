@@ -1,0 +1,12 @@
+.flexRow--container-about-us-one{
+    background-color: #F6F6F6;
+}
+.flexRow--container-about-us-one .stretchChildrenWidth:first-child{
+    width: 10% !important;
+}
+.flexCol--container-image{
+    background-color: #003780;
+}
+.flexRow--container-about-us-one .stretchChildrenWidth:last-child{
+    width: 90% !important;
+}
