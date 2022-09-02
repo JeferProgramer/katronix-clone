@@ -888,7 +888,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category2__text2-1",
+      "flex-layout.row#menu-icon-four",
       "menu-item#category2__text2-2",
       "menu-item#category2__text2-3",
       "menu-item#category2__text2-4",
@@ -899,6 +899,21 @@
       "menu-item#category2__text2-9",
       "menu-item#category2__text2-10"
     ]
+  },
+  "flex-layout.row#menu-icon-four":{
+    "children":[
+      "image#icon-tv",
+      "menu-item#category2__text2-1"
+    ],
+    "props":{
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-tv":{
+    "props":{
+      "src": "assets/img/icon-televisores.png",
+      "blockClass": "image-icon-menu"
+    }
   },
   "menu-item#category2__text2-1": {
     "props": {
