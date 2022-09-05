@@ -6,7 +6,7 @@
       "flex-layout.row#home__section--images--three--phone"
     ],
     "props": {
-      "blockClass": "home__section--six"
+      "blockClass": "home__section--six-phones"
     }
   },
   "flex-layout.row#home__section--images--one--phone": {
