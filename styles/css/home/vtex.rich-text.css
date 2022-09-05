@@ -15,3 +15,14 @@
 .container--home__section__four-rich-text{
     font-size: 14px;
 }
+@media (max-width:700px) {
+    .container--text-categories {
+        margin-left: 35% !important;
+    }
+    .container--text-ofertas {
+        margin-left: 30%;
+    }
+    .container--home__section__four-rich-text {
+        margin-left: 25%;
+    }
+}

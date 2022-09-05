@@ -1,0 +1,471 @@
+{
+  "flex-layout.row#footer-menu": {
+    "children": [
+      "vtex.menu@2.x:menu#our",
+      "vtex.menu@2.x:menu#buy-internet",
+      "vtex.menu@2.x:menu#services",
+      "vtex.menu@2.x:menu#policies"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "vtex.menu@2.x:menu#our": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-total"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#tiendas",
+      "menu-item#client",
+      "menu-item#card",
+      "menu-item#work-katronix",
+      "menu-item#raffles",
+      "menu-item#certificates"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Conocenos",
+        "text": "Conocenos"
+      }
+    }
+  },
+  "menu-item#tiendas": {
+    "props": {
+      "id": "menu-item-store",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Tiendas Katronix",
+        "text": "Tiendas Katronix"
+      }
+    }
+  },
+  "menu-item#client": {
+    "props": {
+      "id": "menu-item-client",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Servicio al cliente",
+        "text": "Servicio al cliente"
+      }
+    }
+  },
+  "menu-item#card": {
+    "props": {
+      "id": "menu-item-card",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Tarjeta Alkosto",
+        "text": "Tarjeta Alkosto"
+      }
+    }
+  },
+  "menu-item#work-katronix": {
+    "props": {
+      "id": "menu-item-work",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Trabaja en Ktronix",
+        "text": "Trabaja en Ktronix"
+      }
+    }
+  },
+  "menu-item#raffles": {
+    "props": {
+      "id": "menu-item-raffles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Nuestras rifas",
+        "text": "Nuestras rifas"
+      }
+    }
+  },
+  "menu-item#certificates": {
+    "props": {
+      "id": "menu-item-certificates",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Cetificados tributarios",
+        "text": "Cetificados tributarios"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#buy-internet": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-total"
+    },
+    "children": [
+      "menu-item#how-buy",
+      "menu-item#insurance",
+      "menu-item#send",
+      "menu-item#forms",
+      "menu-item#soat"
+    ]
+  },
+  "menu-item#how-buy": {
+    "props": {
+      "id": "menu-item-how-buy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "¿Como comprar en internet?",
+        "text": "¿Como comprar en internet?"
+      }
+    }
+  },
+  "menu-item#insurance": {
+    "props": {
+      "id": "menu-item-insurance",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Compra Seguro",
+        "text": "Compra Seguro"
+      }
+    }
+  },
+  "menu-item#send": {
+    "props": {
+      "id": "menu-item-send",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Opciones de envio",
+        "text": "Opciones de envio"
+      }
+    }
+  },
+  "menu-item#forms": {
+    "props": {
+      "id": "menu-item-forms",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Formas de pago",
+        "text": "Formas de pago"
+      }
+    }
+  },
+  "menu-item#soat": {
+    "props": {
+      "id": "menu-item-soat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "SOAT  y otros seguros",
+        "text": "SOAT  y otros seguros"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#services": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-total"
+    },
+    "children": ["menu-item#warranty", "menu-item#how-to-apply"]
+  },
+  "menu-item#warranty": {
+    "props": {
+      "id": "menu-item-warranty",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Extiende tu garantia",
+        "text": "Extiende tu garantia"
+      }
+    }
+  },
+  "menu-item#how-to-apply": {
+    "props": {
+      "id": "menu-item-how-to-apply",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "¿Como solicitar la garantia?",
+        "text": "¿Como solicitar la garantia?"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#policies": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-total"
+    },
+    "children": [
+      "menu-item#terms",
+      "menu-item#agreement",
+      "menu-item#sic",
+      "menu-item#privacity",
+      "menu-item#personal-information",
+      "menu-item#etical-code",
+      "menu-item#policy-cookies",
+      "menu-item#changes-returns",
+      "menu-item#sst-rules",
+      "menu-item#etical-line"
+    ]
+  },
+  "menu-item#terms": {
+    "props": {
+      "id": "menu-item-terms",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Terminos y Condiciones Katronix.com",
+        "text": "Terminos y Condiciones Katronix.com"
+      }
+    }
+  },
+  "menu-item#agreement": {
+    "props": {
+      "id": "menu-item-agreement",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Acuerdo de compraventa en linea",
+        "text": "Acuerdo de compraventa en linea"
+      }
+    }
+  },
+  "menu-item#sic": {
+    "props": {
+      "id": "menu-item-sic",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "SIC",
+        "text": "SIC"
+      }
+    }
+  },
+  "menu-item#privacity": {
+    "props": {
+      "id": "menu-item-privacity",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Cuidamos tu privacidad",
+        "text": "Cuidamos tu privacidad"
+      }
+    }
+  },
+  "menu-item#personal-information": {
+    "props": {
+      "id": "menu-item-personal-information",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Solicitud tratamiento de datos personales",
+        "text": "Solicitud tratamiento de datos personales"
+      }
+    }
+  },
+  "menu-item#etical-code": {
+    "props": {
+      "id": "menu-item-etical-code",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Codigo de etica",
+        "text": "Codigo de etica"
+      }
+    }
+  },
+  "menu-item#policy-cookies": {
+    "props": {
+      "id": "menu-item-policy-cookies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Politica uso de Cookies",
+        "text": "Politica uso de Cookies"
+      }
+    }
+  },
+  "menu-item#changes-returns": {
+    "props": {
+      "id": "menu-item-changes-returns",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#sst-rules": {
+    "props": {
+      "id": "menu-item-sst-rules",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Normas SST para terceros",
+        "text": "Normas SST para terceros"
+      }
+    }
+  },
+  "menu-item#etical-tdt": {
+    "props": {
+      "id": "menu-item-tdt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "TDT para todos",
+        "text": "TDT para todos"
+      }
+    }
+  },
+  "menu-item#etical-line": {
+    "props": {
+      "id": "menu-item-etical-line",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "section__varieties-content",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Linea Etica",
+        "text": "Linea Etica"
+      }
+    }
+  }
+}

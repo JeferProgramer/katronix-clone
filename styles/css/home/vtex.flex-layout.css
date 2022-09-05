@@ -40,6 +40,7 @@
 .flexRow--home__section__four-group{
     display: inline-block;
     vertical-align: middle;
+ 
     font-size: 14px;
     text-align: center;
     width: 24%;
@@ -60,4 +61,15 @@
     width: 80%;
     height: 100%;
     margin-left: 10%;
+}
+.flexRow--home__section--six--phones :global(.vtex-store-components-3-x-imageElement) {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+@media (max-width: 700px) {
+    .flexRow--home__section--six :global(.vtex-store-components-3-x-imageElement) {
+        width: 80%;
+        height: 100%;
+    }
 }

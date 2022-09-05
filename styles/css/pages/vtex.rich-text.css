@@ -1,0 +1,23 @@
+.container--about-us-text{
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #444;
+}
+.container--about-us-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #444;
+    margin-bottom: 2%;
+}
+.container--text-content{
+    padding: 2% 2% !important;
+    font-size: 16px;
+    color: #444444;
+}
+.container--text-content :global(.vtex-rich-text-0-x-link--text-content){
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
