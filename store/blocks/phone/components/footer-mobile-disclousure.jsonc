@@ -1,0 +1,159 @@
+{
+  "flex-layout.col#disclousure-our": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": ["flex-layout.col#our"]
+  },
+
+  "flex-layout.col#our": {
+    "children": ["disclosure-layout-group#group-our"]
+  },
+  "disclosure-layout-group#group-our": {
+    "children": ["disclosure-layout#first-our"]
+  },
+
+  "disclosure-layout#first-our": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first-our", "disclosure-content#first-our"]
+  },
+  "disclosure-trigger#first-our": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question1-our"]
+  },
+  "disclosure-content#first-our": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["vtex.menu@2.x:menu#our"]
+  },
+  "rich-text#question1-our": {
+    "props": {
+      "blockClass": "disclousure-titulo",
+      "text": "Nosotros"
+    }
+  },
+  "flex-layout.col#disclousure-pay-internet": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": ["flex-layout.col#pay-internet"]
+  },
+
+  "flex-layout.col#pay-internet": {
+    "children": ["disclosure-layout-group#group-pay-internet"]
+  },
+  "disclosure-layout-group#group-pay-internet": {
+    "children": ["disclosure-layout#first-pay-internet"]
+  },
+
+  "disclosure-layout#first-pay-internet": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first-pay-internet", "disclosure-content#first-pay-internet"]
+  },
+  "disclosure-trigger#first-pay-internet": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question1-pay-internet"]
+  },
+  "disclosure-content#first-pay-internet": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["vtex.menu@2.x:menu#buy-internet"]
+  },
+  "rich-text#question1-pay-internet": {
+    "props": {
+      "blockClass": "disclousure-titulo",
+      "text": "Compras en Internet"
+    }
+  },
+
+  "flex-layout.col#disclousure-services": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": ["flex-layout.col#services"]
+  },
+
+  "flex-layout.col#services": {
+    "children": ["disclosure-layout-group#group-services"]
+  },
+  "disclosure-layout-group#group-services": {
+    "children": ["disclosure-layout#first-services"]
+  },
+
+  "disclosure-layout#first-services": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first-services", "disclosure-content#first-services"]
+  },
+  "disclosure-trigger#first-services": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question1-services"]
+  },
+  "disclosure-content#first-services": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["vtex.menu@2.x:menu#services"]
+  },
+  "rich-text#question1-services": {
+    "props": {
+      "blockClass": "disclousure-titulo",
+      "text": "Nuestros servicios"
+    }
+  },
+  "flex-layout.col#disclousure-policies": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": ["flex-layout.col#policies"]
+  },
+
+  "flex-layout.col#policies": {
+    "children": ["disclosure-layout-group#group-policies"]
+  },
+  "disclosure-layout-group#group-policies": {
+    "children": ["disclosure-layout#first-policies"]
+  },
+
+  "disclosure-layout#first-policies": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first-policies", "disclosure-content#first-policies"]
+  },
+  "disclosure-trigger#first-policies": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question1-policies"]
+  },
+  "disclosure-content#first-policies": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["vtex.menu@2.x:menu#policies"]
+  },
+  "rich-text#question1-policies": {
+    "props": {
+      "blockClass": "disclousure-titulo",
+      "text": "Nuestras politicas"
+    }
+  }
+}
