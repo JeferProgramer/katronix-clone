@@ -1,0 +1,255 @@
+{
+  "store.custom#sobre-nosotros": {
+    "blocks": [
+      "flex-layout.row#about-us__section--one",
+      "flex-layout.row#about-us__section--two",
+      "flex-layout.row#about-us__section--three",
+      "flex-layout.row#about-us__section--four",
+      "flex-layout.row#about-us__section--five",
+      "flex-layout.row#about-us__section--six",
+      "flex-layout.row#about-us__section--seven"
+    ]
+  },
+  "flex-layout.row#about-us__section--one": {
+    "children": ["flex-layout.col#about-us__section--one"]
+  },
+  "flex-layout.row#about-us__section--two": {
+    "children": ["flex-layout.row#about-us__section--two-container-1"],
+    "props": {
+      "blockClass": "container-about-us"
+    }
+  },
+  "flex-layout.row#about-us__section--two-container-1": {
+    "children": [
+      "flex-layout.col#about-us__section--two--one",
+      "flex-layout.col#about-us__section--two--two"
+    ],
+    "props": {
+      "blockClass": "container-about-us-one"
+    }
+  },
+  "flex-layout.col#about-us__section--one": {
+    "children": [
+      "rich-text#section__one--title",
+      "rich-text#section__one--content",
+      "link#home__link-button"
+    ]
+  },
+  "flex-layout.col#about-us__section--two--one": {
+    "children": ["image#icon-katronix"],
+    "props": {
+      "blockClass": "container-image"
+    }
+  },
+  "flex-layout.col#about-us__section--two--two": {
+    "children": ["rich-text#section__two--content"]
+  },
+  "rich-text#section__one--title": {
+    "props": {
+      "text": "Quiénes somos",
+      "blockClass": "about-us-title"
+    }
+  },
+  "rich-text#section__one--content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Déjate sorprender por Ktronix, un espectáculo de conectividad y emoción. Disfruta del verdadero placer de la tecnología.",
+      "blockClass": "about-us-text"
+    }
+  },
+  "link#home__link-button":{
+    "props":{
+      "href": "/about-us",
+      "label": "Ir a las mejores ofertas",
+      "displayMode": "button",
+      "blockClass": "button-about"
+    }
+  },
+  "rich-text#section__two--content": {
+    "props": {
+      "text": "En 1998 ALKOSTO líder en tecnología decide lanzar un nuevo formato, Ktronix, como la única tienda multimarcas especializada en electrónica y tecnología.",
+      "blockClass": "text-content"
+    }
+  },
+  "image#icon-katronix": {
+    "props": {
+      "src": "assets/img/katronix.svg"
+    }
+  },
+  "flex-layout.row#about-us__section--three": {
+    "children": ["flex-layout.row#about-us__section--three-container-1"],
+    "props": {
+      "blockClass": "container-about-us"
+    }
+  },
+  "flex-layout.row#about-us__section--three-container-1": {
+    "children": [
+      "flex-layout.col#about-us__section--three--one",
+      "flex-layout.col#about-us__section--three--two"
+    ],
+    "props": {
+      "blockClass": "container-about-us-one"
+    }
+  },
+  "flex-layout.col#about-us__section--three--one": {
+    "children": ["image#icon-mouse"],
+    "props": {
+      "blockClass": "container-image-red"
+    }
+  },
+  "flex-layout.col#about-us__section--three--two": {
+    "children": ["rich-text#section__three--content"]
+  },
+  "rich-text#section__three--content": {
+    "props": {
+      "text": "En 2010 abrimos nuestra Tienda Virtual www.ktronix.com, con más de 1.000 referencias y la posibilidad de comprar en línea.",
+      "blockClass": "text-content"
+    }
+  },
+  "image#icon-mouse": {
+    "props": {
+      "src": "assets/img/click-open.svg"
+    }
+  },
+  "flex-layout.row#about-us__section--four": {
+    "children": ["flex-layout.row#about-us__section--four-container-1"],
+    "props": {
+      "blockClass": "container-about-us"
+    }
+  },
+  "flex-layout.row#about-us__section--four-container-1": {
+    "children": [
+      "flex-layout.col#about-us__section--four--one",
+      "flex-layout.col#about-us__section--four--two"
+    ],
+    "props": {
+      "blockClass": "container-about-us-one"
+    }
+  },
+  "flex-layout.col#about-us__section--four--one": {
+    "children": ["image#icon-fridge"],
+    "props": {
+      "blockClass": "container-image"
+    }
+  },
+  "flex-layout.col#about-us__section--four--two": {
+    "children": ["rich-text#section__four--content"]
+  },
+  "rich-text#section__four--content": {
+    "props": {
+      "text": "Puedes elegir entre más de 1.600 referencias de electrodomésticos, tecnología, accesorios y consumibles, bajo un mismo techo. Algunas de estas referencias ahora las puedes comprar en línea en www.ktronix.com.",
+      "blockClass": "text-content"
+    }
+  },
+  "image#icon-fridge": {
+    "props": {
+      "src": "assets/img/nevera-electro.svg"
+    }
+  },
+  "flex-layout.row#about-us__section--five": {
+    "children": ["flex-layout.row#about-us__section--five-container-1"],
+    "props": {
+      "blockClass": "container-about-us"
+    }
+  },
+  "flex-layout.row#about-us__section--five-container-1": {
+    "children": [
+      "flex-layout.col#about-us__section--five--one",
+      "flex-layout.col#about-us__section--five--two"
+    ],
+    "props": {
+      "blockClass": "container-about-us-one"
+    }
+  },
+  "flex-layout.col#about-us__section--five--one": {
+    "children": ["image#icon-house"],
+    "props": {
+      "blockClass": "container-image-red"
+    }
+  },
+  "flex-layout.col#about-us__section--five--two": {
+    "children": ["rich-text#section__five--content"]
+  },
+  "rich-text#section__five--content": {
+    "props": {
+      "text": "Nuestras tiendas, con un diseño de vanguardia en un ambiente moderno y futurista, cuentan con el mejor surtido, variedad y metros de exhibición de tecnología de todas las marcas, con la mejor asesoría y precios del mercado.",
+      "blockClass": "text-content"
+    }
+  },
+  "image#icon-house": {
+    "props": {
+      "src": "assets/img/tiendas.svg"
+    }
+  },
+  "flex-layout.row#about-us__section--six": {
+    "children": ["flex-layout.row#about-us__section--six-container-1"],
+    "props": {
+      "blockClass": "container-about-us"
+    }
+  },
+  "flex-layout.row#about-us__section--six-container-1": {
+    "children": [
+      "flex-layout.col#about-us__section--six--one",
+      "flex-layout.col#about-us__section--six--two"
+    ],
+    "props": {
+      "blockClass": "container-about-us-one"
+    }
+  },
+  "flex-layout.col#about-us__section--six--one": {
+    "children": ["image#icon-plane"],
+    "props": {
+      "blockClass": "container-image"
+    }
+  },
+  "flex-layout.col#about-us__section--six--two": {
+    "children": ["rich-text#section__six--content"]
+  },
+  "rich-text#section__six--content": {
+    "props": {
+      "text": "En 2010 abrimos nuestra Tienda Virtual www.ktronix.com, con más de 1.000 referencias y la posibilidad de comprar en línea.",
+      "blockClass": "text-content"
+    }
+  },
+  "image#icon-plane": {
+    "props": {
+      "src": "assets/img/plane-nacional.svg"
+    }
+  },
+  "flex-layout.row#about-us__section--seven": {
+    "children": ["flex-layout.row#about-us__section--seven-container-1"],
+    "props": {
+      "blockClass": "container-about-us"
+    }
+  },
+  "flex-layout.row#about-us__section--seven-container-1": {
+    "children": [
+      "flex-layout.col#about-us__section--seven--one",
+      "flex-layout.col#about-us__section--seven--two"
+    ],
+    "props": {
+      "blockClass": "container-about-us-one"
+    }
+  },
+  "flex-layout.col#about-us__section--seven--one": {
+    "children": ["image#employes"],
+    "props": {
+      "blockClass": "container-image-red"
+    }
+  },
+  "flex-layout.col#about-us__section--seven--two": {
+    "children": ["rich-text#section__seven--content"]
+  },
+  "rich-text#section__seven--content": {
+    "props": {
+      "text": "En 2010 abrimos nuestra Tienda Virtual www.ktronix.com, con más de 1.000 referencias y la posibilidad de comprar en línea.",
+      "blockClass": "text-content"
+    }
+  },
+  "image#employes": {
+    "props": {
+      "src": "assets/img/empleados.svg"
+    }
+  }
+}
