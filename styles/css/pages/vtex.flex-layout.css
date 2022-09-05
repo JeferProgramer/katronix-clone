@@ -10,3 +10,9 @@
 .flexRow--container-about-us-one .stretchChildrenWidth:last-child{
     width: 90% !important;
 }
+.flexRow--container-about-us{
+    margin: 0.7% 4%;
+}
+.flexCol--container-image-red{
+    background-color: #DD171B;
+}
