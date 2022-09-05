@@ -1,0 +1,34 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer__container-one",
+      "flex-layout.row#footer__container-two",
+      "flex-layout.row#footer__container-three",
+      "flex-layout.row#footer__container-fourth",
+      "flex-layout.row#footer__container-mobile-disclousures",
+      "flex-layout.row#footer__container-sixth-mobile"
+    ]
+  },
+  "flex-layout.row#footer__container-mobile-disclousures": {
+    "children": [
+      "flex-layout.col#disclousure-our",
+      "flex-layout.col#disclousure-pay-internet",
+      "flex-layout.col#disclousure-services",
+      "flex-layout.col#disclousure-policies"
+    ],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container-sixth-mobile": {
+    "children": ["flex-layout.row#footer__section--social"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.col#footer__section--social-text":{
+    "children":[
+      "rich-text#social"
+    ]
+  }
+}
