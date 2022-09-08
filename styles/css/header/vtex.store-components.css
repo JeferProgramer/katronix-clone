@@ -2,3 +2,17 @@
     width: 60%;
     height: auto;
 }
+.logoImage--logo__header{
+    height: 96px;
+    max-height: 96px;
+    max-width: 221px;
+    width: 221px;
+}
+@media (max-width:700px) {
+    .logoImage--logo__header{
+        height: 48px;
+        max-height: 48px;
+        max-width: 110px;
+        width: 110px;
+    }
+}
