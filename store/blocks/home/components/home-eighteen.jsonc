@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__section--eighteen": {
+    "children": ["rich-text#ofertas-eighteen"],
+    "props": {
+      "blockClass": "home__section--two"
+    }
+  },
+  "rich-text#ofertas-eighteen": {
+    "props": {
+      "text": "Medios de pago",
+      "textAlignment": "CENTER",
+      "textPosition": "center",
+      "blockClass": "text-ofertas"
+    }
+  }
+}
