@@ -6,7 +6,7 @@
       "flex-layout.row#footer__container-three",
       "flex-layout.row#footer__container-fourth",
       "flex-layout.row#footer__container-mobile-disclousures",
-      "flex-layout.row#footer__container-sixth-mobile"
+      "flex-layout.row#footer__container-sixth"
     ]
   },
   "flex-layout.row#footer__container-mobile-disclousures": {
@@ -19,16 +19,5 @@
     "props": {
       "blockClass": "footer__container"
     }
-  },
-  "flex-layout.row#footer__container-sixth-mobile": {
-    "children": ["flex-layout.row#footer__section--social"],
-    "props": {
-      "blockClass": "footer__container"
-    }
-  },
-  "flex-layout.col#footer__section--social-text":{
-    "children":[
-      "rich-text#social"
-    ]
   }
 }

@@ -3,14 +3,13 @@
     font-size: 16px;
     color: #fff;
     margin: 24px auto 7px;
-    height: 100%;
+    height: 10%;
 }
 /*rich text del contenido del footer contactenos*/
 .container--section__contactenos-content{
     color: #929292;
     font-size: 12px;
     padding-left: 2px;
-    margin-top: 15%;
 }
 .container--section__contactenos-content :global(.vtex-rich-text-0-x-link){
     color: white;
@@ -24,9 +23,9 @@
     float: none;
     font-weight: 400;
     position: relative;
-    width: 100vw;
     color: #fff;
     margin-left: 5%;
+    border-top: 1px solid #ddd;
 }
 .container--footer__terms_text{
     font-size: 12px;

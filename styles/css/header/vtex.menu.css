@@ -9,7 +9,9 @@
 }
 .menuContainer--category-menu :global(.vtex-menu-2-x-styledLinkContainer){
     margin-left: 0%;
+    margin-right: 0%;
 }
+
 .styledLinkContent--content-main{
     color: #004691;
     font-size: 0.9rem;
@@ -25,6 +27,12 @@
 .styledLinkContent--more {
     color: white;
     font-size: 105%;
+    border-right: 1px solid #fff;
+    height: 8px;
+    top: 50%;
+    right: -1px;
+    z-index: 1;
+    padding: 0 0.5rem;
 }
 .styledLinkContent--more:hover{
     color: #004691 !important;
@@ -37,11 +45,17 @@
 .styledLinkContent--content-black {
     font-size: 0.8rem;
 }
-
+.menuItem--more{
+    align-items: center;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #004691 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    justify-content: center;
+    transition: background .25s;
+}
 .menuItem--more:hover {
-    background-color: white;
-    box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.2);
-    color: #004691 !important;
+    background-position: left bottom;
+    background-color: #fff;
 }
 
 .submenuWrapper--submenu-more {

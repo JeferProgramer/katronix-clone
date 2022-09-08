@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#home__section--seventeen": {
+    "children": [
+      "flex-layout.col#home__section--images--one--audio",
+      "flex-layout.col#home__section--images--two--audio",
+      "flex-layout.col#home__section--images--three--audio"
+    ],
+    "props": {
+      "blockClass": "home__section--six"
+    }
+  },
+  "flex-layout.col#home__section--images--one--audio": {
+    "children": ["image#image-audio-one"]
+  },
+  "image#image-audio-one": {
+    "props": {
+      "src": "assets/img/somos_audio.jpg"
+    }
+  },
+  "flex-layout.col#home__section--images--two--audio": {
+    "children": ["image#image-audio-two"]
+  },
+  "image#image-audio-two": {
+    "props": {
+      "src": "assets/img/panasonic_audio.jpg",
+      "blockClass": "imagen-categories"
+    }
+  },
+  "flex-layout.col#home__section--images--three--audio": {
+    "children": ["image#image-audio-three"]
+  },
+  "image#image-audio-three": {
+    "props": {
+      "src": "assets/img/bose_audio.jpg",
+      "blockClass": "imagen-categories"
+    }
+  }
+}

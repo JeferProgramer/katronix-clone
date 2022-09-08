@@ -1,7 +1,6 @@
 .trigger--question{
-        background-color: #151515;
-            margin-left: 5%;
-            color: white;
+    background-color: #151515;
+     color: white;
 }
 .trigger--question :global(.vtex-rich-text-0-x-paragraph) {
     font-weight: bold;

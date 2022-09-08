@@ -1,6 +1,9 @@
 .flexRowContent--footer__section-one{
     margin-top: 2%;
 }
+.flexRowContent--footer__section-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 15% !important;
+}
 .flexRowContent--footer__container{
     background-color: #151515;
     max-width: 100%;
@@ -58,8 +61,35 @@
 .flexRowContent--footer__part{
     width: 100%;
 }
+.flexCol--footer-section{
+    height: 20%;
+}
+.flexCol--footer-section-1{
+    height: 60%;
+    border-right: 1px solid #ddd;
+    width: 0% !important;
+}
+.flexCol--footer-section-3 {
+    height: 20%;
+}
+.flexCol--footer__disclosure_terms{
+    border-bottom: 1px solid white;
+    padding-bottom: 1.5%;
+    width: 90% !important;
+}
+.flexRow--footer__section--social{
+    border-top: 1px solid #ddd;
+    width: 90% !important;
+}
+.flexRow--footer__section-one{
+    margin-left: 20%;
+}
 @media (max-width: 700px) {
     .flexRowContent--footer__section--social {
         margin: 23px 35%;
+    }
+    .flexRowContent--footer__section-one {
+        margin-top: 2%;
+        margin-left: 0%;
     }
 }

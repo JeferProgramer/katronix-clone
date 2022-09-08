@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__section--fourteen": {
+    "children": ["rich-text#ofertas-fourteen"],
+    "props": {
+      "blockClass": "home__section--two"
+    }
+  },
+  "rich-text#ofertas-fourteen": {
+    "props": {
+      "text": "Smartwatch",
+      "textAlignment": "CENTER",
+      "textPosition": "center",
+      "blockClass": "text-ofertas"
+    }
+  }
+}
