@@ -1,0 +1,111 @@
+{
+  "flex-layout.row#home__section--nineteen": {
+    "children": [
+      "flex-layout.col#home__section--images--one--pay",
+      "flex-layout.col#home__section--images--two--pay",
+      "flex-layout.col#home__section--images--three--pay",
+      "flex-layout.col#home__section--images--four--pay"
+    ],
+    "props": {
+      "blockClass": "home__section--six"
+    }
+  },
+  "flex-layout.col#home__section--images--one--pay": {
+    "children": ["image#image-pay-one", "link#tarjetas-one"]
+  },
+  "image#image-pay-one": {
+    "props": {
+      "src": "assets/img/tarjeta-alkosto.png",
+      "blockClass": "imagen-pay"
+    }
+  },
+  "link#tarjetas-one": {
+    "children": ["rich-text#text-pay-one"],
+    "props": {
+      "href": "/about-us"
+    }
+  },
+  "rich-text#text-pay-one": {
+    "props": {
+      "text": "Tarjeta Alkosto Mastercard \n Conoce las ofertas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-buy"
+    }
+  },
+  "flex-layout.col#home__section--images--two--pay": {
+    "children": ["image#image-pay-two", "link#tarjetas-two"]
+  },
+  "image#image-pay-two": {
+    "props": {
+      "src": "assets/img/tarjeta-codensa.png",
+      "blockClass": "imagen-pay"
+    }
+  },
+  "link#tarjetas-two":{
+    "children":[
+      "rich-text#text-pay-two"
+    ],
+    "props":{
+      "href":"/about-us"
+    }
+  },
+  "rich-text#text-pay-two": {
+    "props": {
+      "text": "Tarjeta de Credito Facil Codensa \n Conoce las ofertas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-buy"
+    }
+  },
+  "flex-layout.col#home__section--images--three--pay": {
+    "children": ["image#image-pay-three", "link#tarjetas-three"]
+  },
+  "image#image-pay-three": {
+    "props": {
+      "src": "assets/img/tarjeta-davivienda.png",
+      "blockClass": "imagen-pay"
+    }
+  },
+  "link#tarjetas-three":{
+    "children":[
+      "rich-text#text-pay-three"
+    ],
+    "props":{
+      "href": "/about-us"
+    }
+  },
+  "rich-text#text-pay-three": {
+    "props": {
+      "text": "Conoce qui nuestro plan 0 es 3 \n en equipos Apple",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-buy"
+    }
+  },
+  "flex-layout.col#home__section--images--four--pay": {
+    "children": ["image#image-pay-four", "link#tarjetas-four"]
+  },
+  "image#image-pay-four": {
+    "props": {
+      "src": "assets/img/kredito.png",
+      "blockClass": "imagen-pay"
+    }
+  },
+  "link#tarjetas-four":{
+    "children":[
+      "rich-text#text-pay-four"
+    ],
+    "props":{
+      "href": "/about-us"
+    }
+  },
+  "rich-text#text-pay-four": {
+    "props": {
+      "text": "Solicita aqui tu \n Kredito en 20 minutos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-buy"
+    }
+  }
+}
