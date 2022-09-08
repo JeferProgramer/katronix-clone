@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#home__section--fifteen": {
+    "children": [
+      "flex-layout.col#home__section--images--one--smartwatch",
+      "flex-layout.col#home__section--images--two--smartwatch",
+      "flex-layout.col#home__section--images--three--smartwatch"
+    ],
+    "props": {
+      "blockClass": "home__section--six"
+    }
+  },
+  "flex-layout.col#home__section--images--one--smartwatch": {
+    "children": ["image#image-smartwatch-one"]
+  },
+  "image#image-smartwatch-one": {
+    "props": {
+      "src": "assets/img/reloj_huawei.jpg"
+    }
+  },
+  "flex-layout.col#home__section--images--two--smartwatch": {
+    "children": ["image#image-smartwatch-two"]
+  },
+  "image#image-smartwatch-two": {
+    "props": {
+      "src": "assets/img/reloj_fitbit.jpg",
+      "blockClass": "imagen-categories"
+    }
+  },
+  "flex-layout.col#home__section--images--three--smartwatch": {
+    "children": ["image#image-smartwatch-three"]
+  },
+  "image#image-smartwatch-three": {
+    "props": {
+      "src": "assets/img/reloj_samsung.jpg",
+      "blockClass": "imagen-categories"
+    }
+  }
+}
