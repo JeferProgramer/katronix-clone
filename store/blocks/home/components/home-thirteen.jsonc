@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#home__section--thirteen": {
+    "children": [
+      "flex-layout.col#home__section--images--one--videogame",
+      "flex-layout.col#home__section--images--two--videogame",
+      "flex-layout.col#home__section--images--three--videogame"
+    ],
+    "props": {
+      "blockClass": "home__section--six"
+    }
+  },
+  "flex-layout.col#home__section--images--one--videogame": {
+    "children": ["image#image-videogame-one"]
+  },
+  "image#image-videogame-one": {
+    "props": {
+      "src": "assets/img/control_play4.jpg"
+    }
+  },
+  "flex-layout.col#home__section--images--two--videogame": {
+    "children": ["image#image-videogame-two"]
+  },
+  "image#image-videogame-two": {
+    "props": {
+      "src": "assets/img/play5.jpg",
+      "blockClass": "imagen-categories"
+    }
+  },
+  "flex-layout.col#home__section--images--three--videogame": {
+    "children": ["image#image-videogame-three"]
+  },
+  "image#image-videogame-three": {
+    "props": {
+      "src": "assets/img/airpods.jpg",
+      "blockClass": "imagen-categories"
+    }
+  }
+}
