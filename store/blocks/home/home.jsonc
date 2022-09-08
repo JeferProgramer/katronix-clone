@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "whatsapp-button",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two",
       "flex-layout.row#home__section--three",
@@ -14,18 +15,22 @@
       "flex-layout.row#home__section--eleven",
       "flex-layout.row#home__section--ten",
       "flex-layout.row#home__section--ten",
-      // "link#home__link--ancla",
-      // "link#home__link--boton",
-      // "link#home__link--info",
-      // // "slider-layout#home__slider--children",
-      // // "list-context.image-list#home__slider--list",
-      // // "responsive-layout.phone#home__info--phone",
-      // // "responsive-layout.mobile#home__info--mobile",
-      // // "responsive-layout.tablet#home__info--tablet",
-      // // "responsive-layout.desktop#home__info--dekstop",
-      // // "modal-trigger#home__modal--event",
-      "flex-layout.row#home__orders--icon"
+      "flex-layout.row#home__section--twelve",
+      "flex-layout.row#home__section--thirteen",
+      "flex-layout.row#home__section--fourteen",
+      "flex-layout.row#home__section--fifteen",
+      "flex-layout.row#home__section--sixteen",
+      "flex-layout.row#home__section--seventeen",
+      "flex-layout.row#home__section--eighteen",
+      "flex-layout.row#home__section--nineteen"
     ]
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "7777777", 
+      "message": "VTEX Urz"
+    }
   },
   "flex-layout.row#home__section--one":{
     "children":[
