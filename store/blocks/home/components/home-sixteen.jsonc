@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__section--sixteen": {
+    "children": ["rich-text#ofertas-sixteen"],
+    "props": {
+      "blockClass": "home__section--two"
+    }
+  },
+  "rich-text#ofertas-sixteen": {
+    "props": {
+      "text": "Audio",
+      "textAlignment": "CENTER",
+      "textPosition": "center",
+      "blockClass": "text-ofertas"
+    }
+  }
+}
