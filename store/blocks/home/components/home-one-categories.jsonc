@@ -8,7 +8,8 @@
       "flex-layout.col#section__categories--one"
     ],
     "props": {
-      "rowGap": 5
+      "rowGap": 5,
+      "blockClass": "container_categories"
     }
   },
   "flex-layout.col#section__categories--one":{
@@ -54,10 +55,6 @@
       "blockClass": "group-categories"
     }
   },
-
-
-  /*Secondary Children*/
-
   "image#-phones": {
     "props": {
       "src": "assets/img/celulares.jpg",
