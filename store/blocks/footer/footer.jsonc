@@ -19,12 +19,6 @@
       "blockClass": "footer__container"
     }
   },
-  "flex-layout.row#footer__container-part": {
-    "children": ["flex-layout.row#footer__section--part"],
-    "props": {
-      "blockClass": "footer__container"
-    }
-  },
   "flex-layout.row#footer__container-two": {
     "children": ["rich-text#container-two"],
     "props": {
