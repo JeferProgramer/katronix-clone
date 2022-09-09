@@ -25,7 +25,8 @@
   },
   "image#home__slider--one":{
     "props":{
-      "src":"assets/img/descueston-electrodomesticos.jpg"
+      "src":"assets/img/descueston-electrodomesticos.jpg",
+      "blockClass": "image-slider"
     }
   },
   "image#home__slider--two":{
