@@ -53,7 +53,8 @@
     "vtex.store-icons": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-list": "0.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
   },
   "peerDependencies": {
     "vtex.questions-and-answers": "0.x",

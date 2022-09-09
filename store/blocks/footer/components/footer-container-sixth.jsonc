@@ -5,7 +5,7 @@
         "social-networks"
       ],
       "props": {
-        "blockClass": ["footer__section--social"]
+        "blockClass": "footer__section--social"
       }
     },   
     "rich-text#social":{
