@@ -6,8 +6,18 @@
   },
   "vtex.menu@2.x:menu#header__menu":{
     "children":[
-      "menu-item#department__one",
-      "menu-item#department__two"
+      "menu-item#category-1",
+      "menu-item#category-2",
+      "menu-item#category-3",
+      "menu-item#category-4",
+      "menu-item#category-5",
+      "menu-item#category-6",
+      "menu-item#category-7",
+      "menu-item#category-8",
+      "menu-item#category-9",
+      "menu-item#category-10",
+      "menu-item#category-11",
+      "menu-item#category-12"
     ],
     "props":{
       "orientation": "vertical"
