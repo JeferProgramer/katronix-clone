@@ -1,65 +1,11 @@
 {
   "store.search#department": {
-    "blocks": ["search-result-layout#department"],
-    "props":{
-      "context":{
-        "skusFilter": "FIRST_AVAILABLE",
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
-  },
-  "search-result-layout#department": {
-    "blocks": [
-      "search-result-layout.desktop#department",
-      "search-result-layout.mobile#department",
-      "search-not-found-layout"
-    ]
-  },
-  "search-result-layout.desktop#department": {
-    "children": [
-        "flex-layout.row#category__results"
-    ]
   }
-  // "flex-layout.row#department__breadcrumb":{
-  //   "children":[
-  //      "flex-layout.col#department__breadcrumb" 
-  //   ]
-  // },
-  // "flex-layout.col#department__breadcrumb":{
-  //   "children":[
-  //       "breadcrumb.search"
-  //   ]
-  // },
-  // "search-result-layout.mobile#department": {
-  //   "children": [
-  //       "flex-layout.row#department__breadcrumb",
-  //       "flex-layout.row#department__results"
-  //   ]
-  // },
-  // "flex-layout.row#department__results":{
-  //   "title": "Department Results",
-  //   "children":[
-  //       //para cambiar el tipo de vitrina 
-  //       "gallery-layout-switcher"
-  //       //"search-content#phone"
-  //   ]
-  // },
-  // "gallery-layout-switcher":{
-  //   "children":[
-  //       "gallery-layout-option#grid__two-columns",
-  //       "gallery-layout-option#grid__one-column"
-  //   ]
-  // },
-  // "gallery-layout-option#grid__two-columns":{
-  //   "props":{
-  //       "name": "grid-two-columns",
-  //       "blockClass": "grid__selector"
-  //   }
-  // },
-  // "gallery-layout-option#grid__one-column":{
-  //   "props":{
-  //       "name": "grid-one-column",
-  //       "blockClass": "grid__selector--one-column"
-  //   }
-  // }
 }
