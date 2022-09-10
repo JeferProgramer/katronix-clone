@@ -1,5 +1,5 @@
 {
-  "store.search": {
+  "store.search":{
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -8,93 +8,54 @@
       }
     }
   },
-  "store.search#category": {
+  "store.search#brand":{
     "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+    "props":{
+      "context":{
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavalibleItems": true,
+        "maxItemsPerPage": 10,
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
   },
-  "store.search#subcategory": {
+  "store.search#category":{
+    "blocks": ["search-result-layout"],
+    "props":{
+      "context":{
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory":{
     "blocks": ["search-result-layout"],
     "props": {
-        "context": {
-            "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
-        }
-     }
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
   },
-  "store.search#brand": {
-    "blocks": ["search-result-layout"],
+  "search-result-layout": {
     "props": {
-        "context": {
-            "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
-        }
-     }
-  },
-  "product-summary.shelf":{
-    "children":[
-      "add-to-list-btn",
-      "product-summary-image",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-list-price",
-      "product-selling-price",
-      "product-summary-sku-selector",
-      "add-to-cart-button",
-      "modal-trigger#global__quick-view"
+      "blockClass": "search-result-layout",
+      "fullWidth":false
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
     ]
   },
-  "product-summary-name":{
-    "props":{
-      "tag": "h3"
+  "search-not-found-layout": {
+    "children": ["flex-layout.row#search-bread", "flex-layout.row#notfound"]
+  },
+  "flex-layout.row#notfound": {
+    "children": ["not-found"],
+    "props": {
+      "fullWidth": true
     }
-  },
-  "product-summary-sku-selector":{
-    "props":{
-      "hideImpossibleCombinations": false
-    }
-  },
-  "modal-trigger#global__quick-view":{
-    "children":[
-      "rich-text#global__quick-view-trigger",
-      "modal-layout#global__quick-view--modal"
-    ]
-  },
-  "rich-text#global__quick-view-trigger":{
-    "props":{
-      "text": "Vista Rapida",
-      "blockClass": "quick-view__trigger"
-    }
-  },
-  "modal-layout#global__quick-view--modal":{
-    "children":[
-      "flex-layout.row#quick-view__modal"
-    ]
-  },
-  "flex-layout.row#quick-view__modal":{
-    "children":[
-      "flex-layout.col#quick-view__modal--image",
-      "flex-layout.col#quick-view__modal--info"
-    ]
-  },
-  "flex-layout.col#quick-view__modal--image":{
-    "children":[
-      "vtex.store-components:product-images"
-    ]
-  },
-  "flex-layout.col#quick-view__modal--info":{
-    "children":[
-      "add-to-list-btn",
-      "vtex.store-components:product-name",
-      "vtex.store-components:product-brand",
-      "vtex.store-components:product-description",
-      "vtex.store-components:share",
-      "product-quantity",
-      "add-to-cart-button"
-    ]
   }
 }
