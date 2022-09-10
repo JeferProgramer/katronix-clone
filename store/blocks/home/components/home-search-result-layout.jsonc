@@ -34,11 +34,11 @@
     },
     "search-content#home__results--search":{
         "blocks":[
-            "gallery",
+            "gallery#home",
             "not-found"
         ]
     },
-    "gallery":{
+    "gallery#home":{
         "blocks": ["product-summary.shelf"]
     }
 }
