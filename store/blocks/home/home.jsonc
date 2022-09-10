@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      // "whatsapp-button",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two",
       "flex-layout.row#home__section--three",
@@ -24,13 +25,13 @@
       "flex-layout.row#home__section--nineteen"
     ]
   },
-  "whatsapp-button":{
-    "props":{
-      "logo": "https://e7.pngegg.com/pngimages/317/687/png-clipart-whatsapp-blackberry-messenger-android-blackberry-10-instant-messaging-whatsapp-logo-call-logo-text-telephone-call.png",
-      "phone": "7777777", 
-      "message": "VTEX Urz"
-    }
-  },
+  // "whatsapp-button":{
+  //   "props":{
+  //     "logo": "https://e7.pngegg.com/pngimages/317/687/png-clipart-whatsapp-blackberry-messenger-android-blackberry-10-instant-messaging-whatsapp-logo-call-logo-text-telephone-call.png",
+  //     "phone": "7777777", 
+  //     "message": "VTEX Urz"
+  //   }
+  // },
   "flex-layout.row#home__section--one":{
     "children":[
       "flex-layout.col#slider",

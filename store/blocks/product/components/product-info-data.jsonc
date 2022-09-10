@@ -34,7 +34,7 @@
     "rich-text#product__promo-info":{
         "title": "Texto adicional de producto",
         "props":{
-            "text": ""
+            "text": "Hola"
         }
     }
 }

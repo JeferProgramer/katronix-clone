@@ -70,21 +70,3 @@
 .menuItem--content-blue:hover {
     text-decoration: underline;
 }
-@media (max-width: 600px) {
-    .menuContainer--category-menu {
-        justify-content: center;
-        background-color: #004691;
-        border-top: 3px solid orangered;
-        margin-left: 0 !important;
-    }
-    .styledLinkContent--more {
-        color: white;
-        font-size: 105%;
-        border-right: 1px solid #fff;
-        height: 8px;
-        top: 50%;
-        right: -1px;
-        z-index: 1;
-        padding: 0 0.5rem;
-    }
-}

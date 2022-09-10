@@ -1,5 +1,5 @@
 {
-  "store.custom#sobre-nosotros": {
+  "store.custom#about-us": {
     "blocks": [
       "flex-layout.row#about-us__section--one",
       "flex-layout.row#about-us__section--two",

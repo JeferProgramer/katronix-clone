@@ -7,3 +7,30 @@
 .flexRowContent--menu-icon-category .stretchChildrenWidth:first-child{
     flex: 0 1 20%;
 }
+
+.flexRow--container_categories {
+    width: 85% !important;
+}
+.flexCol--container-menu-categories{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+.flexCol--container-menu-group-categories{
+    padding-bottom: 0%;
+}
+
+.flexCol--container-menu-group-categories :global(.vtex-store-components-3-x-imageElement) {
+    background-color: rgba(230, 48, 39, .2);
+    border-radius: 50%;
+    padding: 5%;
+    display: block;
+    height: 64px;
+    margin: 0 auto 4px;
+    position: relative;
+    width: 64px;
+    top: 50%;
+}
+.flexCol--container-menu-group-categories :global(.vtex-flex-layout-0-x-flexColChild--group-categories) {
+    height: 20% !important;
+}

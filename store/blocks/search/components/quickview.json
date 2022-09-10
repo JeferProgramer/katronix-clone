@@ -1,0 +1,47 @@
+{
+  "modal-trigger#quickview": {
+    "children": [
+      "icon-expand",
+      "modal-layout#quickview"
+    ],
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+
+  "modal-layout#quickview": {
+    "children": [
+      "modal-header#quickview"
+    ],
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+  "modal-header#quickview": {
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+
+  "modal-content#quickview": {
+    "children": [
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-description",
+      "vtex.store-components:share",
+      "product-quantity",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "quickviewContent"
+    }
+  },
+  "flex-layout.col#quickviewPrice": {
+    "children": [
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments"
+    ]
+  }
+  
+}

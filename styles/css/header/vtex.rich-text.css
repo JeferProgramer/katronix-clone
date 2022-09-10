@@ -2,3 +2,15 @@
     background-color: white;
     padding-bottom: 60px;
 }
+.container--menu-text-categories {
+    margin-left: 15% !important;
+    font-size: 13px;
+}
+.container--menu-title{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #004691;
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 3px solid orangered;
+}

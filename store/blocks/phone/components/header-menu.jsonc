@@ -1,93 +1,118 @@
 {
-  "drawer#header__mobile--menu":{
-    "children":[
-      "vtex.menu@2.x:menu#header__menu"
-    ]
+  "drawer#header__mobile--menu": {
+    "children": ["flex-layout.row#section__categories-menu"]
   },
-  "vtex.menu@2.x:menu#header__menu":{
-    "children":[
-      "menu-item#category-1",
-      "menu-item#category-2",
-      "menu-item#category-3",
-      "menu-item#category-4",
-      "menu-item#category-5",
-      "menu-item#category-6",
-      "menu-item#category-7",
-      "menu-item#category-8",
-      "menu-item#category-9",
-      "menu-item#category-10",
-      "menu-item#category-11",
-      "menu-item#category-12"
+  "flex-layout.row#section__categories-menu": {
+    "children": [
+      "flex-layout.col#section__title-menu",
+      "flex-layout.col#section__category-one-menu",
+      "flex-layout.col#section__category-one-menu",
+      "flex-layout.col#section__category-one-menu",
+      "flex-layout.col#section__category-one-menu"
     ],
-    "props":{
-      "orientation": "vertical"
+    "props": {
+      "rowGap": 5,
+      "blockClass": "container-menu-categories"
     }
   },
-  "menu-item#department__one":{
-    "props":{
-      "id": "department-one",
-      "type": "custom",
-      "itemProps":{
-        "type": "external",
-        "href": "https://google.com",
-        "noFollow": false,
-        "tagTitle":"Google",
-        "text": "Google"
-      }
+  "flex-layout.col#section__title-menu": {
+    "children": ["rich-text#menu-title"]
+  },
+  "rich-text#menu-title": {
+    "props": {
+      "text": "Categorias",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menu-title"
+    }
+  },
+  "flex-layout.col#section__category-one-menu": {
+    "children": [
+      "flex-layout.col#menu-category-one",
+      "flex-layout.col#menu-category-two",
+      "flex-layout.col#menu-category-three"
+    ],
+    "props": {
+      "blockClass": "container-menu-categories"
+    }
+  },
+  "flex-layout.col#menu-category-one": {
+    "children": ["link#menu-category-one", "rich-text#menu-phones"],
+    "props": {
+      "blockClass": "container-menu-group-categories"
+    }
+  },
+  "link#menu-category-one": {
+    "props": {
+      "href": "/construccion"
     },
-    "blocks": ["submenu.accordion#department__one"]
+    "children": ["image#menu-phone"]
   },
-  "submenu.accordion#department__one":{
-    "children":[
-      "menu#department__one"
-    ]
-  },
-  "menu#department__one":{
-    "children":[
-      "menu-item#category__one",
-      "menu-item#category__two"
-    ],
-    "props":{
-      "orientation": "vertical"
+  "image#menu-phone": {
+    "props": {
+      "src": "assets/img/icon-phone.png",
+      "blockClass": "image-menu-categories"
     }
   },
-  "menu-item#category__one":{
-    "props":{
-      "id": "category-one",
-      "type":"custom",
-      "itemProps":{
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Google Drive",
-        "text": "Google Drive"
-      }
+  "rich-text#menu-phones": {
+    "props": {
+      "text": "Celulares",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menu-text-categories"
     }
   },
-   "menu-item#category__two":{
-    "props":{
-      "id": "category-two",
-      "type":"custom",
-      "itemProps":{
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Google Meet",
-        "text": "Google Meet"
-      }
+  "flex-layout.col#menu-category-two": {
+    "children": ["link#menu-category-two", "rich-text#menu-computers"],
+    "props": {
+      "blockClass": "container-menu-group-categories"
     }
   },
-  "menu-item#department__two":{
-    "props":{
-      "id": "department-two",
-      "type": "custom",
-      "itemProps":{
-        "type": "external",
-        "href": "https://developers.vtex.com/vtex-developer-docs/docs/vtex-menu",
-        "noFollow": false,
-        "tagTitle": "Menu Vtex",
-        "text":"Menu Vtex"
-      }
+  "link#menu-category-two": {
+    "props": {
+      "href": "/construccion"
+    },
+    "children": ["image#menu-computers"]
+  },
+  "image#menu-computers": {
+    "props": {
+      "src": "assets/img/portatiles.png",
+      "blockClass": "image-menu-categories",
+      "maxHeight": 60
+    }
+  },
+  "rich-text#menu-computers": {
+    "props": {
+      "text": "Computadores e Impresoras",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menu-text-categories"
+    }
+  },
+  "flex-layout.col#menu-category-three": {
+    "children": ["link#menu-category-three", "rich-text#menu-tv"],
+    "props": {
+      "blockClass": "container-menu-group-categories"
+    }
+  },
+  "link#menu-category-three": {
+    "children": ["image#menu-tv"],
+    "props": {
+      "href": "/construccion"
+    }
+  },
+  "image#menu-tv": {
+    "props": {
+      "src": "assets/img/icon-televisores.png",
+      "blockClass": "image-menu-categories"
+    }
+  },
+  "rich-text#menu-tv": {
+    "props": {
+      "text": "TV",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menu-text-categories"
     }
   }
 }

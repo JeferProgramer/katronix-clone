@@ -9,7 +9,7 @@
     },
     "flex-layout.col#disclousure":{
       "children":[
-        "flex-layout.col#disclousure-terms"
+        "flex-layout.row#disclousure-terms"
       ],
       "props":{
         "blockClass": "footer__disclosure_terms"

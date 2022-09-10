@@ -1,6 +1,6 @@
 {
-    "store.custom#sobre-nosotros":{
-        "path": "pages/sobre-nosotros"
+    "store.custom#about-us":{
+        "path": "/about-us"
     }  
 }
 
