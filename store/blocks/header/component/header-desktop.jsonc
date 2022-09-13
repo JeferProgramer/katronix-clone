@@ -3,6 +3,7 @@
     "title": "Header superior",
     "children": [
       "logo#header__top--logo",
+      "flex-layout.row#one-header",
       "header-spacer",
       "search-bar#header__search",
       "login",
@@ -33,7 +34,8 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true
+      "showIconProfile": true,
+      "blockClass": "login-clase-mia"
     }
   },
   "header-row#header__middle": {
@@ -49,7 +51,9 @@
   "search-bar#header__search": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué buscas hoy?",
+      "displayMode": "search-and-clear-buttons"
     }
   }
 }
