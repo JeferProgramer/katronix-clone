@@ -11,7 +11,8 @@
 
   "modal-layout#quickview": {
     "children": [
-      "modal-header#quickview"
+      "modal-header#quickview",
+      "flex-layout.row#quickview-main-row"
     ],
     "props": {
       "blockClass": "quickview"
@@ -22,7 +23,72 @@
       "blockClass": "quickview"
     }
   },
+  "flex-layout.col#quickviewPrice": {
+    "children": [
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments"
+    ]
+  },
 
+  "flex-layout.col#quickview-product-quantity": {
+    "children": [
+      "product-summary-quantity#quickview"
+    ]
+  },
+  "product-summary-quantity#quickview": {
+    "props": {
+      "showLabel": false,
+      "size": "regular"
+    }
+  },
+  "flex-layout.col#quickview-add-to-card-button": {
+    "children": [
+      "add-to-cart-button"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "flex-layout.row#quickview-actions-2": {
+    "children": [
+      "link.product#button-pdp"
+    ]
+  },
+  "link.product#button-pdp": {
+    "props": {
+      "buttonProps": {
+        "variant": "secondary"
+      },
+      "displayMode": "button",
+      "label": "View details",
+      "href": "/{slug}/p"
+    }
+  },
+  "flex-layout.row#quickview-main-row": {
+    "children": [
+      "flex-layout.col#quickview-images",
+      "flex-layout.col#quickview-product-details"
+    ],
+    "props": {
+      "blockClass": "quickviewMainRow"
+    }
+  },
+  "flex-layout.col#quickview-images": {
+    "children": [
+      "product-images#quickview"
+    ]
+  },
+  "flex-layout.col#quickview-product-details": {
+    "children": [
+      "modal-content#quickview"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "quickviewDetails"
+    }
+  },
   "modal-content#quickview": {
     "children": [
       "vtex.store-components:product-name",
@@ -30,18 +96,25 @@
       "vtex.store-components:product-description",
       "vtex.store-components:share",
       "product-quantity",
-      "add-to-cart-button"
+      "add-to-cart-button",
+      "product-summary-sku-selector#quickview"
     ],
     "props": {
       "blockClass": "quickviewContent"
     }
   },
-  "flex-layout.col#quickviewPrice": {
-    "children": [
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
-      "product-installments"
-    ]
+  "product-summary-sku-selector#quickview": {
+    "props": {
+      "thumbnailImage": "skuvariation",
+      "imageHeight": 28,
+      "blockClass": "quickview",
+      "visibility": "more-than-one"
+    }
+  },
+  "product-images#quickview" : {
+    "props": {
+      "blockClass": "quickview",
+      "showNavigationArrows": true
+    }
   }
-  
 }
