@@ -1,0 +1,116 @@
+{
+  "flex-layout.row#one-header": {
+    "title": "Parte superior del header",
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": ["vtex.menu@2.x:menu#generalities"]
+  },
+  "vtex.menu@2.x:menu#generalities": {
+    "title": "menu de las generalidades parte derehca superior",
+    "props": {
+      "blockClass": "generalities"
+    },
+    "children": [
+      "menu-item#phone",
+      "menu-item#client-header",
+      "menu-item#order",
+      "menu-item#stores",
+      "menu-item#catalogue",
+      "menu-item#pqr"
+    ]
+  },
+  "menu-item#phone": {
+    "title": "item televentas",
+    "props": {
+      "id": "menu-item-phone",
+      "type": "custom",
+      "blockClass": "menu-items",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "phone",
+        "text": "Televentas: (601) 3649734"
+      }
+    }
+  },
+  "menu-item#client-header": {
+    "title": "item atencion al cliente",
+    "props": {
+      "id": "menu-item-client",
+      "type": "custom",
+      "blockClass": "menu-items",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "client",
+        "text": "Atención al Cliente: 018000 111 448"
+      }
+    }
+  },
+  "menu-item#order": {
+    "title": "item rastrea tu pedido",
+    "props": {
+      "id": "menu-item-order",
+      "type": "custom",
+      "blockClass": "menu-items",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "order",
+        "text": "Rastrea Tu Pedido"
+      }
+    }
+  },
+  "menu-item#stores": {
+    "title": "item tiendas",
+    "props": {
+      "id": "menu-item-stores",
+      "type": "custom",
+      "blockClass": "menu-items",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "stores",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#catalogue": {
+    "title": "item catologo",
+    "props": {
+      "id": "menu-item-catalogue",
+      "type": "custom",
+      "blockClass": "menu-items",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "catalogue",
+        "text": "Catálogo"
+      }
+    }
+  },
+  "menu-item#pqr": {
+    "title": "item pqr",
+    "props": {
+      "id": "menu-item-pqr",
+      "type": "custom",
+      "blockClass": "menu-items",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "pqr",
+        "text": "PQR"
+      }
+    }
+  }
+}
