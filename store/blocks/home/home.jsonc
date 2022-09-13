@@ -1,7 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      // "whatsapp-button",
+      "whatsapp-button",
+      "list-context.bullet-group",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two",
       "flex-layout.row#home__section--three",
@@ -25,13 +26,34 @@
       "flex-layout.row#home__section--nineteen"
     ]
   },
-  // "whatsapp-button":{
-  //   "props":{
-  //     "logo": "https://e7.pngegg.com/pngimages/317/687/png-clipart-whatsapp-blackberry-messenger-android-blackberry-10-instant-messaging-whatsapp-logo-call-logo-text-telephone-call.png",
-  //     "phone": "7777777", 
-  //     "message": "VTEX Urz"
-  //   }
-  // },
+  "whatsapp-button":{
+    "props":{
+      "logo": "assets/img/boton-whatsapp.png",
+      "phone": "7777777", 
+      "message": "VTEX Urz"
+    }
+  },
+  "list-context.bullet-group":{
+    "title": "Mi contexto de lista de bullet",
+    "props":{
+      "bullets":[
+        {
+          "image": "assets/img/asus-computador.jpg",
+          "titleBullet": "Computadores",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Prendas",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
   "flex-layout.row#home__section--one":{
     "children":[
       "flex-layout.col#slider",
