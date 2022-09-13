@@ -1,4 +1,4 @@
-/* .trigger--question{
+.trigger--question{
     background-color: #151515;
     color: white;
     margin-left: 5%;
@@ -10,7 +10,7 @@
 .trigger--question:focus,
 .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
     color: white !important;
-} */
+}
 .trigger--question {
     display: flex;
     align-items: center;

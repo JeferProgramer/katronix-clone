@@ -1,3 +1,22 @@
+.flexRowContent--menu-link {
+    height: 1.75rem;
+}
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+    color: #004691 ;
+    font-size: 0.7rem ;
+    padding: 0 1.8125rem;
+}
+.flexRowContent--menu-link {
+    width: 95%;
+    margin: 0 auto;
+    color: #004691;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 0.3%;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
 .flexRowContent--menu-icon-category{
     align-items: flex-end;
     border-bottom: 2px solid orangered;

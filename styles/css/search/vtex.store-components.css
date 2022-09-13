@@ -1,0 +1,17 @@
+.searchResultContainer--search-result-layout {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.productBrandName--summaryListDesktop {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+.productBrandName--summaryListMobile {
+  text-decoration: none;
+  color: #0067C7;
+  font-size: .875rem;
+}
