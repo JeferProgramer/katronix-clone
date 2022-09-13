@@ -8,6 +8,16 @@
     max-width: 221px;
     width: 221px;
 }
+.searchBarContainer :global(.vtex-input-prefix__group){
+    background: #fff;
+    border: 2px solid #004691 !important;
+    border-radius: 4px !important;
+    color: #004691;
+}
+.searchBarIcon{
+    background-color: #e63027;
+    color: #fff;
+}
 @media (max-width:700px) {
     .logoImage--logo__header{
         height: 48px;
