@@ -1,6 +1,6 @@
 {
-   "flex-layout.row#section__categories": {
-      "children":[
+  "flex-layout.row#section__categories": {
+    "children": [
       "flex-layout.col#section__categories--one",
       "flex-layout.col#section__categories--one",
       "flex-layout.col#section__categories--one",
@@ -12,34 +12,50 @@
       "blockClass": "container_categories"
     }
   },
-  "flex-layout.col#section__categories--one":{
-    "children":[
+  "flex-layout.col#section__categories--one": {
+    "children": [
       "flex-layout.col#categories-one",
       "flex-layout.col#categories-two",
       "flex-layout.col#categories-three"
     ],
-    "props":{
+    "props": {
       "blockClass": "categories-group"
     }
   },
   "flex-layout.col#categories-one": {
-    "children": ["image#-phones", "rich-text#-phones"],
-    "props":{
+    "children": ["link#menu-category-one-dekstop", "rich-text#-phones"],
+    "props": {
       "blockClass": "group-categories"
     }
   },
-
+  "link#menu-category-one-dekstop": {
+    "children": ["image#-phones"],
+    "props": {
+      "href": "/construccion"
+    }
+  },
   "flex-layout.col#categories-two": {
-    "children": ["image#computers", "rich-text#computers"],
+    "children": ["link#menu-category-two-dekstop", "rich-text#computers"],
     "props": {
       "blockClass": "group-categories"
     }
   },
-
+  "link#menu-category-two-dekstop": {
+    "children": ["image#computers"],
+    "props": {
+      "href": "/construccion"
+    }
+  },
   "flex-layout.col#categories-three": {
-    "children": ["image#tv", "rich-text#tv"],
+    "children": ["link#menu-category-three-dekstop", "rich-text#tv"],
     "props": {
       "blockClass": "group-categories"
+    }
+  },
+  "link#menu-category-three-dekstop": {
+    "children": ["image#tv"],
+    "props": {
+      "href": "/construccion"
     }
   },
 
@@ -79,7 +95,7 @@
     "props": {
       "text": "Computadores",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   },
@@ -92,7 +108,7 @@
     "props": {
       "text": "Televisores",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   },
@@ -105,7 +121,7 @@
     "props": {
       "text": "Electrodomesticos",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   },
@@ -118,7 +134,7 @@
     "props": {
       "text": "Audio",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   }
