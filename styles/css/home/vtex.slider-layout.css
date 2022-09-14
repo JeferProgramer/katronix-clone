@@ -5,7 +5,31 @@
 .caretIcon--home__slider{
     color: rgb(242, 47, 16);
     filter: drop-shadow(2px 2px 2px rgb(128,128,128,0.39));
+    
 }
 .paginationDotsContainer--home__slider{
     transform: translateY(30px);
+}
+.sliderTrackContainer--slider__list-context{
+    margin-top: 2%;
+    background-color: #EBEBEB;
+}
+.sliderTrackContainer--slider__list-context :global(.vtex-slider-layout-0-x-bullet__item--image){
+    border-radius: 50%;
+    background-color: white;
+    transition: transform .4s;
+}
+.sliderTrackContainer--slider__list-context :global(.vtex-slider-layout-0-x-bullet__item--image):hover {
+    transform: scale(1.1);
+}
+.sliderTrackContainer--slider__list-context :global(.vtex-slider-layout-0-x-bullet__item--link){
+    text-decoration: none;
+    text-align: center;
+    color: var(--text-katronix);
+}
+.caretIcon--slider__list-context{
+    border-radius: 50%;
+    background: white ;
+    box-shadow: 10px 5px 4px;
+    border-radius: 50%;
 }
