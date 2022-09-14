@@ -43,7 +43,27 @@
   min-height: 56px;
   outline: 0;
   padding: 8px 16px;
-  position: relative;
-  text-decoration: none;
   transition: .3s;
+}
+.flexRow--button-product-list :global(.vtex-button):hover{
+  background-color: #ab1114;
+  color: white;
+  border: 1px solid #ab1114;
+  outline: 0;
+}
+.flexRow--button-grid :global(.vtex-button){
+  border: 1px solid white;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #e63027;
+  justify-content: center;
+  outline: 0;
+  padding: 2px 4px;
+  transition: .3s;
+}
+.flexRow--button-grid :global(.vtex-button):hover{
+  background-color: #ab1114;
+  color: white;
+  border: 1px solid #ab1114;
+  outline: 0;
 }
