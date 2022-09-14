@@ -140,6 +140,9 @@
   },
 
   "flex-layout.row#add-to-cart": {
+    "props": {
+      "blockClass": "button-grid"
+    },
     "children": [
       "add-to-cart-button"
     ]

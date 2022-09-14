@@ -18,7 +18,7 @@
 
 .container--listLayout {
   max-width: none !important;
-  border: 2px solid black;
+  border: 2px solid gray;
   padding: 3%;
 }
 

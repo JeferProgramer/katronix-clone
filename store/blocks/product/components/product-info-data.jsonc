@@ -28,7 +28,9 @@
             "product-quantity",
             "rich-text#product__promo-info",
             "product-description",
-            "shipping-simulator"
+            "shipping-simulator",
+            "add-to-cart-button",
+            "add-to-cart-info"
         ]
     },
     "rich-text#product__promo-info":{

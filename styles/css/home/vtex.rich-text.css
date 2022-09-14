@@ -30,3 +30,8 @@
         margin-left: 25%;
     }
 }
+@media (max-width: 260px) {
+    .container--text-categories{
+        font-size: 10px;
+    }
+}
