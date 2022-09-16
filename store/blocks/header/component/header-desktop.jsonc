@@ -7,6 +7,7 @@
       "header-spacer",
       "search-bar#header__search",
       "login",
+      "department-search",
       "modal-trigger#header__top--login",
       "minicart.v2"
     ],
