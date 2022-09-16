@@ -98,7 +98,8 @@
       "vtex.store-components:share",
       "product-quantity",
       "add-to-cart-button",
-      "product-summary-sku-selector#quickview"
+      "product-summary-sku-selector#quickview",
+      "modal-trigger#add-to-cart-info"
     ],
     "props": {
       "blockClass": "quickviewContent"
@@ -117,5 +118,25 @@
       "blockClass": "quickview",
       "showNavigationArrows": true
     }
-  }
+  },
+  "modal-trigger#add-to-cart-info":{
+        "children":[
+            "modal-layout#add-to-cart-info"
+        ],
+        "props": {
+            "customPixelEventName": "addToCart"
+        }
+    },
+    "modal-layout#add-to-cart-info":{
+        "children":[
+            "modal-header#add-to-cart-info",
+            "add-to-cart-info"
+        ]
+    },
+    "modal-header#add-to-cart-info":{
+        "props": {
+            "showCloseButton": true,
+            "iconCloseSize": 24
+        }
+    }
 }
