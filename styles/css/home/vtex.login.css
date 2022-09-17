@@ -1,0 +1,32 @@
+/* :global(.vtex-login-2-x-container):global(.vtex-button){
+visibility: hidden;
+}
+
+:global(.vtex-login-2-x-container):global(.vtex-button)::before {
+    display: block;
+        visibility: visible;
+        font-family: "fl";
+        content: "\e020";
+        background-color: aqua;
+} */
+/* .container :global(.vtex-button){
+    visibility: hidden;
+} */
+/* .container :global(.vtex-button)::before {
+    display: block;
+        visibility: visible;
+        font-family: "fl-glypho";
+        content: "\e01f";
+        background-color: aqua;
+} */
+/* :global(.vtex-login-2-x-profileIcon) {
+    visibility: hidden;
+}
+
+:global(.vtex-login-2-x-profileIcon)::before {
+    display: block;
+    visibility: visible;
+    font-family: "fl";
+    content: "\e020";
+    background-color: aqua;
+} */
