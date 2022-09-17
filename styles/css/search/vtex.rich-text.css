@@ -1,9 +1,11 @@
 .container--layout-option {
   margin-left: 0.3em;
+  font-family: "Arial";
 }
 
 .paragraph--layout-option {
   margin: 0;
+  font-family: "Arial";
 }
 
 .paragraph--summarySpecificationBullet {
@@ -11,4 +13,5 @@
   line-height: initial;
   font-size: 1.25rem;
   line-height: 1.15rem;
+  font-family: "Arial";
 }
