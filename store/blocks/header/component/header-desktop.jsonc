@@ -7,9 +7,9 @@
       "header-spacer",
       "search-bar#header__search",
       "login",
-      "department-search",
       "modal-trigger#header__top--login",
-      "minicart.v2"
+      "minicart.v2",
+          "modal-trigger#header__department"
     ],
     "props": {
       "blockClass": "header__top"
@@ -37,6 +37,29 @@
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
       "blockClass": "login-clase-mia"
+    }
+  },
+  "modal-trigger#header__department":{
+    "children":[
+      "rich-text#header__department",
+      "modal-layout#header__department"
+    ]
+  },
+  "rich-text#header__department": {
+    "props": {
+      "text": "Departamentos",
+      "blockClass": "header__department"
+    }
+  },
+  "modal-layout#header__department":{
+    "children":[
+      "modal-header",
+      "department-search"
+    ]
+  },
+  "modal-header":{
+    "props": {
+      "iconCloseSize": 23
     }
   },
   "header-row#header__middle": {
