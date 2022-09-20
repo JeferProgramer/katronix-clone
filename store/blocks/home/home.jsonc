@@ -1,7 +1,8 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "whatsapp-button",
+      "quick-order",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two",
       "flex-layout.row#home__section--three",
@@ -26,23 +27,21 @@
       "flex-layout.row#home__section--nineteen"
     ]
   },
-  "whatsapp-button":{
-    "props":{
+  "whatsapp-button": {
+    "props": {
       "logo": "assets/img/boton-whatsapp.png",
-      "phone": "7777777", 
+      "phone": "7777777",
       "message": "VTEX Urz"
     }
   },
   "flex-layout.row#bullets": {
-    "children": [
-      "list-context.bullet-group"
-    ]
+    "children": ["list-context.bullet-group"]
   },
-  "list-context.bullet-group":{
+  "list-context.bullet-group": {
     "title": "Mi contexto de lista de bullet",
     "children": ["slider-layout#bullet-group"],
-    "props":{
-      "bullets":[
+    "props": {
+      "bullets": [
         {
           "image": "assets/img/videojuegos.jpg",
           "titleBullet": "Videojuegos",
@@ -102,7 +101,7 @@
       ]
     }
   },
-  "slider-layout#bullet-group":{
+  "slider-layout#bullet-group": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -114,13 +113,13 @@
       "blockClass": "slider__list-context"
     }
   },
-  "flex-layout.row#home__section--one":{
-    "children":[
+  "flex-layout.row#home__section--one": {
+    "children": [
       "flex-layout.col#slider",
       "flex-layout.row#section__categories"
     ]
   },
-  "flex-layout.col#slider":{
-    "children":["slider-layout#home__slider--children"]
+  "flex-layout.col#slider": {
+    "children": ["slider-layout#home__slider--children"]
   }
 }

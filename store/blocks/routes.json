@@ -1,7 +1,13 @@
 {
     "store.custom#about-us":{
         "path": "/about-us"
-    }  
+    },  
+    "store.custom#read-pdf":{
+        "path": "/read-pdf"
+    },
+    "store.custom#grid":{
+        "path": "/grid"
+    }
 }
 
 
