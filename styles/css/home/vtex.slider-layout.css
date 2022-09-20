@@ -26,6 +26,7 @@
     text-decoration: none;
     text-align: center;
     color: var(--text-katronix);
+    font-family: "Arial";
 }
 .caretIcon--slider__list-context{
     border-radius: 50%;
