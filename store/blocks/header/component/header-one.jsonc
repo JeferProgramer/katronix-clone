@@ -91,7 +91,7 @@
       "blockClass": "menu-items",
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/read-pdf",
         "noFollow": false,
         "tagTitle": "pdf",
         "text": "PDF"
