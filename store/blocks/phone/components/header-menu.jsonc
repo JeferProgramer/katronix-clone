@@ -44,7 +44,7 @@
   },
   "link#menu-category-one": {
     "props": {
-      "href": "/construccion"
+      "href": "/custom"
     },
     "children": ["image#menu-phone"]
   },
@@ -70,7 +70,7 @@
   },
   "link#menu-category-two": {
     "props": {
-      "href": "/construccion"
+      "href": "/read-pdf"
     },
     "children": ["image#menu-computers"]
   },

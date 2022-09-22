@@ -8,6 +8,9 @@
     },
     "flex-layout.col#product__info--image":{
         "title": "Imagenes de Producto",
+        "props": {
+            "blockClass": "container-images"
+        },
         "children":[
             "product-images#product__info--image"
         ]
@@ -19,6 +22,9 @@
     },
     "flex-layout.col#product__info--data":{
         "title": "Data de Producto",
+        "props": {
+            "blockClass": "detalle-producto"
+        },
         "children":[
             "share",
             "vtex.store-components:product-name",
@@ -34,9 +40,6 @@
         ]
     },
     "rich-text#product__promo-info":{
-        "title": "Texto adicional de producto",
-        "props":{
-            "text": "Hola"
-        }
+        
     }
 }
