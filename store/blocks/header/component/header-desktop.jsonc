@@ -8,8 +8,7 @@
       "search-bar#header__search",
       "login",
       "modal-trigger#header__top--login",
-      "minicart.v2",
-          "modal-trigger#header__department"
+      "minicart.v2"
     ],
     "props": {
       "blockClass": "header__top"
