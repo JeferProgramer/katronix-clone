@@ -19,7 +19,7 @@
       "menu-item#client-header",
       "menu-item#order",
       "menu-item#stores",
-      "menu-item#catalogue",
+      "menu-item#pdf",
       "menu-item#custom"
     ]
   },
@@ -83,18 +83,18 @@
       }
     }
   },
-  "menu-item#catalogue": {
-    "title": "item catologo",
+  "menu-item#pdf": {
+    "title": "item pdf",
     "props": {
-      "id": "menu-item-catalogue",
+      "id": "menu-item-pdf",
       "type": "custom",
       "blockClass": "menu-items",
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
         "noFollow": false,
-        "tagTitle": "catalogue",
-        "text": "Catálogo"
+        "tagTitle": "pdf",
+        "text": "PDF"
       }
     }
   },
