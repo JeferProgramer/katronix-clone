@@ -1,10 +1,12 @@
 .container--home__texto{
     background-color: white;
     padding-bottom: 60px;
+    font-family: "Arial";
 }
 .container--menu-text-categories {
     margin-left: 15% !important;
     font-size: 13px;
+    font-family: "Arial";
 }
 .container--menu-title{
     text-align: center;
@@ -13,4 +15,19 @@
     font-weight: 600;
     width: 100%;
     border-bottom: 3px solid orangered;
+    font-family: "Arial";
+}
+.container--header__department{
+    text-align: center;
+    font-size: 1rem;
+    color: orangered;
+    font-weight: 600;
+    width: 100%;
+    font-family: "Arial";
+    margin: 10%;
+    cursor: pointer;
+    text-align: center;
+}
+.container--header__department:hover{
+    color: #004691;
 }
