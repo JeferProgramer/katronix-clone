@@ -94,7 +94,6 @@
       "vtex.store-components:product-name",
       "vtex.store-components:product-brand",
       "vtex.store-components:product-description",
-      "add-to-cart-info",
       "vtex.store-components:share",
       "product-quantity",
       "add-to-cart-button",
