@@ -20,7 +20,7 @@
       "menu-item#order",
       "menu-item#stores",
       "menu-item#catalogue",
-      "menu-item#pqr"
+      "menu-item#custom"
     ]
   },
   "menu-item#phone": {
@@ -98,18 +98,18 @@
       }
     }
   },
-  "menu-item#pqr": {
-    "title": "item pqr",
+  "menu-item#custom": {
+    "title": "item cutom",
     "props": {
-      "id": "menu-item-pqr",
+      "id": "menu-item-custom",
       "type": "custom",
       "blockClass": "menu-items",
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/grid",
         "noFollow": false,
-        "tagTitle": "pqr",
-        "text": "PQR"
+        "tagTitle": "custom",
+        "text": "Custom"
       }
     }
   }

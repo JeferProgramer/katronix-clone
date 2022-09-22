@@ -2,14 +2,17 @@
     background-color: #151515;
     color: white;
     margin-left: 5%;
+    font-family: 'Arial';
 }
 .trigger--question :global(.vtex-rich-text-0-x-paragraph) {
     font-weight: bold;
+    font-family: 'Arial';
 }
 
 .trigger--question:focus,
 .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
     color: white !important;
+    font-family: 'Arial';
 }
 .trigger--question {
     display: flex;
@@ -20,11 +23,13 @@
 
 .trigger--question :global(.vtex-rich-text-0-x-paragraph) {
     font-weight: bold;
+    font-family: 'Arial';
 }
 
 .trigger--question:focus,
 .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
     color: #0F3E99;
+    font-family: 'Arial';
 }
 
 .trigger :global(.vtex-store-icons-0-x-caretIcon) {

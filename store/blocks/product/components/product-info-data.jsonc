@@ -29,7 +29,6 @@
             "rich-text#product__promo-info",
             "product-description",
             "shipping-simulator",
-            "add-to-cart-info",
             "add-to-cart-button",
             "modal-trigger#add-to-cart-info"
         ]
