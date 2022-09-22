@@ -1,9 +1,14 @@
+.body{
+    font-family: 'Arial';
+}
 .flexRowContent--menu-link {
     height: 1.75rem;
+    font-family: 'Arial';
 }
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
     color: #004691 ;
     font-size: 0.7rem ;
+    font-family: 'Arial';
     padding: 0 1.8125rem;
 }
 .flexRowContent--menu-link {
@@ -16,12 +21,14 @@
     position: absolute;
     top: 0%;
     left: 5%;
+    font-family: 'Arial';
 }
 .flexRowContent--menu-icon-category{
     align-items: flex-end;
     border-bottom: 2px solid orangered;
     width: 90%;
     padding-bottom: 5%;
+    font-family: 'Arial';
 }
 .flexRowContent--menu-icon-category .stretchChildrenWidth:first-child{
     flex: 0 1 20%;
