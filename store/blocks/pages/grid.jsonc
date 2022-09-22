@@ -1,0 +1,23 @@
+{
+  "store.custom#grid": {
+    "blocks": [
+        "quick-order",
+        "custom-grid",
+        "department-search"
+    ]
+  },
+  "flex-layout.col#grid": {
+    "children": [
+        "custom-grid"
+    ]
+  },
+  "custom-grid": {
+    "children": [
+      "image#image-smartwatch-one",
+      "image#image-smartwatch-one",
+      "image#image-smartwatch-one",
+      "image#image-smartwatch-one",
+      "image#image-smartwatch-one"
+    ]
+  }
+}
