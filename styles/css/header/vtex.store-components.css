@@ -18,11 +18,20 @@
     background-color: #e63027;
     color: #fff;
 }
-@media (max-width:700px) {
+@media (max-width:1030px) and (min-width:900px) {
+    .searchBarContainer :global(.vtex-input-prefix__group) {
+        width: 57rem;
+        margin: auto;
+    }
     .logoImage--logo__header{
-        height: 48px;
+        margin-top: 25%;
+    }
+}
+@media (max-width:800px) {
+    .logoImage--logo__header{
+        height: 58px;
         max-height: 48px;
         max-width: 110px;
-        width: 110px;
+        width: 120px;
     }
 }
