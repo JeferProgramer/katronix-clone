@@ -11,7 +11,6 @@
       "flex-layout.col#section__category-one-menu"
     ],
     "props": {
-      "rowGap": 5,
       "blockClass": "container-menu-categories"
     }
   },
@@ -44,7 +43,7 @@
   },
   "link#menu-category-one": {
     "props": {
-      "href": "/custom"
+      "href": "/grid"
     },
     "children": ["image#menu-phone"]
   },
