@@ -117,8 +117,12 @@
       "flex-layout.col#slider",
       "flex-layout.row#section__categories"
     ]
+    
   },
   "flex-layout.col#slider": {
-    "children": ["slider-layout#home__slider--children"]
+    "children": ["slider-layout#home__slider--children"],
+    "props": {
+      "blockClass": "container__slider"
+    }
   }
 }
