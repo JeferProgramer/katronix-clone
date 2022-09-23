@@ -60,3 +60,9 @@
 .flexCol--container-menu-group-categories :global(.vtex-flex-layout-0-x-flexColChild--group-categories) {
     height: 20% !important;
 }
+@media (max-width:1000px) and (min-width:800px){
+    .flexRowContent--menu-link {
+        justify-content: space-between !important;
+        left: 3% !important;
+    }
+}

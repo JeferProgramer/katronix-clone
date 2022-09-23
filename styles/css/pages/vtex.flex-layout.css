@@ -16,3 +16,12 @@
 .flexCol--container-image-red{
     background-color: #DD171B;
 }
+@media (max-width: 600px) {
+    .flexRow--container-about-us-one .stretchChildrenWidth:first-child {
+        width: 100% !important;
+        flex-wrap: wrap;
+        height: 5rem;
+        border-bottom:  1px solid black;
+        margin-bottom: 5%;
+    }
+}

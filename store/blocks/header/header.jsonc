@@ -16,10 +16,16 @@
   "header-layout.desktop":{
     "title":"Header Desktop",
     "children":[
-      "header-row#header__top-desktop",
-      "flex-layout.row#mega-menu"
+      "responsive-layout.desktop",
+      "responsive-layout.tablet"
     ]
-    
+  },
+  "responsive-layout.desktop":{
+    "children":["header-row#header__top-desktop", "flex-layout.row#mega-menu"]
+  },
+  "responsive-layout.tablet":{
+    "children":["header-row#header__top-desktop",
+      "flex-layout.row#mega-menu"]
   },
    "header-layout.mobile":{
     "title": "Header Mobile",

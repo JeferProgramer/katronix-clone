@@ -1,0 +1,12 @@
+.bullet__item--title{
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 11px;
+}
+@media (max-width:1030px) and (min-width:710px){
+    .bullet__item{
+        width: 100px;
+        min-width: 100px;
+        margin-left: 5%;
+    }
+}

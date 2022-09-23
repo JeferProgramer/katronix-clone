@@ -66,7 +66,18 @@
     height: 100%;
     margin-left: 10%;
 }
+.flexRow--container-one-home{
+    margin-top: 2%;
+}
 
+@media (max-width:1030px) and (min-width:710px){
+    .flexRowContent--container-one-home {
+        flex-direction: column;
+    }
+    .flexRowContent--container-one-home :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+}
 @media (max-width: 700px) {
     .flexRow--container_categories{
         width: 85% !important;
@@ -85,6 +96,7 @@
         height: 30% !important;
     }
 }
+
 
 @media (max-width: 260px) {
     .flexCol--group-categories {
