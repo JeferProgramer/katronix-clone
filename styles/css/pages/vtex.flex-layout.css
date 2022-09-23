@@ -21,5 +21,6 @@
         width: 100% !important;
         flex-wrap: wrap;
         max-height: 20% !important;
+        border-bottom:  1px solid black;
     }
 }
