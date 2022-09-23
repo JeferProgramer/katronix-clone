@@ -20,7 +20,8 @@
     .flexRow--container-about-us-one .stretchChildrenWidth:first-child {
         width: 100% !important;
         flex-wrap: wrap;
-        max-height: 20% !important;
+        height: 5rem;
         border-bottom:  1px solid black;
+        margin-bottom: 5%;
     }
 }
