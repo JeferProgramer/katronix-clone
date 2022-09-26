@@ -31,8 +31,8 @@
   "flex-layout.col#section__category-one-menu": {
     "children": [
       "flex-layout.row#menu-category-one",
-      "flex-layout.row#menu-category-one",
-      "flex-layout.row#menu-category-one"
+      "flex-layout.row#menu-category-two",
+      "flex-layout.row#menu-category-three"
     ],
     "props": {
       "blockClass": "container-menu-categories"
@@ -68,10 +68,15 @@
     }
   },
   "flex-layout.row#menu-category-two": {
-    "children": ["link#menu-category-two", "rich-text#menu-computers"],
+    "children": ["flex-layout.col#menu-category-two"],
     "props": {
       "blockClass": "container-menu-group-categories"
     }
+  },
+  "flex-layout.col": {
+    "children": [
+      
+    ]
   },
   "link#menu-category-two": {
     "props": {
