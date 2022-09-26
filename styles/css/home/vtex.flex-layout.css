@@ -38,6 +38,7 @@
 }
 .flexRow--container-menu-categories{
     width: 100%;
+    padding: 0% 5%;
 }
 @media screen and (max-width: 1024px){
     .flexRow--home__section--four {
