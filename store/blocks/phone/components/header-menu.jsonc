@@ -73,7 +73,7 @@
       "blockClass": "container-menu-group-categories"
     }
   },
-  "flex-layout.col": {
+  "flex-layout.col#menu-category-two": {
     "children": [
      "link#menu-category-two", "rich-text#menu-computers"
     ]
