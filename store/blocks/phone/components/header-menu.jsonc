@@ -75,7 +75,7 @@
   },
   "flex-layout.col": {
     "children": [
-      
+     "link#menu-category-two", "rich-text#menu-computers"
     ]
   },
   "link#menu-category-two": {
