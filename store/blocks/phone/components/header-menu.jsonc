@@ -17,7 +17,7 @@
   "flex-layout.col#section__title-menu": {
     "children": ["rich-text#menu-title"],
     "props": {
-
+      "blockClass": "container-text"
     }
   },
   "rich-text#menu-title": {
