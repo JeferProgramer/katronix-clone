@@ -44,7 +44,6 @@
 .flexRow--home__section__four-group{
     display: inline-block;
     vertical-align: middle;
- 
     font-size: 14px;
     text-align: center;
     width: 24%;
@@ -71,6 +70,9 @@
 }
 
 @media (max-width:1030px) and (min-width:710px){
+    .flexRow--container_categories {
+        
+    }
     .flexRowContent--container-one-home {
         flex-direction: column;
     }
@@ -78,7 +80,7 @@
         width: 100% !important;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 700px) and (min-width: 280px) {
     .flexRow--container_categories{
         width: 85% !important;
     }
