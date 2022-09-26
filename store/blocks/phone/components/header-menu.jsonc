@@ -10,12 +10,13 @@
       "flex-layout.col#section__category-one-menu",
       "flex-layout.col#section__category-one-menu"
     ],
-    "props": {
-      "blockClass": "container-menu-categories"
-    }
+   
   },
   "flex-layout.col#section__title-menu": {
-    "children": ["rich-text#menu-title"]
+    "children": ["rich-text#menu-title"],
+    "props": {
+
+    }
   },
   "rich-text#menu-title": {
     "props": {
@@ -27,15 +28,18 @@
   },
   "flex-layout.col#section__category-one-menu": {
     "children": [
-      "flex-layout.col#menu-category-one",
-      "flex-layout.col#menu-category-two",
-      "flex-layout.col#menu-category-three"
+      "flex-layout.row#menu-category-one",
+      "flex-layout.row#menu-category-one",
+      "flex-layout.row#menu-category-one"
     ],
     "props": {
       "blockClass": "container-menu-categories"
     }
   },
-  "flex-layout.col#menu-category-one": {
+  "flex-layout.row#menu-category-one": {
+    "children": ["flex-layout.col#category-one-col"]
+  },
+  "flex-layout.col#category-one-col":{
     "children": ["link#menu-category-one", "rich-text#menu-phones"],
     "props": {
       "blockClass": "container-menu-group-categories"
@@ -61,7 +65,7 @@
       "blockClass": "menu-text-categories"
     }
   },
-  "flex-layout.col#menu-category-two": {
+  "flex-layout.row#menu-category-two": {
     "children": ["link#menu-category-two", "rich-text#menu-computers"],
     "props": {
       "blockClass": "container-menu-group-categories"
@@ -88,7 +92,7 @@
       "blockClass": "menu-text-categories"
     }
   },
-  "flex-layout.col#menu-category-three": {
+  "flex-layout.row#menu-category-three": {
     "children": ["link#menu-category-three", "rich-text#menu-tv"],
     "props": {
       "blockClass": "container-menu-group-categories"
