@@ -1,61 +1,44 @@
 {
-  "flex-layout.col#section__categories": {
+  "flex-layout.row#section__categories": {
     "children": [
-      "flex-layout.row#section__categories--one",
-      "flex-layout.row#section__categories--one",
-      "flex-layout.row#section__categories--one"
+      "flex-layout.col#section__categories--one",
+      "flex-layout.col#section__categories--one",
+      "flex-layout.col#section__categories--one",
+      "flex-layout.col#section__categories--one",
+      "flex-layout.col#section__categories--one"
     ],
     "props": {
-      "rowGap": 5,
-      "blockClass": "container_categories"
+      "rowGap": 5
     }
   },
-  "flex-layout.row#section__categories--one": {
+  "flex-layout.col#section__categories--one": {
     "children": [
       "flex-layout.col#categories-one",
       "flex-layout.col#categories-two",
-      "flex-layout.col#categories-three",
-      "flex-layout.col#categories-one",
-      "flex-layout.col#categories-two"
+      "flex-layout.col#categories-three"
     ],
     "props": {
       "blockClass": "categories-group"
     }
   },
   "flex-layout.col#categories-one": {
-    "children": ["link#menu-category-one-dekstop", "rich-text#-phones"],
+    "children": ["image#-phones", "rich-text#-phones"],
     "props": {
       "blockClass": "group-categories"
     }
   },
-  "link#menu-category-one-dekstop": {
-    "children": ["image#-phones"],
-    "props": {
-      "href": "/construccion"
-    }
-  },
+
   "flex-layout.col#categories-two": {
-    "children": ["link#menu-category-two-dekstop", "rich-text#computers"],
+    "children": ["image#computers", "rich-text#computers"],
     "props": {
       "blockClass": "group-categories"
     }
   },
-  "link#menu-category-two-dekstop": {
-    "children": ["image#computers"],
-    "props": {
-      "href": "/construccion"
-    }
-  },
+
   "flex-layout.col#categories-three": {
-    "children": ["link#menu-category-three-dekstop", "rich-text#tv"],
+    "children": ["image#tv", "rich-text#tv"],
     "props": {
       "blockClass": "group-categories"
-    }
-  },
-  "link#menu-category-three-dekstop": {
-    "children": ["image#tv"],
-    "props": {
-      "href": "/construccion"
     }
   },
 
@@ -71,6 +54,9 @@
       "blockClass": "group-categories"
     }
   },
+
+  /*Secondary Children*/
+
   "image#-phones": {
     "props": {
       "src": "assets/img/celulares.jpg",
@@ -81,7 +67,7 @@
     "props": {
       "text": "Celulares",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textPosition": "center",
       "blockClass": "text-categories"
     }
   },
@@ -95,7 +81,7 @@
     "props": {
       "text": "Computadores",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textPosition": "center",
       "blockClass": "text-categories"
     }
   },
@@ -108,7 +94,7 @@
     "props": {
       "text": "Televisores",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textPosition": "center",
       "blockClass": "text-categories"
     }
   },
@@ -121,7 +107,7 @@
     "props": {
       "text": "Electrodomesticos",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textPosition": "center",
       "blockClass": "text-categories"
     }
   },
@@ -134,7 +120,7 @@
     "props": {
       "text": "Audio",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textPosition": "center",
       "blockClass": "text-categories"
     }
   }
