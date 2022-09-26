@@ -10,7 +10,9 @@
       "flex-layout.col#section__category-one-menu",
       "flex-layout.col#section__category-one-menu"
     ],
-   
+    "props": {
+      "blockClass": "container-menu-categories"
+    }
   },
   "flex-layout.col#section__title-menu": {
     "children": ["rich-text#menu-title"],
