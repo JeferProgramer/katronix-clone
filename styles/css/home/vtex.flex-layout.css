@@ -71,7 +71,7 @@
 
 @media (max-width:1030px) and (min-width:710px){
     .flexRow--container_categories {
-        
+        width: 95% !important;
     }
     .flexRowContent--container-one-home {
         flex-direction: column;
