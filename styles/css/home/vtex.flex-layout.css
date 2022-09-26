@@ -36,6 +36,9 @@
     margin-bottom: 24px;
     margin-top: 2%;
 }
+.flexRow--container-menu-categories{
+    
+}
 @media screen and (max-width: 1024px){
     .flexRow--home__section--four {
         padding-top: 10px;
@@ -71,7 +74,7 @@
 
 @media (max-width:1030px) and (min-width:710px){
     .flexRow--container_categories {
-        width: 95% !important;
+        width: 95% ;
     }
     .flexRowContent--container-one-home {
         flex-direction: column;
