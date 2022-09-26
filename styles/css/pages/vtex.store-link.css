@@ -18,6 +18,9 @@
     border: solid thin #AB1114;
     color: #ffffff;
 }
+@media (max-width:1030px) and (min-width:710px){
+    
+}
 @media (max-width: 600px) {
     .link--button-about{
         width: 70%;
