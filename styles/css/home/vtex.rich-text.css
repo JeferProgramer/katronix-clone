@@ -25,7 +25,8 @@
 }
 @media (max-width:700px) {
     .container--text-categories {
-        margin-left: 35% !important;
+        margin-left: 25% !important;
+
     }
     .container--text-ofertas {
         margin-left: 30%;
