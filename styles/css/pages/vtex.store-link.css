@@ -19,7 +19,9 @@
     color: #ffffff;
 }
 @media (max-width:1030px) and (min-width:710px){
-    
+    .link--button-about{
+        
+    }
 }
 @media (max-width: 600px) {
     .link--button-about{
