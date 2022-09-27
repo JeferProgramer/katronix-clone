@@ -68,15 +68,15 @@
     }
   },
   "flex-layout.row#menu-category-two": {
-    "children": ["flex-layout.col#menu-category-two"],
-    "props": {
-      "blockClass": "container-menu-group-categories"
-    }
+    "children": ["flex-layout.col#menu-category-two"]
   },
   "flex-layout.col#menu-category-two": {
     "children": [
      "link#menu-category-two", "rich-text#menu-computers"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-menu-group-categories"
+    }
   },
   "link#menu-category-two": {
     "props": {
@@ -100,10 +100,7 @@
     }
   },
   "flex-layout.row#menu-category-three": {
-    "children": ["link#menu-category-three", "rich-text#menu-tv"],
-    "props": {
-      "blockClass": "container-menu-group-categories"
-    }
+    "children": [""]
   },
   "link#menu-category-three": {
     "children": ["image#menu-tv"],
