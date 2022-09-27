@@ -14,7 +14,7 @@
   },
   "header-row#header__middle": {
     "title": "Header Medio",
-    "children": ["drawer#header__mobile--menu", "search-bar#header__search"],
+    "children": ["drawer#header__mobile--menu", "search-bar#header__mobile"],
     "props": {
       "blockClass": "header__middle"
     }
