@@ -38,8 +38,8 @@
       "blockClass": "login-clase-mia"
     }
   },
-  "modal-trigger#header__department":{
-    "children":[
+  "modal-trigger#header__department": {
+    "children": [
       "rich-text#header__department",
       "modal-layout#header__department"
     ]
@@ -50,29 +50,16 @@
       "blockClass": "header__department"
     }
   },
-  "modal-layout#header__department":{
-    "children":[
-      "modal-header",
-      "department-search"
-    ]
+  "modal-layout#header__department": {
+    "children": ["modal-header", "department-search"]
   },
-  "modal-header":{
+  "modal-header": {
     "props": {
       "iconCloseSize": 23
     }
   },
-  "header-row#header__middle": {
-    "title": "Header Medio",
-    "children": ["drawer#header__mobile--menu", "search-bar#header__search"],
-    "props": {
-      "blockClass": "header__middle"
-    }
-  },
-  "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
-  },
   "search-bar#header__search": {
-    "blocks": ["autocomplete-result-list.v2"],
+    "blocks": ["autocomplete-result-list.v2#desktop"],
     "props": {
       "openAutocompleteOnFocus": true,
       "placeholder": "¿Qué buscas hoy?",
