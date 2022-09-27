@@ -20,11 +20,17 @@
     }
   },
   "search-bar#header__mobile":{
-    "blocks":["autocomplete-result-list.v2#mobile"],
+    "blocks": ["autocomplete-result-list.v2#mobile"],
     "props": {
       "openAutocompleteOnFocus": false,
       "placeholder": "¿Qué buscas hoy?",
       "displayMode": "search-and-clear-buttons"
+    }
+  },
+  "autocomplete-result-list.v2#mobile":{
+    "blocks":["product-summary"],
+    "props":{
+      "autocompleteWidth": 95
     }
   }
 }
