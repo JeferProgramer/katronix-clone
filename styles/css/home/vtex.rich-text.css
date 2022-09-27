@@ -23,9 +23,16 @@
     font-weight: 600;
     font-family: "Arial";
 }
+@media (max-width:1030px) and (min-width:710px){
+    .container--text-categories{
+        font-size: 14px;
+        margin-left: 30%;
+    }
+}
 @media (max-width:700px) {
     .container--text-categories {
-        margin-left: 35% !important;
+        margin-left: 25% !important;
+        font-size: 12px;
     }
     .container--text-ofertas {
         margin-left: 30%;

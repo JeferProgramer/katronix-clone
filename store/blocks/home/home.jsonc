@@ -126,7 +126,7 @@
   "flex-layout.row#home__section--one": {
     "children": [
       "flex-layout.col#slider",
-      "flex-layout.col#section__categories"
+      "flex-layout.row#section__categories"
     ],
     "props": {
       "blockClass": "container-one-home"
