@@ -18,5 +18,8 @@
     "props": {
       "blockClass": "header__middle"
     }
+  },
+  "search-bar#header__mobile":{
+    
   }
 }
