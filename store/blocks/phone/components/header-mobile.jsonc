@@ -11,5 +11,12 @@
     "props":{
       "blockClass": "header__top"
     }
+  },
+  "header-row#header__middle": {
+    "title": "Header Medio",
+    "children": ["drawer#header__mobile--menu", "search-bar#header__search"],
+    "props": {
+      "blockClass": "header__middle"
+    }
   }
 }
