@@ -87,7 +87,8 @@
   "image#menu-computers": {
     "props": {
       "src": "assets/img/portatiles.png",
-      "blockClass": "image-menu-categories"
+      "blockClass": "image-menu-categories",
+      "maxWidth": "20"
     }
   },
   "rich-text#menu-computers": {
@@ -102,7 +103,7 @@
     "children": ["flex-layout.col#category-three-col"]
   },
   "flex-layout.col#category-three-col":{
-    "children": ["image#menu-tv","rich-text#menu-tv"],
+    "children": ["link#menu-category-three","rich-text#menu-tv"],
     "props": {
       "blockClass": "container-menu-group-categories"
     }
@@ -116,7 +117,8 @@
   "image#menu-tv": {
     "props": {
       "src": "assets/img/icon-televisores.png",
-      "blockClass": "image-menu-categories"
+      "blockClass": "image-menu-categories",
+      "maxWidth": 110
     }
   },
   "rich-text#menu-tv": {
