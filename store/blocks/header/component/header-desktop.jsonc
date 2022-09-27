@@ -38,8 +38,8 @@
       "blockClass": "login-clase-mia"
     }
   },
-  "modal-trigger#header__department": {
-    "children": [
+  "modal-trigger#header__department":{
+    "children":[
       "rich-text#header__department",
       "modal-layout#header__department"
     ]
@@ -50,23 +50,26 @@
       "blockClass": "header__department"
     }
   },
-  "modal-layout#header__department": {
-    "children": ["modal-header", "department-search"]
+  "modal-layout#header__department":{
+    "children":[
+      "modal-header",
+      "department-search"
+    ]
   },
-  "modal-header": {
+  "modal-header":{
     "props": {
       "iconCloseSize": 23
     }
   },
   "search-bar#header__search": {
-    "blocks": ["autocomplete-result-list.v2#desktop"],
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
       "placeholder": "¿Qué buscas hoy?",
       "displayMode": "search-and-clear-buttons"
     }
   },
-  "autocomplete-result-list.v2#desktop": {
+  "autocomplete-result-list.v2": {
     "blocks": ["product-summary"]
   }
 }
