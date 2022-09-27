@@ -65,5 +65,8 @@
       "placeholder": "¿Qué buscas hoy?",
       "displayMode": "search-and-clear-buttons"
     }
+  },
+  "autocomplete-result-list.v2#desktop": {
+    
   }
 }
