@@ -20,6 +20,6 @@
     }
   },
   "search-bar#header__mobile":{
-    
+    "blocks":["autocomplete-result-list.v2#mobile"]
   }
 }
