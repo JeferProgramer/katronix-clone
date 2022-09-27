@@ -103,7 +103,7 @@
     "children": ["flex-layout.col#category-three-col"]
   },
   "flex-layout.col#category-three-col":{
-    "children": ["image#menu-tv"]
+    "children": ["image#menu-tv","rich-text#menu-tv"]
   },
   "link#menu-category-three": {
     "children": ["image#menu-tv"],
