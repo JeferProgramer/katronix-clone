@@ -41,6 +41,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 25%;
+    margin-top: 5%;
 }
 .flexCol--container-menu-group-categories{
     padding-bottom: 0%;
@@ -70,6 +71,6 @@
         flex-direction: column;
     }
     .flexRowContent--container-menu-categories :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-        
+        width: 100% !important;
     }
 }
