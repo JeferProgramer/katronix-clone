@@ -22,7 +22,9 @@
   "search-bar#header__mobile":{
     "blocks":["autocomplete-result-list.v2#mobile"],
     "props": {
-      "openAutocompleteOnFocus": false
+      "openAutocompleteOnFocus": false,
+      "placeholder": "¿Qué buscas hoy?",
+      "displayMode": "search-and-clear-buttons"
     }
   }
 }
