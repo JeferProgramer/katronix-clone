@@ -100,7 +100,10 @@
     }
   },
   "flex-layout.row#menu-category-three": {
-    "children": [""]
+    "children": ["flex-layout.col#category-three-col"]
+  },
+  "flex-layout.col#category-three-col":{
+    "children": ["image#menu-tv"]
   },
   "link#menu-category-three": {
     "children": ["image#menu-tv"],
