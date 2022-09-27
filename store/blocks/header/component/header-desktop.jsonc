@@ -67,6 +67,6 @@
     }
   },
   "autocomplete-result-list.v2#desktop": {
-    
+    "blocks": ["product-summary"]
   }
 }
