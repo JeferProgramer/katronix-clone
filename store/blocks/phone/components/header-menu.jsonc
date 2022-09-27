@@ -87,8 +87,7 @@
   "image#menu-computers": {
     "props": {
       "src": "assets/img/portatiles.png",
-      "blockClass": "image-menu-categories",
-      "maxHeight": 60
+      "blockClass": "image-menu-categories"
     }
   },
   "rich-text#menu-computers": {
@@ -103,7 +102,10 @@
     "children": ["flex-layout.col#category-three-col"]
   },
   "flex-layout.col#category-three-col":{
-    "children": ["image#menu-tv","rich-text#menu-tv"]
+    "children": ["image#menu-tv","rich-text#menu-tv"],
+    "props": {
+      "blockClass": "container-menu-group-categories"
+    }
   },
   "link#menu-category-three": {
     "children": ["image#menu-tv"],
