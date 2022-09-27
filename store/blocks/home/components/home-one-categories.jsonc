@@ -22,21 +22,21 @@
     }
   },
   "flex-layout.col#categories-one": {
-    "children": ["image#-phones", "rich-text#-phones"],
+    "children": ["link#-phones", "rich-text#-phones"],
     "props": {
       "blockClass": "group-categories"
     }
   },
 
   "flex-layout.col#categories-two": {
-    "children": ["image#computers", "rich-text#computers"],
+    "children": ["link#computers", "rich-text#computers"],
     "props": {
       "blockClass": "group-categories"
     }
   },
 
   "flex-layout.col#categories-three": {
-    "children": ["image#tv", "rich-text#tv"],
+    "children": ["link#tv", "rich-text#tv"],
     "props": {
       "blockClass": "group-categories"
     }
@@ -56,6 +56,12 @@
   },
 
   /*Secondary Children*/
+  "link#-phones":{
+    "props": {
+      "href": "/construccion"
+    },
+    "children": ["image#-phones"]
+  },
 
   "image#-phones": {
     "props": {
@@ -71,7 +77,12 @@
       "blockClass": "text-categories"
     }
   },
-
+  "link#computers":{
+    "props": {
+      "href": "/construccion"
+    },
+    "children": ["image#computers"]
+  },
   "image#computers": {
     "props": {
       "src": "assets/img/computador.png"
@@ -84,6 +95,12 @@
       "textPosition": "center",
       "blockClass": "text-categories"
     }
+  },
+  "link#tv":{
+    "props": {
+      "href": "/construccion"
+    },
+    "children": ["image#tv"]
   },
   "image#tv": {
     "props": {
