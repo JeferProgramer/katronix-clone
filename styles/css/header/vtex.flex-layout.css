@@ -41,6 +41,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 25%;
+    margin-top: 5%;
 }
 .flexCol--container-menu-group-categories{
     padding-bottom: 0%;
@@ -60,9 +61,16 @@
 .flexCol--container-menu-group-categories :global(.vtex-flex-layout-0-x-flexColChild--group-categories) {
     height: 20% !important;
 }
-@media (max-width:1000px) and (min-width:800px){
+@media (max-width:1000px) and (min-width:700px){
     .flexRowContent--menu-link {
         justify-content: space-between !important;
         left: 3% !important;
+    }
+    .flexRowContent--container-menu-categories{
+        width: 100%;
+        flex-direction: column;
+    }
+    .flexRowContent--container-menu-categories :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
     }
 }

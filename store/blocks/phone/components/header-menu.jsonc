@@ -68,15 +68,15 @@
     }
   },
   "flex-layout.row#menu-category-two": {
-    "children": ["flex-layout.col#menu-category-two"],
-    "props": {
-      "blockClass": "container-menu-group-categories"
-    }
+    "children": ["flex-layout.col#menu-category-two"]
   },
   "flex-layout.col#menu-category-two": {
     "children": [
      "link#menu-category-two", "rich-text#menu-computers"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-menu-group-categories"
+    }
   },
   "link#menu-category-two": {
     "props": {
@@ -88,7 +88,7 @@
     "props": {
       "src": "assets/img/portatiles.png",
       "blockClass": "image-menu-categories",
-      "maxHeight": 60
+      "maxWidth": "20"
     }
   },
   "rich-text#menu-computers": {
@@ -100,7 +100,10 @@
     }
   },
   "flex-layout.row#menu-category-three": {
-    "children": ["link#menu-category-three", "rich-text#menu-tv"],
+    "children": ["flex-layout.col#category-three-col"]
+  },
+  "flex-layout.col#category-three-col":{
+    "children": ["link#menu-category-three","rich-text#menu-tv"],
     "props": {
       "blockClass": "container-menu-group-categories"
     }
@@ -114,7 +117,8 @@
   "image#menu-tv": {
     "props": {
       "src": "assets/img/icon-televisores.png",
-      "blockClass": "image-menu-categories"
+      "blockClass": "image-menu-categories",
+      "maxWidth": 110
     }
   },
   "rich-text#menu-tv": {

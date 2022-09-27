@@ -11,5 +11,26 @@
     "props":{
       "blockClass": "header__top"
     }
+  },
+  "header-row#header__middle": {
+    "title": "Header Medio",
+    "children": ["drawer#header__mobile--menu", "search-bar#header__mobile"],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+  "search-bar#header__mobile":{
+    "blocks": ["autocomplete-result-list.v2#mobile"],
+    "props": {
+      "openAutocompleteOnFocus": false,
+      "placeholder": "¿Qué buscas hoy?",
+      "displayMode": "search-and-clear-buttons"
+    }
+  },
+  "autocomplete-result-list.v2#mobile":{
+    "blocks":["product-summary"],
+    "props":{
+      "autocompleteWidth": 95
+    }
   }
 }

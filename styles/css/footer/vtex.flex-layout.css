@@ -84,6 +84,15 @@
 .flexRow--footer__section-one{
     margin-left: 20%;
 }
+@media (max-width:1000px) and (min-width:710px) {
+    .flexRowContent--container-disclousure{
+        flex-direction: column;
+        margin-left: 8%;
+    }
+    .flexRowContent--footer__section-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 18% !important;
+    }
+}
 @media (max-width: 700px) {
     .flexRowContent--footer__section--social {
         margin: 23px 35%;

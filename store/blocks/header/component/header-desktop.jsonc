@@ -61,16 +61,6 @@
       "iconCloseSize": 23
     }
   },
-  "header-row#header__middle": {
-    "title": "Header Medio",
-    "children": ["drawer#header__mobile--menu", "search-bar#header__search"],
-    "props": {
-      "blockClass": "header__middle"
-    }
-  },
-  "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
-  },
   "search-bar#header__search": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
@@ -78,5 +68,8 @@
       "placeholder": "¿Qué buscas hoy?",
       "displayMode": "search-and-clear-buttons"
     }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
   }
 }
