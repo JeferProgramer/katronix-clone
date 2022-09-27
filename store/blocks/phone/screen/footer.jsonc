@@ -9,7 +9,7 @@
       "flex-layout.row#footer__container-sixth"
     ],
     "props":{
-      "blockClass":"footer-total"
+      "blockClass":"footer__container-principal"
     }
   },
   "flex-layout.row#footer__container-mobile-disclousures": {
@@ -18,6 +18,9 @@
       "flex-layout.col#disclousure-pay-internet",
       "flex-layout.col#disclousure-services",
       "flex-layout.col#disclousure-policies"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-disclousure"
+    }
   }
 }
