@@ -7,7 +7,7 @@
 }
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
     color: #004691 ;
-    font-size: 0.9rem ;
+    font-size: 14px;
     font-family: 'Arial';
     padding: 0 1.8125rem;
 }
