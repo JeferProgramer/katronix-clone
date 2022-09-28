@@ -26,6 +26,8 @@
 }
 .headerRowBackground--header__top :global(.vtex-store-components-3-x-searchBarContainer){
     text-align: -webkit-center;
+    margin-top: 2%;
+    width: ;
 }
 /*styles for the logo*/
 .logoImage--logo__header{
