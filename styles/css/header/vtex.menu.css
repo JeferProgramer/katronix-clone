@@ -93,7 +93,7 @@
     color: #004691;
 }
 .menuItem--more :global(.vtex-menu-2-x-styledLinkContent){
-    color: #004691;
+    color
 }
 .menuItem--more{
     color: #004691;
