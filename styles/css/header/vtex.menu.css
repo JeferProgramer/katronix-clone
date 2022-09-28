@@ -38,9 +38,32 @@
     padding: 0 0.5rem;
     font-family: "Arial";
 }
+.styledLinkContent--more::before{
+    background-color: aqua;
+}
 .styledLinkContent--more:hover{
     color: #004691 !important;
     font-family: "Arial";
+}
+.styledLinkContent--more:active {
+    color: #004691 !important;
+    font-family: "Arial";
+    background-color: red;
+}
+.styledLinkContent--more:focus {
+    color: #004691 !important;
+    font-family: "Arial";
+    background-color: bisque;
+}
+.styledLinkContent--more:visited {
+    color: #004691 !important;
+    font-family: "Arial";
+    background-color: aqua;
+}
+.styledLinkContent--more:target {
+    color: #004691 !important;
+    font-family: "Arial";
+    background-color: aquamarine;
 }
 
 .styledLink--more {
@@ -63,6 +86,10 @@
 .menuItem--more:hover {
     background-position: left bottom;
     background-color: #fff;
+    color: #004691;
+}
+.menuItem--more{
+    color: #004691;
 }
 
 .submenuWrapper--submenu-more {
