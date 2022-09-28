@@ -17,7 +17,9 @@
     height: 36px;
     width: 70%;
 }
-.searchBarContainer :global
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+    
+}
 .searchBarIcon{
     background-color: #e63027;
     color: #fff;
