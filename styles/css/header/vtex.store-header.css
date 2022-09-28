@@ -24,7 +24,7 @@
     padding: 0;
     z-index: unset;
 }
-.headerRowBackground--header__top :global(){
+.headerRowBackground--header__top :global(.vtex-store-components-3-x-searchBarContainer){
 
 }
 /*styles for the logo*/
