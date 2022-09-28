@@ -9,7 +9,7 @@
     "props": {
       "text": "Smartwatch",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-ofertas"
     }
   }
