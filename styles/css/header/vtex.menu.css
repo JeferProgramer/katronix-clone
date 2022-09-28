@@ -35,7 +35,7 @@
     top: 50%;
     right: -1px;
     z-index: 1;
-    padding: 0 0.5rem;
+    padding: 0 12px;
     font-family: "Arial";
 }
 .styledLinkContent--more::after{
@@ -92,7 +92,7 @@
     background-color: #fff;
     color: #004691;
 }
-.menuItem--more :global(.vtex-menu-2-x-styledLinkContent):hover{
+.menuItem--more:hover :global(.vtex-menu-2-x-styledLinkContent){
     color: #004691;
 }
 .menuItem--more{
