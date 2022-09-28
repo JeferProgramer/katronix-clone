@@ -24,7 +24,9 @@
     padding: 0;
     z-index: unset;
 }
+.headerRowBackground--header__top :global(){
 
+}
 /*styles for the logo*/
 .logoImage--logo__header{
     height: 96px;
