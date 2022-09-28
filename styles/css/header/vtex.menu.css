@@ -92,8 +92,8 @@
     background-color: #fff;
     color: #004691;
 }
-.menuItem--more :global(.vtex-menu-2-x-styledLinkContent){
-    color
+.menuItem--more :global(.vtex-menu-2-x-styledLinkContent):hover{
+    color: #004691;
 }
 .menuItem--more{
     color: #004691;
