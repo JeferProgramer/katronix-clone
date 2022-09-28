@@ -38,6 +38,9 @@
     padding: 0 0.5rem;
     font-family: "Arial";
 }
+.styledLinkContent--more::after{
+    color: black;
+}
 .styledLinkContent--more::before{
     background-color: aqua;
 }
@@ -69,6 +72,7 @@
 .styledLink--more {
     font-size: 0.8rem;
     font-family: "Arial";
+    background-color: red;
 }
 
 .styledLinkContent--content-black {
@@ -86,6 +90,9 @@
 .menuItem--more:hover {
     background-position: left bottom;
     background-color: #fff;
+    color: #004691;
+}
+.menuItem--more :global(.vtex-menu-2-x-styledLinkContent){
     color: #004691;
 }
 .menuItem--more{
