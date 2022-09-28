@@ -25,7 +25,7 @@
     z-index: unset;
 }
 .headerRowBackground--header__top :global(.vtex-store-components-3-x-searchBarContainer){
-    text-align: ;
+    text-align: -webkit-center;
 }
 /*styles for the logo*/
 .logoImage--logo__header{
