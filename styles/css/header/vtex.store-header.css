@@ -24,7 +24,14 @@
     padding: 0;
     z-index: unset;
 }
-
+.headerRowBackground--header__top :global(.vtex-store-components-3-x-searchBarContainer){
+    text-align: -webkit-center;
+    margin-top: 2%;
+    width: 70%;
+}
+.headerRowBackground--header__top :global(.vtex-minicart-2-x-minicartWrapperContainer){
+    margin-top: 2%;
+}
 /*styles for the logo*/
 .logoImage--logo__header{
     height: 96px;

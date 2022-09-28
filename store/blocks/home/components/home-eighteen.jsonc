@@ -9,7 +9,7 @@
     "props": {
       "text": "Medios de pago",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-ofertas"
     }
   }

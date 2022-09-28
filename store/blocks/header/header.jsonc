@@ -21,7 +21,10 @@
     ]
   },
   "responsive-layout.desktop":{
-    "children":["header-row#header__top-desktop", "flex-layout.row#mega-menu"]
+    "children":["header-row#header__top-desktop", "flex-layout.row#mega-menu"],
+    "props":{
+      "blockClass": "header-total"
+    }
   },
   "responsive-layout.tablet":{
     "children":["header-row#header__top-desktop",

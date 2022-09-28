@@ -35,17 +35,44 @@
     top: 50%;
     right: -1px;
     z-index: 1;
-    padding: 0 0.5rem;
+    padding: 0 12px;
     font-family: "Arial";
+}
+.styledLinkContent--more::after{
+    color: black;
+}
+.styledLinkContent--more::before{
+    background-color: aqua;
 }
 .styledLinkContent--more:hover{
     color: #004691 !important;
     font-family: "Arial";
 }
+.styledLinkContent--more:active {
+    color: #004691 !important;
+    font-family: "Arial";
+    background-color: red;
+}
+.styledLinkContent--more:focus {
+    color: #004691 !important;
+    font-family: "Arial";
+    background-color: bisque;
+}
+.styledLinkContent--more:visited {
+    color: #004691 !important;
+    font-family: "Arial";
+    background-color: aqua;
+}
+.styledLinkContent--more:target {
+    color: #004691 !important;
+    font-family: "Arial";
+    background-color: aquamarine;
+}
 
 .styledLink--more {
     font-size: 0.8rem;
     font-family: "Arial";
+    background-color: red;
 }
 
 .styledLinkContent--content-black {
@@ -63,6 +90,13 @@
 .menuItem--more:hover {
     background-position: left bottom;
     background-color: #fff;
+    color: #004691;
+}
+.menuItem--more:hover :global(.vtex-menu-2-x-styledLinkContent){
+    color: #004691;
+}
+.menuItem--more{
+    color: #004691;
 }
 
 .submenuWrapper--submenu-more {

@@ -1,15 +1,15 @@
 {
   "flex-layout.row#home__section--eight": {
     "children": [
-      "flex-layout.row#home__section--images--one--computers",
-      "flex-layout.row#home__section--images--two--computers",
-      "flex-layout.row#home__section--images--three--computers"
+      "flex-layout.col#home__section--images--one--computers",
+      "flex-layout.col#home__section--images--two--computers",
+      "flex-layout.col#home__section--images--three--computers"
     ],
     "props": {
       "blockClass": "home__section--six"
     }
   },
-  "flex-layout.row#home__section--images--one--computers": {
+  "flex-layout.col#home__section--images--one--computers": {
     "children": ["image#image-computers-one"]
   },
   "image#image-computers-one": {
@@ -17,7 +17,7 @@
       "src": "assets/img/asus-computador.jpg"
     }
   },
-  "flex-layout.row#home__section--images--two--computers": {
+  "flex-layout.col#home__section--images--two--computers": {
     "children": ["image#image-computers-two"]
   },
   "image#image-computers-two": {
@@ -26,7 +26,7 @@
       "blockClass": "imagen-categories"
     }
   },
-  "flex-layout.row#home__section--images--three--computers": {
+  "flex-layout.col#home__section--images--three--computers": {
     "children": ["image#image-computers-three"]
   },
   "image#image-computers-three": {
