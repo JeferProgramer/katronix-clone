@@ -7,12 +7,14 @@
     max-height: 96px;
     max-width: 221px;
     width: 221px;
+    margin-left: 64px;
 }
 .searchBarContainer :global(.vtex-input-prefix__group){
     background: #fff;
-    border: 2px solid #004691 !important;
+    border: 1px solid #004691 !important;
     border-radius: 4px !important;
     color: #004691;
+    height: ;
 }
 .searchBarIcon{
     background-color: #e63027;
