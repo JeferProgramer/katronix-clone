@@ -1,11 +1,12 @@
 .menuContainer--category-menu {
     justify-content: center;
-    background-color: #004691;
-    border-top: 3px solid orangered;
+    background-color: var(--katronix-color);
+    border-top: 3px solid var(--orange-color);
     margin-left: 0 !important;
+    height: 40px;
 }
 .menuContainer--category-menu:hover{
-    color: #004691;
+    color: var(--katronix-color);
     font-family: "Arial";
 }
 .menuContainer--category-menu :global(.vtex-menu-2-x-styledLinkContainer){
@@ -14,13 +15,13 @@
 }
 
 .styledLinkContent--content-main{
-    color: #004691;
+    color: var(--katronix-color);
     font-size: 0.9rem;
     padding-right: 4rem;
     font-family: "Arial";
 }
 .styledLinkContent--content-blue {
-    color: orangered;
+    color: var(--orange-color);
     padding-top: 1rem;
     padding-right: 4rem;    
     font-size: 0.8rem;
@@ -28,51 +29,26 @@
 }
 
 .styledLinkContent--more {
-    color: white;
-    font-size: 105%;
-    border-right: 1px solid #fff;
+    color: var(--white-color);
+    font-size: 14.5px;
+    border-right: 1px solid var(--white-color);
     height: 8px;
     top: 50%;
     right: -1px;
     z-index: 1;
     padding: 0 12px;
     font-family: "Arial";
-}
-.styledLinkContent--more::after{
-    color: black;
-}
-.styledLinkContent--more::before{
-    background-color: aqua;
+    align-items: center;
 }
 .styledLinkContent--more:hover{
-    color: #004691 !important;
+    color: var(--katronix-color) !important;
     font-family: "Arial";
-}
-.styledLinkContent--more:active {
-    color: #004691 !important;
-    font-family: "Arial";
-    background-color: red;
-}
-.styledLinkContent--more:focus {
-    color: #004691 !important;
-    font-family: "Arial";
-    background-color: bisque;
-}
-.styledLinkContent--more:visited {
-    color: #004691 !important;
-    font-family: "Arial";
-    background-color: aqua;
-}
-.styledLinkContent--more:target {
-    color: #004691 !important;
-    font-family: "Arial";
-    background-color: aquamarine;
 }
 
 .styledLink--more {
     font-size: 0.8rem;
     font-family: "Arial";
-    background-color: red;
+    background-color: var(--red-color);
 }
 
 .styledLinkContent--content-black {
@@ -89,14 +65,14 @@
 }
 .menuItem--more:hover {
     background-position: left bottom;
-    background-color: #fff;
-    color: #004691;
+    background-color: var(--white-color);
+    color: var(--katronix-color);
 }
 .menuItem--more:hover :global(.vtex-menu-2-x-styledLinkContent){
-    color: #004691;
+    color: var(--katronix-color);
 }
 .menuItem--more{
-    color: #004691;
+    color: var(--katronix-color);
 }
 
 .submenuWrapper--submenu-more {
