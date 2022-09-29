@@ -88,6 +88,7 @@
     .flexRowContent--container-disclousure{
         flex-direction: column;
         margin-left: 8%;
+        width: 100%;
     }
     .flexRowContent--footer__section-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 18% !important;
