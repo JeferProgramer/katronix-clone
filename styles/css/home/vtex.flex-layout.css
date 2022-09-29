@@ -2,6 +2,9 @@
     background-color: var(--white-color);
     color: var(--white-color);
 }
+.flexRowContent--home__section--one :global(.vtex-flex-layout-0-x-flexCol){
+    background-color: aquamarine;
+}
 .flexCol--group-categories{
     text-align: center;  
     height: 9rem;
