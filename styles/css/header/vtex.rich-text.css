@@ -1,5 +1,5 @@
 .container--home__texto{
-    background-color: white;
+    background-color: var(--white-color);
     padding-bottom: 60px;
     font-family: "Arial";
 }
@@ -11,10 +11,10 @@
 .container--menu-title{
     text-align: center;
     font-size: 1.3rem;
-    color: #004691;
+    color: var(--katronix-color);
     font-weight: 600;
     width: 100%;
-    border-bottom: 3px solid orangered;
+    border-bottom: 3px solid var(--orange-color);
     font-family: "Arial";
 }
 .container--header__department{
