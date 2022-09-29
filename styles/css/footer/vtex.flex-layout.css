@@ -5,17 +5,17 @@
     width: 15% !important;
 }
 .flexRowContent--footer__container{
-    background-color: #151515;
+    background-color: var(--black-color);
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
     float: none;
     font-weight: 400;
     position: relative;
-    color: #929292;
+    color: var(--gray-color);
 }
 .flexRowContent--footer__container :global(.vtex-rich-text-0-x-link){
-    color: white;
+    color: var(--white-color);
     text-decoration: none;
 }
 .flexRowContent--footer__section{
@@ -50,7 +50,7 @@
     font-weight: 400;
     position: relative;
     width: 100%;
-    color: white;
+    color: var(--white-color);
 }
 .flexRowContent--footer__section--social{
     max-width: 25%;
@@ -88,7 +88,7 @@
     .flexRowContent--container-disclousure{
         flex-direction: column;
         margin-left: 8%;
-        width: 100%;
+        width: 90%;
     }
     .flexRowContent--footer__section-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 18% !important;
