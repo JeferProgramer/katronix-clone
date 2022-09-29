@@ -20,7 +20,7 @@
 .container--header__department{
     text-align: center;
     font-size: 1rem;
-    color: orangered;
+    color: var(--orange-color);
     font-weight: 600;
     width: 100%;
     font-family: "Arial";
