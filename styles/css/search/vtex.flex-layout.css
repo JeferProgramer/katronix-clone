@@ -63,7 +63,7 @@
 }
 .flexRow--button-grid :global(.vtex-button):hover{
   background-color: var(--hover-button);
-  color: white;
+  color: var(--white-color);
   border: 1px solid #ab1114;
   outline: 0;
 }
