@@ -60,7 +60,7 @@
     font-family: "Arial";
 }
 .container--section__varieties-content--policies{
-    color: #929292;
+    color: var(--gray--color);
     font-size: 12px;
     padding-top: 15%;
     font-family: "Arial";
