@@ -36,7 +36,7 @@
   border: 1px solid white;
   border-radius: 5px;
   align-items: center;
-  background-color: #e63027;
+  background-color: var(--color-button);
   justify-content: center;
   font-size: 16px;
   font-weight: 600;
