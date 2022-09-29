@@ -78,7 +78,7 @@
     width: 90% !important;
 }
 .flexRow--footer__section--social{
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--dark-white);
     width: 90% !important;
 }
 .flexRow--footer__section-one{
