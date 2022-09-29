@@ -55,7 +55,7 @@
     font-family: "Arial";
 }
 .container--section__varieties-content--internet {
-    color: #929292;
+    color: var(--gray--color);
     font-size: 12px;
     font-family: "Arial";
 }
