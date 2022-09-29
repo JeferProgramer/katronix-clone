@@ -46,9 +46,9 @@
   transition: .3s;
 }
 .flexRow--button-product-list :global(.vtex-button):hover{
-  background-color: #ab1114;
+  background-color: var(--hover-button);
   color: white;
-  border: 1px solid #ab1114;
+  border: 1px solid var(--hover-button);
   outline: 0;
 }
 .flexRow--button-grid :global(.vtex-button){
