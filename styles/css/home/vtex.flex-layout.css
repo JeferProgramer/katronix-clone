@@ -87,9 +87,6 @@
     .flexRowContent--container-one-home :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 100% !important;
     }
-    .flexRow--home__section--four{
-      
-    }
 }
 @media (max-width: 700px) and (min-width: 280px) {
     .flexRow--container_categories{
