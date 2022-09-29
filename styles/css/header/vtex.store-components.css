@@ -7,21 +7,21 @@
     max-height: 96px;
     max-width: 221px;
     width: 221px;
-    margin-left: 64px;
+    margin-left: 74px;
 }
 .searchBarContainer :global(.vtex-input-prefix__group){
-    background: #fff;
-    border: 1px solid #004691 !important;
+    background: var(--white-color);
+    border: 1px solid var(--katronix-color) !important;
     border-radius: 4px !important;
-    color: #004691;
+    color: var(--katronix-color);
     height: 36px;
-    width: 70%;
+    width: 75%;
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input){
     font-size: 14px;
 }
 .searchBarIcon{
-    background-color: #e63027;
+    background-color: var(--orange-color);
     color: #fff;
 }
 @media (max-width:1030px) and (min-width:900px) {
@@ -32,6 +32,9 @@
     .logoImage--logo__header{
         margin-top: 25%;
     }
+    .searchBarContainer :global(.vtex-input-prefix__group) {
+        width: 100%;
+    }
 }
 @media (max-width:800px) {
     .logoImage--logo__header{
@@ -39,5 +42,9 @@
         max-height: 48px;
         max-width: 110px;
         width: 120px;
+        margin-left: 0%;
+    }
+    .searchBarContainer :global(.vtex-input-prefix__group) {
+        width: 95%;
     }
 }
