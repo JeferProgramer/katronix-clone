@@ -1,6 +1,6 @@
 /*styles for the container header*/
 .headerRowBackground--header__top{
-    background-color: blue;
+    background-color: var(--katronix-color);
     color: aliceblue;
     height: 112px;
     display: -ms-flexbox;
@@ -27,10 +27,12 @@
 .headerRowBackground--header__top :global(.vtex-store-components-3-x-searchBarContainer){
     text-align: -webkit-center;
     margin-top: 2%;
-    width: 70%;
 }
 .headerRowBackground--header__top :global(.vtex-minicart-2-x-minicartWrapperContainer){
     margin-top: 2%;
+}
+.headerRowBackground--header__top :global(.vtex-button__label){
+    margin-top: 10%;
 }
 /*styles for the logo*/
 .logoImage--logo__header{
