@@ -36,11 +36,13 @@
     padding-top: 3%;
     background-color: #f5f5f5;
     border-top: 2px solid var(--k-title-underline-border-color, #e0e0e0);
+    text-align: center;
 }
 .flexRow--home__section--four{
     background: #EBEBEB;
     margin-bottom: 24px;
     margin-top: 2%;
+    height: 4rem;
 }
 .flexRow--container-menu-categories{
     width: 100%;
@@ -70,16 +72,18 @@
     background-color: #f5f5f5;
     border-top: 2px solid var(--k-title-underline-border-color, #e0e0e0);
     width: 100%;
+    text-align: center;
 }
 .flexRow--home__section--six :global(.vtex-store-components-3-x-imageElement){
-    width: 80%;
+    width: 95%;
     height: 100%;
-    margin-left: 10%;
 }
 .flexRow--container-one-home{
     margin-top: 2%;
 }
-
+.flexCol--container-pay{
+    text-align: justify;
+}
 @media (max-width:1030px) and (min-width:710px){
     .flexRow--container_categories {
         width: 95% ;
@@ -89,6 +93,9 @@
     }
     .flexRowContent--container-one-home :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 100% !important;
+    }
+    .flexRow--home__section--four{
+
     }
 }
 @media (max-width: 700px) and (min-width: 280px) {
