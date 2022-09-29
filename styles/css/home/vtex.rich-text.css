@@ -10,7 +10,7 @@
     margin-left: 20%;
 }
 .container--text-ofertas{
-    color: #004691;
+    color: var(--katronix-color);
     font-weight: bolder;  
     font-family: "Arial";
 }
