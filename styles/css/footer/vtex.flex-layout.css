@@ -66,14 +66,14 @@
 }
 .flexCol--footer-section-1{
     height: 60%;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid var(--dark-white);
     width: 0% !important;
 }
 .flexCol--footer-section-3 {
     height: 20%;
 }
 .flexCol--footer__disclosure_terms{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--white-color);
     padding-bottom: 1.5%;
     width: 90% !important;
 }
