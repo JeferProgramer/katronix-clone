@@ -1,7 +1,7 @@
 /*styles for the container header*/
 .headerRowBackground--header__top{
     background-color: var(--katronix-color);
-    color: aliceblue;
+    color: var(--aliceblue-color);
     height: 112px;
     display: -ms-flexbox;
     display: -ms-flex;
