@@ -147,7 +147,7 @@
     }
     .flexCol--container-pay{
         max-width: 100rem;
-        width: 20rem;
+        width: 20rem !important;
         height: 13rem;    
     }
     .flexRow--container_categories{
