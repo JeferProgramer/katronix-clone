@@ -26,7 +26,8 @@
   "flex-layout.col#section__pago--1": {
     "children": ["image#pago__1"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__1": {
@@ -38,7 +39,8 @@
   "flex-layout.col#section__pago--2": {
     "children": ["image#pago__2"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__2": {
@@ -50,7 +52,8 @@
   "flex-layout.col#section__pago--3": {
     "children": ["image#pago__3"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__3": {
@@ -62,7 +65,8 @@
   "flex-layout.col#section__pago--4": {
     "children": ["image#pago__4"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__4": {
@@ -86,7 +90,8 @@
   "flex-layout.col#section__pago--6": {
     "children": ["image#pago__6"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__6": {
@@ -98,7 +103,8 @@
   "flex-layout.col#section__pago--7": {
     "children": ["image#pago__7"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__7": {
@@ -110,7 +116,8 @@
   "flex-layout.col#section__pago--8": {
     "children": ["image#pago__8"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__8": {
@@ -122,7 +129,8 @@
   "flex-layout.col#section__pago--9": {
     "children": ["image#pago__9"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__9": {
@@ -134,7 +142,8 @@
   "flex-layout.col#section__pago--10": {
     "children": ["image#pago__10"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__10": {
@@ -146,7 +155,8 @@
   "flex-layout.col#section__pago--11": {
     "children": ["image#pago__11"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__11": {
@@ -158,7 +168,8 @@
   "flex-layout.col#section__pago--12": {
     "children": ["image#pago__12"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__12": {
@@ -170,7 +181,8 @@
   "flex-layout.col#section__pago--13": {
     "children": ["image#pago__13"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__13": {
@@ -182,7 +194,8 @@
   "flex-layout.col#section__pago--14": {
     "children": ["image#pago__14"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "methods-pay"
     }
   },
   "image#pago__14": {

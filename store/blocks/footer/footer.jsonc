@@ -11,7 +11,10 @@
       "flex-layout.row#footer__container-fourth",
       "flex-layout.row#footer__container-fifth",
       "flex-layout.row#footer__container-sixth"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-total-footer"
+    }
   },
   "flex-layout.row#footer__container-one": {
     "children": ["flex-layout.row#footer__section--contactenos-one"],
@@ -34,7 +37,7 @@
   "flex-layout.row#footer__container-fourth": {
     "children": ["flex-layout.row#footer__section--terms"],
     "props": {
-      "blockClass": "footer__container"
+      "blockClass": "footer__container-disclosures"
     }
   },
   "flex-layout.row#footer__container-fifth": {
