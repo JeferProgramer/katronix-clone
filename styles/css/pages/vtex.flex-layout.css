@@ -1,11 +1,11 @@
 .flexRow--container-about-us-one{
-    background-color: #F6F6F6;
+    background-color: var(--custom-page);
 }
 .flexRow--container-about-us-one .stretchChildrenWidth:first-child{
     width: 10% !important;
 }
 .flexCol--container-image{
-    background-color: #003780;
+    background-color: var(--katronix-color);
 }
 .flexRow--container-about-us-one .stretchChildrenWidth:last-child{
     width: 90% !important;
@@ -14,14 +14,14 @@
     margin: 0.7% 4%;
 }
 .flexCol--container-image-red{
-    background-color: #DD171B;
+    background-color: var(--red-color);
 }
 @media (max-width: 600px) {
     .flexRow--container-about-us-one .stretchChildrenWidth:first-child {
         width: 100% !important;
         flex-wrap: wrap;
         height: 5rem;
-        border-bottom:  1px solid black;
+        border-bottom:  1px solid var(--black);
         margin-bottom: 5%;
     }
 }

@@ -1,9 +1,9 @@
 .link--button-about{
-    border: solid thin #DD171B;
+    border: solid thin var(--color-button);
     background: #ffffff;
     border-radius: 4px;
     text-decoration: none;
-    color: #DD171B;
+    color: var(--color-button);
     padding: 10px 20px;
     width: 21%;
     margin: 0 auto 3%;
@@ -14,9 +14,9 @@
     text-transform: none;
 }
 .link--button-about:hover{
-    background: #AB1114;
-    border: solid thin #AB1114;
-    color: #ffffff;
+    background: var(--hover-button);
+    border: solid thin var(--hover-button);
+    color: var(--white-color);
 }
 @media (max-width:1030px) and (min-width:710px){
     .link--button-about{

@@ -1,83 +1,82 @@
 /*rich text del titulo del footer contactenos*/
 .container--section__contactenos-titulo{
     font-size: 16px;
-    color: #fff;
+    color: var(--white-color);
     margin: 24px auto 7px;
     height: 10%;
     font-family: "Arial";
 }
 /*rich text del contenido del footer contactenos*/
 .container--section__contactenos-content{
-    color: #929292;
+    color: var(--gray--color);
     font-size: 12px;
     padding-left: 2px;
     font-family: "Arial";
 }
 .container--section__contactenos-content :global(.vtex-rich-text-0-x-link){
-    color: white;
+    color: var(--white-color);
     font-family: "Arial";
 }
 .container--two__texto{
     font-size: 16px;
-    background-color: #151515;
+    background-color: var(--black-color);
     max-width: 1366px;
     margin: 0 auto;
     padding: 0;
     float: none;
     font-weight: 400;
     position: relative;
-    color: #fff;
+    color: var(--white-color);
     margin-left: 5%;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--dark-white);
     font-family: "Arial";
 }
 .container--footer__terms_text{
     font-size: 12px;
-    color: #929292;
+    color: var(--gray--color);
     padding: 20px 5%;
     text-align: justify;
     font-family: "Arial";
 }
 .vtex-rich-text-0-x-link{
-    color: aqua;
     font-family: "Arial";
 }
 .container--section__varieties-titulo{
     font-size: 16px;
-    color: #fff;
+    color: var(--white-color);
     margin: 24px auto 7px;
     font-family: "Arial";
 }
 .container--section__varieties-content{
-    color: #929292;
+    color: var(--gray--color);
     font-size: 12px;
     padding-left: 2px;
     padding-top: 20%;
     font-family: "Arial";
 }
 .container--section__varieties-content--internet {
-    color: #929292;
+    color: var(--gray--color);
     font-size: 12px;
     font-family: "Arial";
 }
 .container--section__varieties-content--policies{
-    color: #929292;
+    color: var(--gray--color);
     font-size: 12px;
     padding-top: 15%;
     font-family: "Arial";
 }
 .container--section__social-titulo{
     font-size: 16px;
-    color: #fff;
+    color: var(--white-color);
     width: 70%;
     font-family: "Arial";
 }
 .container--disclousure-titulo{
     font-size: 16px;
-    color: #fff;
+    color: var(--white-color);
     font-family: "Arial";
 }
 .container--disclousure-titulo :global(.vtex-rich-text-0-x-paragraph){
-    color: white;
+    color: var(--white-color);
     font-family: "Arial";
 }
