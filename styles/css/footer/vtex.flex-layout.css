@@ -108,16 +108,24 @@
         overflow-y: hidden;
         gap: 1rem;
         overflow-x: scroll;
+        max-height: 13rem;
     }
     .flexCol--footer-section{
-        
+        max-width: 100rem;
+        width: 20rem !important;
+        height: 13rem;
+        margin-bottom: 10%;
     }
+    .flexCol--footer-section-3{
+        
+    }   
     .flexRowContent--footer__section--social {
         margin: 23px 35%;
     }
     .flexRowContent--footer__section-one {
         margin-top: 2%;
         margin-left: 0%;
+        display: flex;
     }
     .flexRowContent--footer__section-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 75% !important;
