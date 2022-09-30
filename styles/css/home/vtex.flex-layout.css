@@ -40,7 +40,7 @@
 }
 .flexRow--home__section--four{
     background: var(--home-four);
-    margin-bottom: 24px;
+    margin-bottom: 4rem;
     margin-top: 2%;
     height: 4rem;
 }
