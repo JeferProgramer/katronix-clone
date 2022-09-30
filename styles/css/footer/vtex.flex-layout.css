@@ -113,7 +113,7 @@
     .flexCol--footer-section{
         max-width: 100rem;
         width: 20rem !important;
-        height: rem;
+        height: 3rem;
     }
     .flexCol--footer-section-3{
         max-width: 100rem;
@@ -122,6 +122,7 @@
     .flexRowContent--footer__section--social {
         margin: 23px 35%;
     }
+    
     .flexRowContent--footer__section-one {
         margin-top: 2%;
         margin-left: 0%;
