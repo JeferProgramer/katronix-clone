@@ -109,19 +109,8 @@
         height: 4rem;
         display: contents;
     }
-    .flexRow--home__section--six{
-        display: flex;
-        flex-wrap: nowrap;
-        width: 100%;
-        overflow-y: hidden;
-        gap: 1.5rem;
-        overflow-x: scroll;
-    }
-    .flexRowContent--home__section--three :global(.vtex-store-components-3-x-imageElement--imagen-categories) {
-        max-width: 100rem;
-        margin-bottom: 10%;
-    }
-    .flexRowContent--home__section--three {
+    
+    .flexRowContent--home__section--six{
         display: flex;
         flex-wrap: nowrap;
         width: 100%;
