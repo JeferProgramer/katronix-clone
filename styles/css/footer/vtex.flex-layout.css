@@ -95,6 +95,15 @@
     }
 }
 @media (max-width: 700px) {
+    .flexRow--footer__container{
+        width: 100%;
+        text-align: center;
+        max-width: 100%;
+        padding: 1rem 0;
+    }
+    .flexRowContent--footer__container{
+        
+    }
     .flexRowContent--footer__section--social {
         margin: 23px 35%;
     }
