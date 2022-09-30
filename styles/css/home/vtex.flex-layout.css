@@ -106,6 +106,13 @@
         gap: 1.5rem;
         overflow-x: scroll;
     }
+    .flexRow--home__section--four {
+        background: var(--home-four);
+        margin-bottom: 24px;
+        margin-top: 2%;
+        height: 4rem;
+        display: contents;
+    }
     .flexRowContent--home__section--three {
         display: flex;
         flex-wrap: nowrap;
