@@ -122,7 +122,12 @@
     .flexRowContent--footer__section--social {
         margin: 23px 35%;
     }
-    
+    .flexCol--methods-pay{
+        max-width: 100rem;
+        width: 9rem !important;
+        height: auto;
+        margin-bottom: 10%;
+    }
     .flexRowContent--footer__section-one {
         margin-top: 2%;
         margin-left: 0%;
