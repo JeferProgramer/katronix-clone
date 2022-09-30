@@ -113,12 +113,11 @@
     .flexCol--footer-section{
         max-width: 100rem;
         width: 20rem !important;
-        height: 2rem;
+        height: rem;
     }
     .flexCol--footer-section-3{
         max-width: 100rem;
         width: 15rem !important;
-        height: 13rem;
     }   
     .flexRowContent--footer__section--social {
         margin: 23px 35%;
@@ -127,6 +126,9 @@
         margin-top: 2%;
         margin-left: 0%;
         display: flex;
+    }
+    .flexColChild--footer-section-3{
+        height: 3rem !important;
     }
     .flexRowContent--footer__section-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 75% !important;
