@@ -117,6 +117,10 @@
         gap: 1.5rem;
         overflow-x: scroll;
     }
+    .flexRowContent--home__section--three :global(.vtex-store-components-3-x-imageElement--imagen-categories) {
+        max-width: 100rem;
+        margin-bottom: 10%;
+    }
     .flexRowContent--home__section--three {
         display: flex;
         flex-wrap: nowrap;
