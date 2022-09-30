@@ -125,7 +125,7 @@
     .flexRowContent--home__section--six :global(.vtex-store-components-3-x-imageElement) {
         max-width: 100rem !important;
         margin-bottom: 10% !important;
-        
+        width: 17rem;
     }
     .flexRow--container_categories{
         width: 85% !important;
