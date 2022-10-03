@@ -1,0 +1,16 @@
+.footerLayout--footer__container-principal {
+    background-color: var(--black-color);
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    color: var(--gray-color);
+}
+@media (max-width:900px) and (min-width:710px) {
+    .footerLayout--footer__container-principal{
+        margin: 0%;
+    }
+}
