@@ -1,4 +1,4 @@
-# Store Theme VTEX U
+# Katronix Store Theme VTEX U
 
 VTEX U Store Theme es un modelo básico de tienda basado en VTEX IO Store Framework, con fines netamente educativos.
 
