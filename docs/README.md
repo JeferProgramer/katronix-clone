@@ -1,7 +1,6 @@
-# Katronix Store Theme VTEX U
+# Katronix Store Theme 
 
 Katronix Store Theme es un modelo de la tienda katronix basado en VTEX IO Store Framework, con fines netamente educativos.
-
 
 ## Previsualización
  <img src="https://github.com/JeferProgramer/katronix-clone/blob/main/assets/img/Store-Image.PNG" alt="tienda" align="center"/>
@@ -14,22 +13,22 @@ Ingrese a la [guía básica de configuración](https://vtex.io/docs/getting-star
 
 Al final de la configuración, debería tener instalada la interfaz de línea de comandos de VTEX (Toolbelt) junto con un workspace para desarrolladores en el que pueda trabajar.
 
-### Paso 2 - Clonación del repositorio de IT Globers Store Theme.
+### Paso 2 - Clonación del repositorio de Katronix Store Theme 
 
-Use este repositorio como [plantilla](https://github.com/itglobers/itglobers-store-theme-es/generate) para crear un repositorio de forma local para poder comenzar a trabajar de manera efectiva en él
+Use este repositorio como [plantilla](hhttps://github.com/JeferProgramer/katronix-clone) para crear un repositorio de forma local para poder comenzar a trabajar de manera efectiva en él
 
 Luego, acceda al directorio del repositorio usando su terminal.
 
-### Paso 3 - Editando el archivo `Manifest.json`
+### Paso 3 - Editar el archivo `Manifest.json`
 
 
-Una vez en el directorio del repositorio, es hora de editar el archivo `manifest.json` de Store Theme de IT Globers. 
+Una vez en el directorio del repositorio, es hora de editar el archivo `manifest.json` de Katronix Store Theme . 
 
 Una vez estemos en el archivo, deberá remplazar los valores de `vendor` y `account`. `vendor` es el nombre de la cuenta en la que estamos trabajando y `account` es lo que desee colocar de nombre para su tema. Por ejemplo:
 
 ```json
 {
-  "vendor": "itglobers",
+  "vendor": "itgloberspartnercl",
   "name": "store-theme",
 }
 ```
@@ -62,30 +61,56 @@ Si el proceso se ejecuta sin errores, se mostrará el siguiente mensaje: `App li
 
 Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
 
-## Dependencies
+## peerDependencies
 
-odos los componentes de la tienda que ve en este documento también son de código abierto. Listo para producción, puede encontrar esas aplicaciones en esta organización de GitHub.
-
-Store framework es la base para crear cualquier tienda usando _VTEX IO Web Framework_.
-- [Store](https://github.com/vtex-apps/store/blob/master/README.md)
+"vtex.questions-and-answers": "0.x",
+"vtex.wish-list": "1.x"
 
 ### Store component dependencies
-- [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
-- [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
-- [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
-- [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
-- [Telemarketing](https://github.com/vtex-apps/telemarketing/blob/master/docs/README.md)
-- [Menu](https://github.com/vtex-apps/menu/blob/master/docs/README.md)
-- [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
-- [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
-- [Category Menu](https://github.com/vtex-apps/category-menu/blob/master/docs/README.md)
-- [Product Summary](https://github.com/vtex-apps/product-summary/blob/master/docs/README.md)
-- [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
-- [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
-- [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
-- [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
-- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md) 
-
+1. "vtex.store": "2.x",
+2. "vtex.store-header": "2.x",
+3. "vtex.product-summary": "2.x",
+4. "vtex.store-footer": "2.x",
+5. "vtex.store-components": "3.x",
+6. "vtex.styleguide": "9.x",
+7. "vtex.slider": "0.x",
+8. "vtex.carousel": "2.x",
+9. "vtex.shelf": "1.x",
+10. "vtex.menu": "2.x",
+11. "vtex.minicart": "2.x",
+12. "vtex.product-details": "1.x",
+13. "vtex.product-kit": "1.x",
+14. "vtex.search-result": "3.x",
+15. "vtex.login": "2.x",
+16. "vtex.my-account": "1.x",
+17. "vtex.flex-layout": "0.x",
+18. "vtex.rich-text": "0.x",
+19. "vtex.store-drawer": "0.x",
+20. "vtex.locale-switcher": "0.x",
+21. "vtex.product-quantity": "1.x",
+22. "vtex.product-identifier": "0.x",
+23. "vtex.product-specification-badges": "0.x",
+24. "vtex.product-highlights": "2.x",
+25. "vtex.product-review-interfaces": "1.x",
+26. "vtex.telemarketing": "2.x",
+27. "vtex.order-placed": "2.x",
+28. "vtex.stack-layout": "0.x",
+29. "vtex.tab-layout": "0.x",
+30. "vtex.responsive-layout": "0.x",
+31. "vtex.slider-layout": "0.x",
+32. "vtex.iframe": "0.x",
+33. "vtex.breadcrumb": "1.x",
+34. "vtex.sticky-layout": "0.x",
+35. "vtex.add-to-cart-button": "0.x",
+36. "vtex.product-specifications": "1.x",
+37. "vtex.store-link": "0.x",
+38. "vtex.store-image": "0.x",
+39. "vtex.modal-layout": "0.x",
+40. "vtex.search": "2.x",
+41. "vtex.store-icons": "0.x",
+42. "vtex.disclosure-layout": "1.x",
+43. "vtex.product-list": "0.x",
+44. "vtex.product-price": "1.x",
 ### Dependencias Peer store component 
 
 ### Dependencias Custom component 
