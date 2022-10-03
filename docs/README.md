@@ -63,8 +63,8 @@ Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cue
 
 ## peerDependencies
 
-"vtex.questions-and-answers": "0.x",
-"vtex.wish-list": "1.x"
+1. "vtex.questions-and-answers": "0.x",
+2. "vtex.wish-list": "1.x"
 
 ### Store component dependencies
 1. "vtex.store": "2.x",
