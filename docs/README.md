@@ -1,16 +1,10 @@
 # Katronix Store Theme VTEX U
 
-VTEX U Store Theme es un modelo básico de tienda basado en VTEX IO Store Framework, con fines netamente educativos.
+Katronix Store Theme es un modelo de la tienda katronix basado en VTEX IO Store Framework, con fines netamente educativos.
 
-Debe usarse solo cuando desee iniciar un nuevo tema de tienda sin ninguna configuración preestablecida.
-
-Mientras el Store Theme base de vtex da un modelo definitivo, este tema estará disponible para poder crear un esquema desde cero.
 
 ## Previsualización
-
-Screenshot del home del sitio.
-<!-- Por favor incluya un screenshot del home del sitio en el que está trabajando. Ejemplo
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)-->
+ <img src="https://github.com/JeferProgramer/katronix-clone/blob/main/assets/img/Store-Image.PNG" alt="tienda" align="center"/>
 
 ## Configuración
 
