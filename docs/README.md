@@ -111,11 +111,17 @@ Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cue
 42. "vtex.disclosure-layout": "1.x",
 43. "vtex.product-list": "0.x",
 44. "vtex.product-price": "1.x",
-### Dependencias Peer store component 
 
-### Dependencias Custom component 
+### Custom Apps (Componentes custom que deben instalarse con la tienda)
 
-### Desarrollos realizados en el tema:
+1. "itgloberspartnercl.whatsapp-button"
+2. "itgloberspartnercl.bullets-diagramation"
+3. "itgloberspartnercl.add-to-cart-info"
+4. "itgloberspartnercl.custom-department-search"
+5. "itgloberspartnercl.pdf-reader"
+6. "itgloberspartnercl.quick-order"
+7. "itgloberspartnercl.special-diagramation"
 
-1. Se prepara la base del tema
-2. Se instala el builder assets para trabajo de imágenes
+### Contributors
+
+1. Jeferson David Cañon
