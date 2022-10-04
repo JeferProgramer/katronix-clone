@@ -1,6 +1,6 @@
 .trigger--question{
-    background-color: #151515;
-    color: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
     margin-left: 5%;
     font-family: 'Arial';
 }
@@ -11,7 +11,7 @@
 
 .trigger--question:focus,
 .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
-    color: white !important;
+    color: var(--white-color) !important;
     font-family: 'Arial';
 }
 .trigger--question {
@@ -28,7 +28,7 @@
 
 .trigger--question:focus,
 .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
-    color: #0F3E99;
+    color: var(--katronix-color);
     font-family: 'Arial';
 }
 
