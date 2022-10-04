@@ -8,16 +8,16 @@
   },
   "flex-layout.col#grid": {
     "children": [
-        "custom-grid"
+      "custom-grid"
     ]
   },
   "custom-grid": {
     "children": [
       "image#image-smartwatch-one",
-      "image#image-smartwatch-one",
-      "image#image-smartwatch-one",
-      "image#image-smartwatch-one",
-      "image#image-smartwatch-one"
+      "image#image-audio-one",
+      "image#image-computers-one",
+      "image#image-smartwatch-three",
+      "image#image-tv-three"
     ]
   }
 }
