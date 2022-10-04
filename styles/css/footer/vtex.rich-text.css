@@ -33,7 +33,7 @@
 }
 .container--footer__terms_text{
     font-size: 12px;
-    color: var(--gray--color);
+    color: var(--gray-color);
     padding: 20px 5%;
     text-align: justify;
     font-family: "Arial";
@@ -79,4 +79,8 @@
 .container--disclousure-titulo :global(.vtex-rich-text-0-x-paragraph){
     color: var(--white-color);
     font-family: "Arial";
+}
+.link--footer__terms_text{
+    text-decoration: none;
+    color:  var(--gray-color);
 }
