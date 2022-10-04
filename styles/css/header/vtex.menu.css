@@ -76,7 +76,7 @@
 }
 
 .submenuWrapper--submenu-more {
-    background-color: #fff;
+    background-color: var(--white-color);
     width: 100%;
 }
 
