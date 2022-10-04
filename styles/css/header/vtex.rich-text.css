@@ -11,16 +11,16 @@
 .container--menu-title{
     text-align: center;
     font-size: 1.3rem;
-    color: var(--katronix-color);
+    color: #004691;
     font-weight: 600;
     width: 100%;
-    border-bottom: 3px solid var(--orange-color);
+    border-bottom: 3px solid orangered;
     font-family: "Arial";
 }
 .container--header__department{
     text-align: center;
     font-size: 1rem;
-    color: var(--orange-color);
+    color: orangered;
     font-weight: 600;
     width: 100%;
     font-family: "Arial";
@@ -29,5 +29,5 @@
     text-align: center;
 }
 .container--header__department:hover{
-    color: #004691;
+    color: var(--katronix-color);
 }

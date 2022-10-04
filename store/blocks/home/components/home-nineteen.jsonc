@@ -7,11 +7,14 @@
       "flex-layout.col#home__section--images--four--pay"
     ],
     "props": {
-      "blockClass": "home__section--six"
+      "blockClass": "home__section--pay"
     }
   },
   "flex-layout.col#home__section--images--one--pay": {
-    "children": ["image#image-pay-one", "link#tarjetas-one"]
+    "children": ["image#image-pay-one", "link#tarjetas-one"],
+    "props": {
+      "blockClass": "container-pay"
+    }
   },
   "image#image-pay-one": {
     "props": {
@@ -34,7 +37,10 @@
     }
   },
   "flex-layout.col#home__section--images--two--pay": {
-    "children": ["image#image-pay-two", "link#tarjetas-two"]
+    "children": ["image#image-pay-two", "link#tarjetas-two"],
+    "props": {
+      "blockClass": "container-pay"
+    }
   },
   "image#image-pay-two": {
     "props": {
@@ -59,7 +65,10 @@
     }
   },
   "flex-layout.col#home__section--images--three--pay": {
-    "children": ["image#image-pay-three", "link#tarjetas-three"]
+    "children": ["image#image-pay-three", "link#tarjetas-three"],
+    "props": {
+      "blockClass": "container-pay"
+    }
   },
   "image#image-pay-three": {
     "props": {
@@ -84,7 +93,10 @@
     }
   },
   "flex-layout.col#home__section--images--four--pay": {
-    "children": ["image#image-pay-four", "link#tarjetas-four"]
+    "children": ["image#image-pay-four", "link#tarjetas-four"],
+    "props": {
+      "blockClass": "container-pay"
+    }
   },
   "image#image-pay-four": {
     "props": {

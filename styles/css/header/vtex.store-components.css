@@ -22,7 +22,7 @@
 }
 .searchBarIcon{
     background-color: var(--orange-color);
-    color: #fff;
+    color: var(--white-color);
 }
 @media (max-width:1030px) and (min-width:900px) {
     .searchBarContainer :global(.vtex-input-prefix__group) {

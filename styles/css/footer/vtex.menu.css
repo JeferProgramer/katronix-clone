@@ -2,7 +2,7 @@
     margin-top: 20%;
 }
 .styledLinkContent--section__varieties-content{
-    color: #929292;
+    color: var(--gray-color);
     font-size: 12px;
     font-family: "Arial";
 }

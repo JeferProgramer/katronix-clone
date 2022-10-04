@@ -9,7 +9,7 @@
     "props": {
       "text": "Computadores",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-ofertas"
     }
   }

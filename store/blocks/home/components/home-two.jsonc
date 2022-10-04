@@ -11,7 +11,7 @@
        "props":{
         "text": "Ofertas destacadas",
         "textAlignment": "CENTER",
-        "textPosition": "center",
+        "textPosition": "CENTER",
         "blockClass": "text-ofertas"
        }
     }

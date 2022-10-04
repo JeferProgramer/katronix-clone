@@ -6,7 +6,7 @@
     font-family: 'Arial';
 }
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-    color: #004691 ;
+    color: var(--katronix-color) ;
     font-size: 14px;
     font-family: 'Arial';
     padding: 0 1.8125rem;
@@ -14,7 +14,7 @@
 .flexRowContent--menu-link {
     width: 95%;
     margin: 0 auto;
-    color: #004691;
+    color: var(--katronix-color);
     align-items: center;
     justify-content: flex-end;
     margin-top: 0.3%;
@@ -24,6 +24,7 @@
     font-family: 'Arial';
 }
 .flexRowContent--menu-icon-category{
+    margin-top: 7%;
     align-items: flex-end;
     border-bottom: 2px solid orangered;
     width: 90%;
@@ -43,7 +44,7 @@
     width: 25%;
     margin-top: 5%;
 }
-.flexCol--container-menu-group-categories{
+.flexCol--container--categories{
     padding-bottom: 0%;
 }
 

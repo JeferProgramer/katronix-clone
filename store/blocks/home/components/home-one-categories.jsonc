@@ -73,7 +73,7 @@
     "props": {
       "text": "Celulares",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   },
@@ -92,7 +92,7 @@
     "props": {
       "text": "Computadores",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   },
@@ -111,7 +111,7 @@
     "props": {
       "text": "Televisores",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   },
@@ -124,7 +124,7 @@
     "props": {
       "text": "Electrodomesticos",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   },
@@ -137,7 +137,7 @@
     "props": {
       "text": "Audio",
       "textAlignment": "CENTER",
-      "textPosition": "center",
+      "textPosition": "CENTER",
       "blockClass": "text-categories"
     }
   }
