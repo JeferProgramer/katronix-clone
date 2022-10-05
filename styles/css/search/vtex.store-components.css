@@ -13,7 +13,7 @@
 
 .productBrandName--summaryListMobile {
   text-decoration: none;
-  color: #0067C7;
+  color: var(--karonix-color);
   font-size: .875rem;
 }
 .productBrandContainer--summaryListDesktop{
