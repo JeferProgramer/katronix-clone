@@ -1,0 +1,22 @@
+:global(.vtex-store__template){
+    --katronix-color: #004691;
+    --orange-color: rgb(255, 68, 0);
+    --white-color: #fff;
+    --red-color: #ff0000;
+    --black-color: #151515;
+    --gray-color: #929292;
+    --dark-white: #ddd;
+    --brown-red: rgba(230, 48, 39, .2);
+    --aliceblue-color: aliceblue;
+    --color-image: #dfd5d5;
+    --font-home: #f5f5f5;
+    --home-section: #e0e0e0;
+    --home-four: #EBEBEB;
+    --home-text:#efeff7;
+    --orangered-color: rgb(242, 47, 16);
+    --dark-gray: rgba(128, 128, 128, 0.39);
+    --custom-page: #F6F6F6;
+    --about-text: #444;
+    --color-button: #DD171B;
+    --hover-button: #AB1114;
+}

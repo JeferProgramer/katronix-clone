@@ -20,7 +20,7 @@
     padding: 0 40px;
     position: relative;
     width: 100%;
-    background: #fff;
+    background: var(--white-color);
     padding: 0;
     z-index: unset;
 }
@@ -42,13 +42,15 @@
     width: 221px;
 }
 
-@media (max-width: 900px)  {
+@media (max-width: 700px)  {
     .headerRowBackground--header__top{
         height: 61px;
-        padding: 11.5px 16px;
         -ms-align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+    }
+    .headerRowContainer--header__top{
+        padding: 0%;
     }
 }

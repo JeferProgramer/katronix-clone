@@ -1,3 +1,6 @@
+.container{
+    margin-top: 1%;
+}
 /* :global(.vtex-login-2-x-container):global(.vtex-button){
 visibility: hidden;
 }

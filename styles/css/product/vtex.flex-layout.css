@@ -1,0 +1,78 @@
+.flexCol--detalle-producto{
+    margin: 0% 10%;
+}
+.flexCol--container-images{
+    margin-left: 5%;
+}
+.flexCol--detalle-producto :global(.vtex-button){
+    border: solid thin var(--orangered-color);
+    background: var(--orangered-color);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 10px 20px;
+    margin: 0 auto 1.5%;
+    text-align: center;
+    display: block;
+    transition: background .6s;
+    text-transform: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.flexCol--detalle-producto :global(.vtex-button):hover{
+    background: var(--hover-button);
+}
+
+.flexRow--container-tabs :global(.vtex-button){
+    border: solid thin orangered;
+    background: orangered;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    transition: background .6s;
+    text-transform: none;
+    cursor: pointer;
+}
+.flexRow--container-tabs :global(.vtex-button):hover {
+    background: var(--hover-button);
+}
+.flexRow--container-tabs :global(.vtex-store-components-3-x-showMoreButton ) {
+    border: none;
+    background: var(--karonix-color);
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 0 auto 1.5%;
+    text-align: center;
+    display: block;
+    transition: background .6s;
+    text-transform: none;
+    cursor: pointer;
+}
+.flexCol--detalle-producto :global(.vtex-store-components-3-x-productBrand){
+    text-align: center;
+    color: var(--karonix-color);
+    font-family: "Arial";
+}
+@media (max-width: 600px) {
+    .flexCol--container-image{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .flexCol--detalle-producto :global(.vtex-store-components-3-x-showMoreButton) {
+        border: none;
+        background: var(--karonix-color);
+        border-radius: 4px;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px 20px;
+        margin: 0 auto 1.5%;
+        text-align: center;
+        text-transform: none;
+    }
+    .flexRow--container-tabs {
+        margin-bottom: 3%;
+    }
+}

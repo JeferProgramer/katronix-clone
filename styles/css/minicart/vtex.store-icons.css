@@ -1,5 +1,5 @@
 .cartIcon{
-    color: ;
+    color: var(--katronix-color);
 }
 .cartIcon--minicart-empty-state{
     margin-left: 30%;
