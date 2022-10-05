@@ -21,7 +21,7 @@
 }
 .container--text-content :global(.vtex-rich-text-0-x-link--text-content){
     text-decoration: none;
-    color: var(--);
+    color: var(--black-color);
     font-weight: 600;
     font-family: "Arial";
 }
