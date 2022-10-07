@@ -3,7 +3,7 @@
     "title": "Header superior",
     "children":[
         "logo#header__top--logo",
-        "search-bar#header__mobile"
+        "search-bar#header__mobile",
         "login"
     ],
     "props":{
