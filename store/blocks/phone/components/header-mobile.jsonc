@@ -3,10 +3,8 @@
     "title": "Header superior",
     "children":[
         "logo#header__top--logo",
-        "header-spacer",
-        "login",
-        "modal-trigger#header__top--login",
-        "minicart.v2"
+        "search-bar#header__mobile",
+        "header-row#header__middle"
     ],
     "props":{
       "blockClass": "header__top"
@@ -14,7 +12,11 @@
   },
   "header-row#header__middle": {
     "title": "Header Medio",
-    "children": ["drawer#header__mobile--menu", "search-bar#header__mobile"],
+    "children": [
+        "login",
+        "modal-trigger#header__top--login",
+        "minicart.v2"
+      ],
     "props": {
       "blockClass": "header__middle"
     }
