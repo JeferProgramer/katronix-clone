@@ -14,7 +14,9 @@
   },
   "header-row#header__middle": {
     "title": "Header Medio",
-    "children": [],
+    "children": ["login",
+        "modal-trigger#header__top--login",
+        "minicart.v2"],
     "props": {
       "blockClass": "header__middle"
     }
