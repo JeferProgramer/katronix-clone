@@ -3,6 +3,7 @@
     "title": "Header superior",
     "children":[
         "logo#header__top--logo",
+        "header-row#header__middle",
         "header-spacer",
         "login",
         "modal-trigger#header__top--login",
@@ -14,7 +15,7 @@
   },
   "header-row#header__middle": {
     "title": "Header Medio",
-    "children": ["drawer#header__mobile--menu", "search-bar#header__mobile"],
+    "children": ["search-bar#header__mobile"],
     "props": {
       "blockClass": "header__middle"
     }
