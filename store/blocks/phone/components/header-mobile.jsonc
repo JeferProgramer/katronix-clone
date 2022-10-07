@@ -13,7 +13,7 @@
   "header-row#header__middle": {
     "title": "Header Medio",
     "children": ["login",
-],
+        "minicart.v2"],
     "props": {
       "blockClass": "header__middle"
     }
