@@ -12,8 +12,7 @@
   },
   "header-row#header__middle": {
     "title": "Header Medio",
-    "children": ["login",
-],
+    "children": ["login"],
     "props": {
       "blockClass": "header__middle"
     }
