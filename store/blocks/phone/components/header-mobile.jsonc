@@ -3,7 +3,7 @@
     "title": "Header superior",
     "children":[
         "logo#header__top--logo",
-        "header-row#header__middle",
+        "search-bar#header__mobile"
         "header-spacer",
         "login",
         "modal-trigger#header__top--login",
