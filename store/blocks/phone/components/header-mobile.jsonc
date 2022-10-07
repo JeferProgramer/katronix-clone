@@ -4,7 +4,6 @@
     "children":[
         "logo#header__top--logo",
         "search-bar#header__mobile"
-
         "login",
         "modal-trigger#header__top--login",
         "minicart.v2"
