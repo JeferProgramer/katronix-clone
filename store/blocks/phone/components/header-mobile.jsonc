@@ -14,7 +14,7 @@
   },
   "header-row#header__middle": {
     "title": "Header Medio",
-    "children": ["],
+    "children": [""],
     "props": {
       "blockClass": "header__middle"
     }
