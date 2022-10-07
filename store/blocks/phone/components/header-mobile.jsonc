@@ -4,7 +4,7 @@
     "children":[
         "logo#header__top--logo",
         "search-bar#header__mobile",
-        "login"
+        ""
     ],
     "props":{
       "blockClass": "header__top"
